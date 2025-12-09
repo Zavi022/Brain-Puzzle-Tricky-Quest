@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: fdf6a2d315aa84cc9b437f4ef89f4ef8, type: 3}
+  - logo: {fileID: 21300000, guid: 0070e0b5971b147b1acf359c94737e2f, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -298,7 +298,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: fdf6a2d315aa84cc9b437f4ef89f4ef8, type: 3}
+      m_Icon: {fileID: 2800000, guid: 0070e0b5971b147b1acf359c94737e2f, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -1008,8 +1008,8 @@ PlayerSettings:
       PrivateNetworkClientServer: False
       InternetClientServer: False
       VideosLibrary: False
-      BackgroundMediaPlayback: False
       Objects3D: False
+      InternetClient: False
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
@@ -1031,9 +1031,9 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      InternetClient: False
       Proximity: False
       CodeGeneration: False
+      BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False

@@ -23867,7 +23867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Singleton_1_get_IsInstance_m449228B9A164
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:7>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:7>
 		RuntimeObject* L_0 = ((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23885,7 +23885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1_Awake_mE740A3617B50EC3EF8AC7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:11>
 		RuntimeObject* L_0 = ((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23906,22 +23906,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1_Awake_mE740A3617B50EC3EF8AC7
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:13>
 		NullCheck((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:14>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:14>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:16>
 		((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___instance = ((RuntimeObject*)Castclass((RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->klass->rgctx_data, 1))), il2cpp_rgctx_data(method->klass->rgctx_data, 1)));
 		Il2CppCodeGenWriteBarrier((void**)(&((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___instance), (void*)((RuntimeObject*)Castclass((RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)__this, il2cpp_rgctx_data(method->klass->rgctx_data, 1))), il2cpp_rgctx_data(method->klass->rgctx_data, 1))));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:18>
 		return;
 	}
 }
@@ -23945,7 +23945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Singleton_1_get_Instance_mA9E4
 	String_t* G_B6_0 = NULL;
 	String_t* G_B6_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:24>
 		RuntimeObject* L_0 = ((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -23971,7 +23971,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Singleton_1_get_Instance_mA9E4
 
 IL_0029:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:26>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_6;
@@ -23981,7 +23981,7 @@ IL_0029:
 		L_7 = Object_FindObjectOfType_mECCF3627FE53B9B53B5D92BFB9FA88490B0ACD5E(L_6, NULL);
 		((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___instance = ((RuntimeObject*)Castclass((RuntimeObject*)L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)));
 		Il2CppCodeGenWriteBarrier((void**)(&((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___instance), (void*)((RuntimeObject*)Castclass((RuntimeObject*)L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1))));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:27>
 		RuntimeObject* L_8 = ((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___instance;
 		bool L_9;
 		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605((Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -23991,7 +23991,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:29>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_10 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_11;
@@ -24031,7 +24031,7 @@ IL_006f:
 
 IL_007e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Singleton.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Singleton.cs:32>
 		RuntimeObject* L_15 = ((Singleton_1_t761811FA61B8CEAEB90FA0D60BD999994A7FE1E6_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___instance;
 		return L_15;
 	}

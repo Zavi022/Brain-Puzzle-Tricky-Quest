@@ -1,1 +1,1 @@
-/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Library/Bee/artifacts/iOS/il2cppOutput/cpp
+/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Library/Bee/artifacts/iOS/il2cppOutput/cpp

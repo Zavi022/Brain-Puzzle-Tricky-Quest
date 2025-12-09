@@ -17719,7 +17719,7 @@ IL_0084:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FingerEventDetector_1_CreateFingerEvent_m5EBA2B207B522C930898FFFD24E137DF16DAE0B5_gshared (FingerEventDetector_1_tC90A5B7CBDF56065A6F25E2AE473D5DC332B8EEB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:72>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:72>
 		RuntimeObject* L_0;
 		L_0 = Activator_CreateInstance_TisRuntimeObject_m62506836177F0F862A8D619638BF37F48721F138(il2cpp_rgctx_method(method->klass->rgctx_data, 0));
 		return L_0;
@@ -17735,7 +17735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* FingerEventDetector_1_GetEventType_mF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:77>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:77>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->klass->rgctx_data, 2)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_1;
@@ -17753,10 +17753,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerEventDetector_1_Start_mEAB25107BD0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:82>
 		NullCheck((FingerEventDetector_t5350A37EC224F4CE38D46AE9CA1F1A4E12F77B51*)__this);
 		FingerEventDetector_Start_m4889162F54E5945AF952F18713B685D833D78091((FingerEventDetector_t5350A37EC224F4CE38D46AE9CA1F1A4E12F77B51*)__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8_il2cpp_TypeInfo_var);
 		FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8* L_0;
 		L_0 = FingerGestures_get_Instance_m49C86E7FA2D446121562382D65A60E75AEE26DC1_inline(NULL);
@@ -17764,7 +17764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerEventDetector_1_Start_mEAB25107BD0
 		int32_t L_1;
 		L_1 = FingerGestures_get_MaxFingers_m186368ACFBA7C54AF1EED109C1D5DC541D72273E(L_0, NULL);
 		VirtualActionInvoker1< int32_t >::Invoke(11, __this, L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:84>
 		return;
 	}
 }
@@ -17780,28 +17780,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FingerEventDetector_1_InitFingerEventsLi
 	int32_t V_0 = 0;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:88>
 		int32_t L_0 = ___0_fingersCount;
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 5));
 		List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428(L_1, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		__this->___fingerEventsList = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___fingerEventsList), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:90>
 		V_0 = 0;
 		goto IL_0044;
 	}
 
 IL_0010:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:92>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:92>
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(10, __this);
 		V_1 = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:93>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:93>
 		RuntimeObject* L_3 = V_1;
 		NullCheck((FingerEvent_t300A42B2051E2637164CAB4264B20B50B6277E14*)L_3);
 		FingerEvent_set_Detector_m1DDC7154D2771384F9999A7784EE6AD810A2469A_inline((FingerEvent_t300A42B2051E2637164CAB4264B20B50B6277E14*)L_3, (FingerEventDetector_t5350A37EC224F4CE38D46AE9CA1F1A4E12F77B51*)__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:94>
 		RuntimeObject* L_4 = V_1;
 		int32_t L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8_il2cpp_TypeInfo_var);
@@ -17809,19 +17809,19 @@ IL_0010:
 		L_6 = FingerGestures_GetFinger_m141CB0FBB80CC8979D26A44C71C9DB4407C9E7B6(L_5, NULL);
 		NullCheck((FingerEvent_t300A42B2051E2637164CAB4264B20B50B6277E14*)L_4);
 		FingerEvent_set_Finger_mEF22E384FA95BD139861C8B1ACA0158697D605B9_inline((FingerEvent_t300A42B2051E2637164CAB4264B20B50B6277E14*)L_4, L_6, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:95>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:95>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_7 = __this->___fingerEventsList;
 		RuntimeObject* L_8 = V_1;
 		NullCheck(L_7);
 		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_7, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:90>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0044:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:90>
 		int32_t L_10 = V_0;
 		int32_t L_11 = ___0_fingersCount;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -17830,7 +17830,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:97>
 		return;
 	}
 }
@@ -17838,7 +17838,7 @@ IL_0044:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FingerEventDetector_1_GetEvent_mB7197303DBADABAC11094E092C61DAD9B27A0FDE_gshared (FingerEventDetector_1_tC90A5B7CBDF56065A6F25E2AE473D5DC332B8EEB* __this, Finger_t244FB5BB5C8E7800AD29D74581BB4F767A8C8A11* ___0_finger, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:101>
 		Finger_t244FB5BB5C8E7800AD29D74581BB4F767A8C8A11* L_0 = ___0_finger;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -17852,7 +17852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FingerEventDetector_1_GetEvent
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FingerEventDetector_1_GetEvent_m64BDB56EF69131ABD7E65F10CF619003BB2D4D26_gshared (FingerEventDetector_1_tC90A5B7CBDF56065A6F25E2AE473D5DC332B8EEB* __this, int32_t ___0_fingerIndex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:106>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->___fingerEventsList;
 		int32_t L_1 = ___0_fingerIndex;
 		NullCheck(L_0);
@@ -28437,7 +28437,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FingerGestures_tF8194BF7E1BB4994C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerGestures.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerGestures.cs:65>
 		il2cpp_codegen_runtime_class_init_inline(FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8_il2cpp_TypeInfo_var);
 		FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8* L_0 = ((FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8_StaticFields*)il2cpp_codegen_static_fields_for(FingerGestures_tF8194BF7E1BB4994C6C87A1D7E420BFC5BE2E0C8_il2cpp_TypeInfo_var))->___instance;
 		return L_0;
@@ -28447,11 +28447,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR FingerGestures_tF8194BF7E1BB4994C
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FingerEvent_set_Detector_m1DDC7154D2771384F9999A7784EE6AD810A2469A_inline (FingerEvent_t300A42B2051E2637164CAB4264B20B50B6277E14* __this, FingerEventDetector_t5350A37EC224F4CE38D46AE9CA1F1A4E12F77B51* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:19>
 		FingerEventDetector_t5350A37EC224F4CE38D46AE9CA1F1A4E12F77B51* L_0 = ___0_value;
 		__this->___detector = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___detector), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:19>
 		return;
 	}
 }
@@ -28459,11 +28459,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FingerEvent_set_Detector_m1D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FingerEvent_set_Finger_mEF22E384FA95BD139861C8B1ACA0158697D605B9_inline (FingerEvent_t300A42B2051E2637164CAB4264B20B50B6277E14* __this, Finger_t244FB5BB5C8E7800AD29D74581BB4F767A8C8A11* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:25>
 		Finger_t244FB5BB5C8E7800AD29D74581BB4F767A8C8A11* L_0 = ___0_value;
 		__this->___finger = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___finger), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerEventDetector.cs:25>
 		return;
 	}
 }
@@ -28471,7 +28471,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FingerEvent_set_Finger_mEF22
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Finger_get_Index_m3351C894A88C76E8C2591802816E472AA1934464_inline (Finger_t244FB5BB5C8E7800AD29D74581BB4F767A8C8A11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/FingerGestures.cs:162>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/FingerGestures.cs:162>
 		int32_t L_0 = __this->___index;
 		return L_0;
 	}

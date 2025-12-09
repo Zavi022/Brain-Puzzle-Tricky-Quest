@@ -387,7 +387,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8224}
     - Class: 114
-      Script: {instanceID: 28482}
+      Script: {instanceID: 28358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -555,9 +555,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8766}
     - Class: 114
-      Script: {instanceID: 26504}
+      Script: {instanceID: 26380}
     - Class: 114
-      Script: {instanceID: 26518}
+      Script: {instanceID: 26394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -860,7 +860,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8664}
     - Class: 114
-      Script: {instanceID: 35226}
+      Script: {instanceID: 35102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -4190,4 +4190,4 @@ ScriptsOnlyBuild:
   - Assets/Template/game/_levels/level18.unity
   - Assets/Template/game/_levels/level19.unity
   - Assets/Template/game/_levels/level20.unity
-  playerPath: /Applications/Unity Projects/Mini puzzle/Xcode
+  playerPath: /Users/apple/Documents/BrainPuzzle Xcode

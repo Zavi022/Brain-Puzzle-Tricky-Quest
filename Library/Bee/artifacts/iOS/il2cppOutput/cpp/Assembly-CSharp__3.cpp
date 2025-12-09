@@ -3631,7 +3631,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CgameWinU3Ed__19_MoveNext_m66C4445FA4F
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:173>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -3643,18 +3643,18 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:174>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_5 = V_1;
 		NullCheck(L_5);
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:180>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_7 = L_6->___main;
 		NullCheck(L_7);
 		MainScript_gameWin_m7FED00DA81B7D911BD9FB28132ECBA59A9E3B623(L_7, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:181>
 		return (bool)0;
 	}
 }
@@ -3749,7 +3749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CwaitNextKnockU3Ed__17_MoveNext_m3E72A
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:121>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.5f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -3761,7 +3761,7 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:122>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_5 = V_1;
 		NullCheck(L_5);
 		int32_t L_6 = L_5->___nKnock;
@@ -3771,47 +3771,47 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:124>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:124>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_7 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_7);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_7, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:125>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_8 = V_1;
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___doorclose;
 		NullCheck(L_8);
 		level8Handler_showHide_m3D984ADC5121EC9E8F367B10F9C4509B17BB0EB0(L_8, L_10, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:126>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:126>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_11 = V_1;
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_12 = V_1;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___doorOpenBig;
 		NullCheck(L_11);
 		level8Handler_showHide_m3D984ADC5121EC9E8F367B10F9C4509B17BB0EB0(L_11, L_13, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:127>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_14 = V_1;
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_15 = V_1;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = L_15->___tolietNormal;
 		NullCheck(L_14);
 		level8Handler_showHide_m3D984ADC5121EC9E8F367B10F9C4509B17BB0EB0(L_14, L_16, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:129>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:130>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:131>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:132>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:133>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:134>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:135>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:136>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:137>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:138>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:139>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:140>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:141>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:142>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:143>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:129>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:131>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:132>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:135>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:136>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:138>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:140>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:141>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:142>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:143>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_17 = V_1;
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_18 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_19 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -3826,21 +3826,21 @@ IL_0037:
 
 IL_0098:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:147>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:147>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_22 = V_1;
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_23 = V_1;
 		NullCheck(L_23);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = L_23->___doorclose;
 		NullCheck(L_22);
 		level8Handler_showHide_m3D984ADC5121EC9E8F367B10F9C4509B17BB0EB0(L_22, L_24, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:148>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:148>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_25 = V_1;
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_26 = V_1;
 		NullCheck(L_26);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = L_26->___doorOpenSmall;
 		NullCheck(L_25);
 		level8Handler_showHide_m3D984ADC5121EC9E8F367B10F9C4509B17BB0EB0(L_25, L_27, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:150>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:150>
 		level8Handler_t14D8C24565A98ECEA0B8CAFCA998B1A41824DEC7* L_28 = V_1;
 		NullCheck(L_28);
 		level8Handler_SetPaperplaceInteractable_mABBDA9E4DF4F3E6F66AEC448C8A993A66F30810F(L_28, (bool)1, NULL);
@@ -3848,12 +3848,12 @@ IL_0098:
 
 IL_00b9:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:153>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:153>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_29 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_29);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_30;
 		L_30 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_29, _stringLiteral2C9187B3BCF844F2771FABF50AA770EC2FA8C315, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level8Handler.cs:154>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level8Handler.cs:154>
 		return (bool)0;
 	}
 }
@@ -3910,7 +3910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_Start_m567754BCE503C049C9F
 	MemberInfo_t* V_2 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:28>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_1;
@@ -3925,14 +3925,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_Start_m567754BCE503C049C9F
 
 IL_0014:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:28>
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		MemberInfo_t* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_2 = L_6;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:30>
 		MemberInfo_t* L_7 = V_2;
 		NullCheck(L_7);
 		String_t* L_8;
@@ -3940,7 +3940,7 @@ IL_0014:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_8, NULL);
 		V_3 = L_9;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:31>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:31>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -3951,7 +3951,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:33>
 		Type_t* L_12;
 		L_12 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		MemberInfo_t* L_13 = V_2;
@@ -3974,7 +3974,7 @@ IL_0045:
 
 IL_0049:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:28>
 		int32_t L_18 = V_1;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_19 = V_0;
 		NullCheck(L_19);
@@ -3984,29 +3984,29 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___crisp;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:39>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:39>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___bulbBad;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:40>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___workerStand;
 		NullCheck(L_22);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_22, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:41>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_23;
 		L_23 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral90F37DD9B6032852D5A3FC0E7653F3E3B2E23AC6, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:42>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_24;
 		L_24 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteralF4B88E841B70CCA6FA5D62C7966E41A18B074266, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:44>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:44>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_25 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_25);
 		GameManager_playMusic_mF62DD355F8A66ECEE12134AB945AE959C6D54112(L_25, _stringLiteral94A9CE261BC8B7B3ABF2F1E78F2E3167060F78F4, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:45>
 		return;
 	}
 }
@@ -4041,7 +4041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_loliWalkAnim_m4DE26826EE1F
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:57>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___closet1;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -4061,13 +4061,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_loliWalkAnim_m4DE26826EE1F
 		float L_8;
 		L_8 = fabsf(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_3, (1.0f))), L_7)));
 		V_0 = ((float)(L_8/(1.0f)));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:58>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:59>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:60>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:61>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:62>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:63>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:64>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:58>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:60>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:64>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___loliContainer;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -4093,7 +4093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_loliWalkAnim_m4DE26826EE1F
 		L_19 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_17, L_18, NULL);
 		__this->___loliWalk = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___loliWalk), (void*)L_19);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___loliside;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -4116,7 +4116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_loliWalkAnim_m4DE26826EE1F
 		L_28 = TweenHandle_SetUpdate_m0A62959C0DFDDF41BCB6EF9158C13DE23C5D2CB1(L_27, (bool)1, NULL);
 		__this->___loliUpDown = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___loliUpDown), (void*)L_28);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:66>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:66>
 		return;
 	}
 }
@@ -4151,7 +4151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_manWalkAnim_m270333E098913
 	}
 	float V_0 = 0.0f;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___closet1;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -4171,15 +4171,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_manWalkAnim_m270333E098913
 		float L_8;
 		L_8 = fabsf(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(L_3, (1.0f))), L_7)));
 		V_0 = ((float)(L_8/(1.0f)));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:77>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:78>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:79>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:80>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:81>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:82>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:83>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:84>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:77>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:78>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:79>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:80>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:81>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:85>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___manContainer;
 		NullCheck(L_9);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
@@ -4205,7 +4205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_manWalkAnim_m270333E098913
 		L_19 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_17, L_18, NULL);
 		__this->___manWalk = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___manWalk), (void*)L_19);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:86>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___mansidebuld;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -4228,7 +4228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_manWalkAnim_m270333E098913
 		L_28 = TweenHandle_SetUpdate_m0A62959C0DFDDF41BCB6EF9158C13DE23C5D2CB1(L_27, (bool)1, NULL);
 		__this->___manUpDown1 = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___manUpDown1), (void*)L_28);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:87>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___manside;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -4251,7 +4251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_manWalkAnim_m270333E098913
 		L_37 = TweenHandle_SetUpdate_m0A62959C0DFDDF41BCB6EF9158C13DE23C5D2CB1(L_36, (bool)1, NULL);
 		__this->___manUpDown2 = L_37;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___manUpDown2), (void*)L_37);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:89>
 		return;
 	}
 }
@@ -4259,7 +4259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_manWalkAnim_m270333E098913
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_FixedUpdate_mBB815511113B30F34787F731403ECC79C25046A0 (level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:95>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:95>
 		return;
 	}
 }
@@ -4269,10 +4269,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* level9Handler_loop_mD9EE2DC1E1
 
 IL_0000:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:105>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:105>
 		int32_t L_0 = __this->___n;
 		__this->___n = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:103>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:103>
 		goto IL_0000;
 	}
 }
@@ -4280,7 +4280,7 @@ IL_0000:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_Update_m74281CF39F48FB54D2B692483CB92BADCB09B9B7 (level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:117>
 		return;
 	}
 }
@@ -4318,7 +4318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_useItem_m13A54F1EEAB813D04
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:127>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
@@ -4330,7 +4330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_useItem_m13A54F1EEAB813D04
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:127>
 		return;
 	}
 
@@ -4612,20 +4612,20 @@ IL_0141:
 
 IL_0152:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:131>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:131>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_40 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_40);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_40, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:132>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:132>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_41 = __this->___girlslap1;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_41, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:133>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_42 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_42);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_43;
 		L_43 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_42, _stringLiteralD1A1305BC3209C7AFFEF4F7E65216DE0CB84B7A9, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:134>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_44;
 		L_44 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_44);
@@ -4633,25 +4633,25 @@ IL_0152:
 		L_45 = Transform_get_root_m3AE09E7A2C0B2C4A649570498F25E4B4F69A1284(L_44, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_46;
 		L_46 = SmoothTweenExtensions_DOShakePosition_mB756CD4E408E074A7342185E46D79E9D8BCFF0A8(L_45, (0.5f), (0.300000012f), ((int32_t)10), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:135>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:136>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:137>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:138>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:139>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:140>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:135>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:136>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:138>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:140>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_47 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_47, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_0_m1CCD9D96629FDB0371F252C224EABEAE71513333_RuntimeMethod_var), NULL);
 		RuntimeObject* L_48;
 		L_48 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_47, (0.100000001f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_49;
 		L_49 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_48, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:141>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:141>
 		return;
 	}
 
 IL_01b5:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:144>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:144>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50 = __this->___closet1;
 		NullCheck(L_50);
 		bool L_51;
@@ -4662,7 +4662,7 @@ IL_01b5:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:146>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:146>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_52 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_52);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_53;
@@ -4671,34 +4671,34 @@ IL_01b5:
 
 IL_01d2:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:148>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = __this->___closet1;
 		NullCheck(L_54);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_54, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:149>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:149>
 		return;
 	}
 
 IL_01df:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:151>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:151>
 		__this->___doorOpened = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:152>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_55 = __this->___dooropen;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_55, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:153>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:153>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_56 = __this->___workerStand;
 		NullCheck(L_56);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_56, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:155>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_57 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_57);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_58;
 		L_58 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_57, _stringLiteral2C9187B3BCF844F2771FABF50AA770EC2FA8C315, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:157>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:157>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_59 = __this->___workerStand;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_59, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:158>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:158>
 		bool L_60 = __this->___gotCoin;
 		if (L_60)
 		{
@@ -4706,176 +4706,176 @@ IL_01df:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:160>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:160>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_61 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_61);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_61, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:161>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:162>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:163>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:164>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:165>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:166>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:167>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:168>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:169>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:170>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:171>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:172>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:173>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:174>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:175>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:176>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:177>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:178>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:179>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:180>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:181>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:182>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:183>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:184>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:185>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:186>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:187>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:188>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:189>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:190>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:191>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:192>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:193>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:194>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:195>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:196>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:197>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:198>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:199>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:200>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:201>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:202>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:203>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:204>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:205>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:206>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:161>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:162>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:163>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:164>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:165>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:166>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:167>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:170>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:171>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:172>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:175>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:177>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:202>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:203>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:204>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:205>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:206>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_62 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_62, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_1_m6DBB8D555F05A08952824B74F6363EC005D0B91B_RuntimeMethod_var), NULL);
 		RuntimeObject* L_63;
 		L_63 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_62, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_64;
 		L_64 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_63, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:209>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:209>
 		return;
 	}
 
 IL_0250:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:211>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:211>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_65 = __this->___portraitbuld;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_65, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:212>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:212>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_66 = __this->___portrait;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_66, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:213>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:213>
 		return;
 	}
 
 IL_026b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:215>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:215>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_67 = __this->___mansidebuld;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_67, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:216>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:216>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = __this->___manFace;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_68, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:217>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:217>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_69 = __this->___manWalk;
 		NullCheck(L_69);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_69, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:218>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:218>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_70 = __this->___manUpDown1;
 		NullCheck(L_70);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_70, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:219>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:219>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_71 = __this->___manUpDown2;
 		NullCheck(L_71);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_71, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:221>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:221>
 		level9Handler_showHideUI_mE4C22FF6251866F113CD2445DB1DE69D9ABE0B67(__this, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:222>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:223>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:224>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:225>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:226>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:227>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:228>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:229>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:230>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:231>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:232>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:233>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:234>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:235>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:236>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:237>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:238>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:239>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:240>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:241>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:242>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:243>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:244>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:245>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:222>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:223>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:224>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:225>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:226>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:227>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:228>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:229>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:230>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:231>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:233>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:234>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:235>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:236>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:237>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:238>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:239>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:240>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:241>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:242>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:244>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:245>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_72 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_72, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_2_m584A728FEDCC8E06AA9B8D2EF52114E24B69C092_RuntimeMethod_var), NULL);
 		RuntimeObject* L_73;
 		L_73 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_72, (2.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_74;
 		L_74 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_73, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:246>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:246>
 		return;
 	}
 
 IL_02cb:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:248>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:248>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = __this->___loliside;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_75, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:249>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:249>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_76 = __this->___loliface;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_76, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:250>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:250>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_77 = __this->___loliWalk;
 		NullCheck(L_77);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_77, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:251>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:251>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_78 = __this->___loliUpDown;
 		NullCheck(L_78);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_78, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:252>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:252>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_79 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_79);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_80;
 		L_80 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_79, _stringLiteral977F91B066EA759B088C684867D8642CE279B690, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:253>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:254>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:255>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:256>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:257>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:258>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:259>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:253>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:254>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:255>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:256>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:257>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:258>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:259>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_81 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_81, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_3_m92D8A6304357BE4AB60C8B88C6E354CEB390F40E_RuntimeMethod_var), NULL);
 		RuntimeObject* L_82;
 		L_82 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_81, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_83;
 		L_83 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_82, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:260>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:260>
 		return;
 	}
 
 IL_0329:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:262>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:262>
 		bool L_84 = __this->___bulbOccupied;
 		if (L_84)
 		{
@@ -4883,55 +4883,55 @@ IL_0329:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:264>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:264>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_85 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_85);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_85, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:265>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:265>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_86 = __this->___bulbBad;
 		NullCheck(L_86);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_86, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:266>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:266>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_87 = __this->___bulbfixedon;
 		NullCheck(L_87);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_87, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:267>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:267>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_88 = __this->___bulbfixedon;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_88, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:268>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:268>
 		__this->___bulbOccupied = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:269>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:269>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = __this->___newgoodbulb;
 		level9Handler_removeItem_m30CABC4EAC6AB0389B7CB72D61BE676EEC9165B6(__this, L_89, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:270>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:271>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:272>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:273>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:274>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:275>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:276>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:277>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:278>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:279>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:280>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:281>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:282>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:283>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:284>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:270>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:271>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:272>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:273>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:274>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:275>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:276>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:277>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:278>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:279>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:280>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:281>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:282>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:283>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:284>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_90 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_90, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_4_m84D66436C61BE3FEE2C2C51E3599260747E33B61_RuntimeMethod_var), NULL);
 		RuntimeObject* L_91;
 		L_91 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_90, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_92;
 		L_92 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_91, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:286>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:286>
 		return;
 	}
 
 IL_0395:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:288>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:288>
 		bool L_93 = __this->___bulbOccupied;
 		if (L_93)
 		{
@@ -4939,45 +4939,45 @@ IL_0395:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:290>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:290>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_94 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_94);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_94, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:291>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:291>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95 = __this->___bulbBad;
 		NullCheck(L_95);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_95, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:292>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:292>
 		__this->___bulbOccupied = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:293>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:293>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_96 = __this->___bulbbroken;
 		level9Handler_removeItem_m30CABC4EAC6AB0389B7CB72D61BE676EEC9165B6(__this, L_96, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:294>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:295>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:296>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:297>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:294>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:295>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:296>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:297>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_97 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_97, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_5_m0DA9997C9B237EF55AD51427A45E9D9318161740_RuntimeMethod_var), NULL);
 		RuntimeObject* L_98;
 		L_98 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_97, (2.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_99;
 		L_99 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_98, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:300>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:300>
 		return;
 	}
 
 IL_03e8:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:302>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:302>
 		__this->___bulbOccupied = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:303>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:303>
 		return;
 	}
 
 IL_03f0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:305>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:305>
 		bool L_100 = __this->___bulbOccupied;
 		if (L_100)
 		{
@@ -4985,22 +4985,22 @@ IL_03f0:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:307>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:307>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_101 = __this->___brokenBulb;
 		NullCheck(L_101);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_101, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:308>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:308>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_102 = __this->___brokenBulb;
 		level9Handler_removeItem_m30CABC4EAC6AB0389B7CB72D61BE676EEC9165B6(__this, L_102, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:309>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:309>
 		__this->___bulbOccupied = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:311>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:311>
 		return;
 	}
 
 IL_0418:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:313>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:313>
 		bool L_103 = __this->___doorOpened;
 		if (!L_103)
 		{
@@ -5008,33 +5008,33 @@ IL_0418:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:315>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:315>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_104 = __this->___workerStand;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_104, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:316>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:316>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_105 = __this->___workergive1;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_105, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:317>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:317>
 		level9Handler_showHideUI_mE4C22FF6251866F113CD2445DB1DE69D9ABE0B67(__this, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:318>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:318>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_106 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_106);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_107;
 		L_107 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_106, _stringLiteral2C9187B3BCF844F2771FABF50AA770EC2FA8C315, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:319>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:320>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:321>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:322>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:323>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:324>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:325>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:326>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:327>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:328>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:329>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:330>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:331>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:332>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:319>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:320>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:321>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:322>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:323>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:324>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:325>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:326>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:327>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:328>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:329>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:330>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:331>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:332>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_108 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_108, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_6_mE1F8737074141B09BD21F24AF639A29D81103393_RuntimeMethod_var), NULL);
 		RuntimeObject* L_109;
@@ -5045,7 +5045,7 @@ IL_0418:
 
 IL_046e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:338>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:338>
 		return;
 	}
 }
@@ -5121,7 +5121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHide_m952C922534739956
 	}
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:407>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:407>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_g;
 		NullCheck(L_0);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_1;
@@ -5129,7 +5129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHide_m952C922534739956
 		bool L_2 = ___1_showOrHide;
 		NullCheck(L_1);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_1, L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:408>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:408>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = ___0_g;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -5138,7 +5138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHide_m952C922534739956
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_4, _stringLiteralE91F8FA2810E86C72E3A59AAE55E9156BFB5D255, NULL);
 		V_0 = L_5;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:409>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:409>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -5149,7 +5149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHide_m952C922534739956
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:411>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:411>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = V_0;
 		NullCheck(L_8);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_9;
@@ -5163,7 +5163,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHide_m952C922534739956
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:413>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:413>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_0;
 		NullCheck(L_11);
 		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_12;
@@ -5176,7 +5176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHide_m952C922534739956
 
 IL_0041:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:417>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:417>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
 		NullCheck(L_14);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_15;
@@ -5188,7 +5188,7 @@ IL_0041:
 
 IL_004d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:420>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:420>
 		return;
 	}
 }
@@ -5203,7 +5203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_changeScenePos_m88B18D9D56
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:425>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:425>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralAD44651979F834F984AF62CC7C720B876D6B7E95, NULL);
 		NullCheck(L_0);
@@ -5213,7 +5213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_changeScenePos_m88B18D9D56
 		bool L_3 = ___1_keeplock;
 		NullCheck(L_1);
 		SceneContainer_manualScene_m5240A2E887916F98D45235E19CDD24B59FBCC5D6(L_1, L_2, L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:426>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:426>
 		return;
 	}
 }
@@ -5234,20 +5234,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_removeItem_m30CABC4EAC6AB0
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:432>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:432>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_1 = L_0->___itemPicked;
 		V_0 = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:433>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:433>
 		V_1 = 0;
 		goto IL_003f;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:435>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:435>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -5268,7 +5268,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:438>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:438>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_9 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_9);
@@ -5277,20 +5277,20 @@ IL_000f:
 		NullCheck(L_10);
 		bool L_12;
 		L_12 = List_1_Remove_mCCE85D4D5326536C4B214C73D07030F4CCD18485(L_10, L_11, List_1_Remove_mCCE85D4D5326536C4B214C73D07030F4CCD18485_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:439>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:439>
 		goto IL_0048;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:433>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:433>
 		int32_t L_13 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_003f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:433>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:433>
 		int32_t L_14 = V_1;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_15 = V_0;
 		NullCheck(L_15);
@@ -5304,7 +5304,7 @@ IL_003f:
 
 IL_0048:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:444>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:444>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralF300D2310959AF105732D339376803869D9B2B91, NULL);
 		NullCheck(L_17);
@@ -5312,7 +5312,7 @@ IL_0048:
 		L_18 = GameObject_GetComponent_TisUIItemBar_tD529ACBABAA42730E2CF22A7FF5B74005C009C85_m98CA6179EDB78B5A3562959573432566D998D135(L_17, GameObject_GetComponent_TisUIItemBar_tD529ACBABAA42730E2CF22A7FF5B74005C009C85_m98CA6179EDB78B5A3562959573432566D998D135_RuntimeMethod_var);
 		NullCheck(L_18);
 		UIItemBar_refreshUI_m66E00B064C95ECE870409663340223B2CC50FC78(L_18, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:445>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:445>
 		return;
 	}
 }
@@ -5333,7 +5333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_explode_mCDF97C886145D4B0E
 	int32_t V_2 = 0;
 	Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* V_3 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:452>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:452>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_g;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -5351,13 +5351,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_explode_mCDF97C886145D4B0E
 		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
 		float L_7 = L_6.___y;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_0), L_3, L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:453>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:453>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
 		float L_9 = __this->___radius;
 		il2cpp_codegen_runtime_class_init_inline(Physics2D_t64C0DB5246067DAC2E83A52558A0AC68AF3BE94D_il2cpp_TypeInfo_var);
 		Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_10;
 		L_10 = Physics2D_OverlapCircleAll_m54C3ECD56B8061A26A2276D5B876BF1D8EB3229F(L_8, L_9, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:454>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:454>
 		V_1 = L_10;
 		V_2 = 0;
 		goto IL_007a;
@@ -5365,18 +5365,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_explode_mCDF97C886145D4B0E
 
 IL_0038:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:454>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:454>
 		Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_11 = V_1;
 		int32_t L_12 = V_2;
 		NullCheck(L_11);
 		int32_t L_13 = L_12;
 		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:456>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:456>
 		NullCheck(L_14);
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_15;
 		L_15 = Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2(L_14, Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2_RuntimeMethod_var);
 		V_3 = L_15;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:458>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:458>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_16 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_17;
@@ -5387,7 +5387,7 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:459>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:459>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_18 = V_3;
 		int32_t L_19;
 		L_19 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(((int32_t)-500), ((int32_t)500), NULL);
@@ -5409,7 +5409,7 @@ IL_0076:
 
 IL_007a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:454>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:454>
 		int32_t L_24 = V_2;
 		Collider2DU5BU5D_t4771A44B23D278BC01AB6ED33A9A28E48DC0B034* L_25 = V_1;
 		NullCheck(L_25);
@@ -5419,7 +5419,7 @@ IL_007a:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:461>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:461>
 		return;
 	}
 }
@@ -5435,7 +5435,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHideUI_mE4C22FF6251866
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:490>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:490>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___btnTurnLeft;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5446,7 +5446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHideUI_mE4C22FF6251866
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:492>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:492>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___btnTurnLeft;
 		bool L_3 = ___0_showHide;
 		NullCheck(L_2);
@@ -5456,7 +5456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_showHideUI_mE4C22FF6251866
 
 IL_001c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:497>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:497>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_4;
 		L_4 = Component_GetComponent_TisSceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B_m0F28887600067CCA3C12E3716DBE9C1665741EAA(__this, Component_GetComponent_TisSceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B_m0F28887600067CCA3C12E3716DBE9C1665741EAA_RuntimeMethod_var);
 		NullCheck(L_4);
@@ -5466,7 +5466,7 @@ IL_001c:
 		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
 		__this->___btnTurnLeft = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___btnTurnLeft), (void*)L_6);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:498>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:498>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___btnTurnLeft;
 		bool L_8 = ___0_showHide;
 		NullCheck(L_7);
@@ -5475,7 +5475,7 @@ IL_001c:
 
 IL_003e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:500>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:500>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___btnTurnRight;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -5486,7 +5486,7 @@ IL_003e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:502>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:502>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___btnTurnRight;
 		bool L_12 = ___0_showHide;
 		NullCheck(L_11);
@@ -5496,7 +5496,7 @@ IL_003e:
 
 IL_005a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:506>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:506>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_13;
 		L_13 = Component_GetComponent_TisSceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B_m0F28887600067CCA3C12E3716DBE9C1665741EAA(__this, Component_GetComponent_TisSceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B_m0F28887600067CCA3C12E3716DBE9C1665741EAA_RuntimeMethod_var);
 		NullCheck(L_13);
@@ -5506,7 +5506,7 @@ IL_005a:
 		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
 		__this->___btnTurnRight = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___btnTurnRight), (void*)L_15);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:507>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:507>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___btnTurnRight;
 		bool L_17 = ___0_showHide;
 		NullCheck(L_16);
@@ -5515,7 +5515,7 @@ IL_005a:
 
 IL_007c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:510>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:510>
 		bool L_18 = ___0_showHide;
 		if (!L_18)
 		{
@@ -5523,13 +5523,13 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:512>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:512>
 		Component_SendMessage_mB1BCD3D07E4CF35877A56FE404902FCC83A3EB46(__this, _stringLiteralE5A7A0B4486C6B872FE5C9C292746D7CCD362EC8, NULL);
 	}
 
 IL_008a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:514>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:514>
 		return;
 	}
 }
@@ -5537,11 +5537,11 @@ IL_008a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler__ctor_mB0BD1EE4812780C7969E8F33E6F3DEF7D66FBE4C (level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:123>
 		__this->___bulbOccupied = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:448>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:448>
 		__this->___radius = (5.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:449>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:449>
 		__this->___power = (10.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -5551,22 +5551,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler__ctor_mB0BD1EE4812780C7969
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CloliWalkAnimU3Eb__49_0_mD0AE41A5E08D2A4C0BC0DD20BF85A68BD3C78B7F (level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:60>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:60>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___loliside;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:61>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_1 = __this->___loliWalk;
 		NullCheck(L_1);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:62>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_2 = __this->___loliUpDown;
 		NullCheck(L_2);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:63>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___loliContainer;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:64>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:64>
 		return;
 	}
 }
@@ -5574,29 +5574,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CloliWalkAnimU3Eb__49_0_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CmanWalkAnimU3Eb__54_0_m3E4C7D89CDDF4EF07262C43C090C58702643D77A (level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:79>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:79>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___mansidebuld;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:80>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:80>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___manside;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:81>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:81>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_2 = __this->___manUpDown1;
 		NullCheck(L_2);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:82>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_3 = __this->___manUpDown2;
 		NullCheck(L_3);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:83>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_4 = __this->___manWalk;
 		NullCheck(L_4);
 		TweenHandle_Kill_m51C7CF2A3579B87FDFDB6B76CC45E0A288DFFD8D(L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:84>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___manContainer;
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:85>
 		return;
 	}
 }
@@ -5610,16 +5610,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_0_m1CCD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:137>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlslap2;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:138>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___girlslap1;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:139>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteralEE5D2B4BCF401A4B9805443F6AFF856E999FC0AF, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:140>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:140>
 		return;
 	}
 }
@@ -5634,61 +5634,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_1_m6DBB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:163>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:163>
 		level9Handler_changeScenePos_m88B18D9D561C68958D6798E6389298A4C38E939A(__this, 1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:164>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:164>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___workerStand;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:165>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:165>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___workersideIdle;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:166>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:167>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:168>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:169>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:170>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:171>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:172>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:173>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:174>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:175>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:176>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:177>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:178>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:179>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:180>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:181>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:182>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:183>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:184>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:185>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:186>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:187>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:188>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:189>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:190>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:191>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:192>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:193>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:194>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:195>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:196>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:197>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:198>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:199>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:200>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:201>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:202>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:203>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:204>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:205>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:166>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:167>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:170>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:171>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:172>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:175>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:177>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:202>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:203>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:204>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:205>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_7_m0360044D9E9E16D6CD2481713528727812061373_RuntimeMethod_var), NULL);
 		RuntimeObject* L_3;
 		L_3 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_2, (2.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:206>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:206>
 		return;
 	}
 }
@@ -5705,58 +5705,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_7_m0360
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:168>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___workersideIdle;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:169>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___workfix;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:170>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:170>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
 		L_3 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_2, _stringLiteral718DE7FB00058F889C8F26F9A5F5AD666D7B6629, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:171>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:172>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:173>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:174>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:175>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:176>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:177>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:178>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:179>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:180>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:181>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:182>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:183>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:184>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:185>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:186>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:187>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:188>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:189>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:190>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:191>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:192>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:193>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:194>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:195>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:196>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:197>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:198>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:199>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:200>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:201>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:202>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:203>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:204>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:171>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:172>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:175>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:177>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:202>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:203>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:204>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_8_m3DFDD933623D97E7B5D7012E508CAAE2A9C6D275_RuntimeMethod_var), NULL);
 		RuntimeObject* L_5;
 		L_5 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_4, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:205>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:205>
 		return;
 	}
 }
@@ -5771,17 +5771,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_8_m3DFD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:173>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___brokenBulb;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:174>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___bulbBad;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:175>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:175>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___bulbfixedon;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_2, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:176>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___workerStand;
 		NullCheck(L_3);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
@@ -5795,42 +5795,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_8_m3DFD
 		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
 		NullCheck(L_4);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_4, L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:177>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:177>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___workfix;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_8, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:178>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___workerStand;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_9, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:180>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:181>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:182>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:183>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:184>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:185>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:186>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:187>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:188>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:189>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:190>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:191>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:192>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:193>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:194>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:195>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:196>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:197>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:198>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:199>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:200>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:201>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:202>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:202>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_10 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_10, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_9_mF99AA46263C9BB0AC35B6336F74D2ADC5682A5F4_RuntimeMethod_var), NULL);
 		RuntimeObject* L_11;
 		L_11 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_10, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
 		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_11, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:204>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:204>
 		return;
 	}
 }
@@ -5848,50 +5848,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_9_mF99A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:182>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___bulbfixedon;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:183>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___buldgood;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:184>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___girlbacktouch;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_2, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:185>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___girlbacktouch;
 		NullCheck(L_3);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_4;
 		L_4 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_3, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
 		NullCheck(L_4);
 		SpriteRenderer_set_flipX_m83BEEE8D1241ED712298B171E2AA972875E30A0B(L_4, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:186>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___girlback;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_5, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:187>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_6 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7;
 		L_7 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_6, _stringLiteralEE62D98E67F7AD1599A413D26195F31905AECD91, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:188>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:189>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:190>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:191>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:192>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:193>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:194>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:195>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:196>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:197>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:198>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:199>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:200>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_10_mD5EABD95D39D1B00993E0C83C9B1EF161065F832_RuntimeMethod_var), NULL);
 		RuntimeObject* L_9;
 		L_9 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_8, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
 		L_10 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_9, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:202>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:202>
 		return;
 	}
 }
@@ -5910,33 +5910,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_10_mD5E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:190>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___workerStand;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:191>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___workershy;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:192>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
 		L_3 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_2, _stringLiteral93392C053AA086096B810631F2E105811BBCB4AF, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:193>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_4);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5;
 		L_5 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_4, _stringLiteral510894D1766F33A97ACE2167D80BD26F5E79D6AD, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:194>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralCCEBF772E62A5901A4517B7A768D0FAC0681E541, NULL);
 		NullCheck(L_6);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_7;
 		L_7 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_6, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:195>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_8 = L_7;
 		NullCheck(L_8);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_8, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:197>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_9 = L_8;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -5950,13 +5950,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_10_mD5E
 		L_13 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_12, (10.0f), NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_14;
 		L_14 = SmoothTweenExtensions_DOScale_m3740F007F6B6FC3D89150D4FD5BCE82FD22C1053(L_11, L_13, (1.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:198>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_15;
 		L_15 = SmoothTweenExtensions_DOFade_mEB5E60C698476D9C433E11CCFC38D5107AD7CCA3(L_9, (0.0f), (2.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:199>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_16;
 		L_16 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteralEE5D2B4BCF401A4B9805443F6AFF856E999FC0AF, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:200>
 		return;
 	}
 }
@@ -5973,40 +5973,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_2_m584A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:224>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:224>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___manFace;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:225>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:225>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___mangive;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:226>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:226>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
 		L_3 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_2, _stringLiteral8DEC306812A92FAA5D3E7FCFA3698560F6E05E8F, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:228>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:229>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:230>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:231>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:232>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:233>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:234>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:235>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:236>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:237>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:238>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:239>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:240>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:241>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:242>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:228>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:229>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:230>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:231>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:233>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:234>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:235>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:236>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:237>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:238>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:239>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:240>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:241>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:242>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:243>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_11_mF0ACEBDA3C237BC85DB18A6C79304BEFFF02F518_RuntimeMethod_var), NULL);
 		RuntimeObject* L_5;
 		L_5 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_4, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:245>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:245>
 		return;
 	}
 }
@@ -6023,44 +6023,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_11_mF0A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:231>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:231>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:232>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___coin;
 		NullCheck(L_1);
 		ItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043* L_2;
 		L_2 = GameObject_GetComponent_TisItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043_m2935BE7365D3C9718AF3B2442772317D02067B2E(L_1, GameObject_GetComponent_TisItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043_m2935BE7365D3C9718AF3B2442772317D02067B2E_RuntimeMethod_var);
 		NullCheck(L_2);
 		ItemInteractable_fakeClick_m02044162D567590F2153695964A8A2DB7BA242F2(L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:233>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:233>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_3 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_3);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_3, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:234>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:234>
 		__this->___gotCoin = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:235>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:235>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___manside;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_4, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:236>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:236>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___mangive;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_5, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:237>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:237>
 		level9Handler_manWalkAnim_m270333E098913D4290AEA2C67B6944C43EA6B42E(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:238>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:238>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_6, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:239>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:239>
 		level9Handler_showHideUI_mE4C22FF6251866F113CD2445DB1DE69D9ABE0B67(__this, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:242>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:242>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_7);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8;
 		L_8 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_7, _stringLiteralEE62D98E67F7AD1599A413D26195F31905AECD91, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:243>
 		return;
 	}
 }
@@ -6074,17 +6074,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_3_m92D8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:255>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:255>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___loliside;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:256>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:256>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___loliface;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:257>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:257>
 		level9Handler_loliWalkAnim_m4DE26826EE1F9828BB3A2BC27DF693FFAACC2C6F(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:258>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:258>
 		MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F(__this, _stringLiteralF4B88E841B70CCA6FA5D62C7966E41A18B074266, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:259>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:259>
 		return;
 	}
 }
@@ -6101,32 +6101,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_4_m84D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:273>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:273>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___bulbfixedon;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:274>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:274>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___buldgood;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:275>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:275>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
 		L_3 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_2, _stringLiteralEE62D98E67F7AD1599A413D26195F31905AECD91, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:276>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:277>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:278>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:279>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:280>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:281>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:282>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:283>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:276>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:277>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:278>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:279>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:280>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:281>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:282>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:283>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_4 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_4, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_12_m4F9AFB7F7F1041166C7B1DFAE63413359CC2A5E0_RuntimeMethod_var), NULL);
 		RuntimeObject* L_5;
 		L_5 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_4, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
 		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:284>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:284>
 		return;
 	}
 }
@@ -6142,21 +6142,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_12_m4F9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:278>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:278>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlback;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:279>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:279>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___girlstandhappy;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:280>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:280>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteralC85BE3FFFD39F1B880367B69F8F93317E6E9D82B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:281>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:281>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_3 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_3);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
 		L_4 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_3, _stringLiteral510894D1766F33A97ACE2167D80BD26F5E79D6AD, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:283>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:283>
 		return;
 	}
 }
@@ -6170,10 +6170,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_5_m0DA9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:296>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:296>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0;
 		L_0 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral2AF10F459E51945366EFDDFD0D2108598B13F7DD, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:297>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:297>
 		return;
 	}
 }
@@ -6188,27 +6188,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_6_mE1F8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:321>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:321>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___workergive2;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:322>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:322>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___workergive1;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:324>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:325>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:326>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:327>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:328>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:329>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:330>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:331>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:324>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:325>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:326>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:327>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:328>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:329>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:330>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:331>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)level9Handler_U3CuseItemU3Eb__62_13_m89A1AE08743C7AA1F98244830B6767E6B771B08F_RuntimeMethod_var), NULL);
 		RuntimeObject* L_3;
 		L_3 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_2, (0.5f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:332>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:332>
 		return;
 	}
 }
@@ -6224,27 +6224,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CuseItemU3Eb__62_13_m89A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:326>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:326>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1;
 		L_1 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_0, _stringLiteralEE62D98E67F7AD1599A413D26195F31905AECD91, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:327>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:327>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___newgoodbulb;
 		NullCheck(L_2);
 		ItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043* L_3;
 		L_3 = GameObject_GetComponent_TisItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043_m2935BE7365D3C9718AF3B2442772317D02067B2E(L_2, GameObject_GetComponent_TisItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043_m2935BE7365D3C9718AF3B2442772317D02067B2E_RuntimeMethod_var);
 		NullCheck(L_3);
 		ItemInteractable_fakeClick_m02044162D567590F2153695964A8A2DB7BA242F2(L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:328>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:328>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___workerStand;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_4, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:329>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:329>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___workergive2;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_5, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:330>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:330>
 		level9Handler_showHideUI_mE4C22FF6251866F113CD2445DB1DE69D9ABE0B67(__this, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:331>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:331>
 		return;
 	}
 }
@@ -6260,24 +6260,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void level9Handler_U3CblinkU3Eb__64_0_m7677F9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:369>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:369>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlback;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:370>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:370>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___girlangryback;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:371>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:371>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___angrymark;
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(__this, L_2, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:372>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:372>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
 		L_3 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteralEE5D2B4BCF401A4B9805443F6AFF856E999FC0AF, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:373>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:373>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_4);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5;
 		L_5 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_4, _stringLiteral75E837BD6A2562442F32A4CBACF96B75C2BC016A, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:374>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:374>
 		return;
 	}
 }
@@ -6351,7 +6351,7 @@ IL_0017:
 
 IL_0023:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:345>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:345>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -6363,14 +6363,14 @@ IL_0023:
 IL_003c:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:347>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:347>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_5 = V_1;
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_6 = V_1;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = L_6->___buldgood;
 		NullCheck(L_5);
 		level9Handler_showHide_m952C9225347399563A5F7575430041183F135918(L_5, L_7, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:349>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:349>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_8 = V_1;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___buldgood;
@@ -6382,14 +6382,14 @@ IL_003c:
 		L_12 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_11, NULL);
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)((((int32_t)L_12) == ((int32_t)0))? 1 : 0), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:350>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:350>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_13 = V_1;
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_14 = V_1;
 		NullCheck(L_14);
 		int32_t L_15 = L_14->___nBlink;
 		NullCheck(L_13);
 		L_13->___nBlink = ((int32_t)il2cpp_codegen_add(L_15, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:351>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:351>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_16 = V_1;
 		NullCheck(L_16);
 		int32_t L_17 = L_16->___nBlink;
@@ -6399,38 +6399,38 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:353>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:353>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_18 = V_1;
 		NullCheck(L_18);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18->___buldgood;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:354>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:354>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_20 = V_1;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = L_20->___bulbBad;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:358>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:358>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_22 = V_1;
 		NullCheck(L_22);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = L_22->___bulbBad;
 		NullCheck(L_23);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:359>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:359>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_24 = V_1;
 		NullCheck(L_24);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = L_24->___crisp;
 		NullCheck(L_25);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_25, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:362>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:362>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_26 = V_1;
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_27 = V_1;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27->___crisp;
 		NullCheck(L_26);
 		level9Handler_explode_mCDF97C886145D4B0EC3164C97E83340430E26C15(L_26, L_28, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:363>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:363>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_29 = V_1;
 		NullCheck(L_29);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
@@ -6440,24 +6440,24 @@ IL_003c:
 		L_31 = Transform_get_root_m3AE09E7A2C0B2C4A649570498F25E4B4F69A1284(L_30, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_32;
 		L_32 = SmoothTweenExtensions_DOShakePosition_mB756CD4E408E074A7342185E46D79E9D8BCFF0A8(L_31, (0.5f), (0.300000012f), ((int32_t)10), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:364>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:364>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_33 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_33);
 		GameManager_stopBGMusic_m17D03879C1682345CF9807B700A88F12B1535C15(L_33, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:365>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:365>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_34 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_34);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_35;
 		L_35 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_34, _stringLiteralCB2070BB5AC5DA50197474C74B7EA4D7BDEEBCB1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:366>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:367>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:368>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:369>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:370>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:371>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:372>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:373>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:374>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:366>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:367>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:368>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:369>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:370>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:371>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:372>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:373>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:374>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_36 = V_1;
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_37 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_38 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
@@ -6471,7 +6471,7 @@ IL_003c:
 
 IL_0114:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:343>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:343>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_41 = V_1;
 		NullCheck(L_41);
 		int32_t L_42 = L_41->___nBlink;
@@ -6481,7 +6481,7 @@ IL_0114:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:377>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:377>
 		return (bool)0;
 	}
 }
@@ -6572,7 +6572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CgameFailedU3Ed__65_MoveNext_m1D390416
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:384>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:384>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -6584,18 +6584,18 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:385>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:385>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_5 = V_1;
 		NullCheck(L_5);
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:386>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:386>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_7 = L_6->___main;
 		NullCheck(L_7);
 		MainScript_gameFailed_mF78D0C9E103F7D5A36992040DEFF4A40ECD72946(L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:387>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:387>
 		return (bool)0;
 	}
 }
@@ -6690,7 +6690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CgameWinU3Ed__66_MoveNext_m777AA0A14B3
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:391>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:391>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -6702,43 +6702,43 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:392>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:392>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_5 = V_1;
 		NullCheck(L_5);
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:394>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:394>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral3BA0EBFF869E6C1D787E0DB98D280B16C091A00B, NULL);
 		NullCheck(L_6);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_7;
 		L_7 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_6, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:395>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:395>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_8);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_9;
 		L_9 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_8, _stringLiteral5AE31BBDAF128913BE004AEA163BE846CDAFEA3D, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:397>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:397>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_10 = L_7;
 		NullCheck(L_10);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_10, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:398>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:398>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_11 = L_10;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_11, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_13;
 		L_13 = SmoothTweenExtensions_DOMoveY_m9F92894F8297792E665405893E5D4CF520B79E4E(L_12, (1.0f), (2.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:399>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:399>
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_14;
 		L_14 = SmoothTweenExtensions_DOFade_mEB5E60C698476D9C433E11CCFC38D5107AD7CCA3(L_11, (0.0f), (2.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:400>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:400>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_15 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_15);
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_16 = L_15->___main;
 		NullCheck(L_16);
 		MainScript_gameWin_m7FED00DA81B7D911BD9FB28132ECBA59A9E3B623(L_16, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:401>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:401>
 		return (bool)0;
 	}
 }
@@ -6828,7 +6828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CloliPassbyU3Ed__48_MoveNext_mFCAE0272
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:51>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (5.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -6840,11 +6840,11 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:52>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_5 = V_1;
 		NullCheck(L_5);
 		level9Handler_loliWalkAnim_m4DE26826EE1F9828BB3A2BC27DF693FFAACC2C6F(L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:53>
 		return (bool)0;
 	}
 }
@@ -6934,7 +6934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CmanPassbyU3Ed__53_MoveNext_m501A34A6C
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:71>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:71>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (15.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -6946,11 +6946,11 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:72>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:72>
 		level9Handler_t05ABD9C6A9D1E94A598DAE82D81F7A87872949D4* L_5 = V_1;
 		NullCheck(L_5);
 		level9Handler_manWalkAnim_m270333E098913D4290AEA2C67B6944C43EA6B42E(L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/level9Handler.cs:73>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/level9Handler.cs:73>
 		return (bool)0;
 	}
 }
@@ -6991,7 +6991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CmanPassbyU3Ed__53_System_Co
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowMove_Start_m29F80006B61FFE7694E35E2498AD9DC7A2EEF258 (ArrowMove_t777071ED0E929906B88982DBD92C781D7423E6C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowMove.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowMove.cs:10>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -7016,7 +7016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowMove_Start_m29F80006B61FFE7694E35E2
 		NullCheck(L_10);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_11;
 		L_11 = TweenHandle_SetLoops_m42CAEFD96CCC04DB7D031419854362BC3A5A3F84(L_10, (-1), 0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowMove.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowMove.cs:11>
 		return;
 	}
 }
@@ -7024,7 +7024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowMove_Start_m29F80006B61FFE7694E35E2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowMove_Update_m5BE0B40ED7C3B63AB40BC22D988A35DCC902E7D1 (ArrowMove_t777071ED0E929906B88982DBD92C781D7423E6C5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowMove.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowMove.cs:17>
 		return;
 	}
 }
@@ -7048,7 +7048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowMove__ctor_m442B6728F061F7C0BAB43E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowPush_Start_mB0C9DBE5BD7BCCAC0CAEF0E169C04512F9282CFC (ArrowPush_t2500756E9601F6291316FF83342E137E2001ADA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowPush.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowPush.cs:11>
 		return;
 	}
 }
@@ -7062,12 +7062,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowPush_OnEnable_mDFD938D0789D916638B0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowPush.cs:15>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowPush.cs:15>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0;
 		L_0 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(__this, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		NullCheck(L_0);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_0, (0.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowPush.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowPush.cs:16>
 		return;
 	}
 }
@@ -7081,7 +7081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowPush_FixedUpdate_m75C02D4E0F0E25E5E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowPush.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowPush.cs:23>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0;
 		L_0 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(__this, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = L_0;
@@ -7090,7 +7090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowPush_FixedUpdate_m75C02D4E0F0E25E5E
 		L_2 = Image_get_fillAmount_mDEE52490D07124E21E7CB36718A5E3714D8B9788_inline(L_1, NULL);
 		NullCheck(L_1);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_1, ((float)il2cpp_codegen_add(L_2, (0.0199999996f))), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/ArrowPush.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/ArrowPush.cs:25>
 		return;
 	}
 }
@@ -7114,7 +7114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrowPush__ctor_mB95A4A936CA48F67FB1F343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CarWheel_Start_m41E8CA521E6DF077849E06D4531B5E0BE6C92870 (CarWheel_t3D930CBC50C6859F2CC4B9591D0E19841EA527D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/CarWheel.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/CarWheel.cs:11>
 		return;
 	}
 }
@@ -7122,7 +7122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CarWheel_Start_m41E8CA521E6DF077849E06D4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CarWheel_Update_m5331813D3F846BC3E8139A9F2A02952FF6EA7A83 (CarWheel_t3D930CBC50C6859F2CC4B9591D0E19841EA527D9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/CarWheel.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/CarWheel.cs:16>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = L_0;
@@ -7136,7 +7136,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CarWheel_Update_m5331813D3F846BC3E8139A9
 		L_4 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_2, L_3, NULL);
 		NullCheck(L_1);
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_1, L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/CarWheel.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/CarWheel.cs:17>
 		return;
 	}
 }
@@ -7160,7 +7160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CarWheel__ctor_m0A84988AFBC384EDC2213602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough_Start_mF24A4B5AB27DEF3E0DE01D2E9CDD8C2D0EB91B5F (GirlCough_tD75FE7F07715FAF2584F9892861779E3623B9685* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/GirlCough.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/GirlCough.cs:11>
 		return;
 	}
 }
@@ -7168,7 +7168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough_Start_mF24A4B5AB27DEF3E0DE01D2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough_Update_mD69CF3A0E0191EA4F19FC53D5C8D5BE59264D921 (GirlCough_tD75FE7F07715FAF2584F9892861779E3623B9685* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/GirlCough.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/GirlCough.cs:17>
 		return;
 	}
 }
@@ -7184,7 +7184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough_cough_m65BA148C04076703BD382F9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/GirlCough.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/GirlCough.cs:21>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -7199,7 +7199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough_cough_m65BA148C04076703BD382F9
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/GirlCough.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/GirlCough.cs:22>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_3 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_3);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
@@ -7208,7 +7208,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough_cough_m65BA148C04076703BD382F9
 
 IL_0022:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/GirlCough.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/GirlCough.cs:23>
 		return;
 	}
 }
@@ -7232,14 +7232,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GirlCough__ctor_m62B7D6F3C8F1BBA7755500A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Level13Items_Start_mFEB19EACD91CEF12DA03109D2A76F7C17746CCAD (Level13Items_tD3C8D2CB85C76C01E0E8146DA006F8B81276EF17* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/Level13Items.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/Level13Items.cs:22>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Transform_GetSiblingIndex_m45EE497589C36D1FBED87FB802BD80A95CE68575(L_0, NULL);
 		__this->___myIndex = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/Level13Items.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/Level13Items.cs:23>
 		return;
 	}
 }
@@ -7247,7 +7247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Level13Items_Start_mFEB19EACD91CEF12DA03
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Level13Items_Update_m05A895BD7B16ED32BD7764FA81190BA86A31EC76 (Level13Items_tD3C8D2CB85C76C01E0E8146DA006F8B81276EF17* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/Level13Items.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/Level13Items.cs:29>
 		return;
 	}
 }
@@ -7271,14 +7271,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Level13Items__ctor_mB58F8CA4C6EA901D7C3D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PositionInfo_Start_mD717AE5A909A4CCCAE41D61209434639EF5E6CC8 (PositionInfo_t76F5989F366B0A7C5C03F321B31646776E6A519E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/PositionInfo.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/PositionInfo.cs:10>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = Transform_GetSiblingIndex_m45EE497589C36D1FBED87FB802BD80A95CE68575(L_0, NULL);
 		__this->___myIndex = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/PositionInfo.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/PositionInfo.cs:11>
 		return;
 	}
 }
@@ -7286,7 +7286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PositionInfo_Start_mD717AE5A909A4CCCAE41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PositionInfo_Update_m1BC87041E330121154DB17A84C0273CED6BCE80E (PositionInfo_t76F5989F366B0A7C5C03F321B31646776E6A519E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/PositionInfo.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/PositionInfo.cs:22>
 		return;
 	}
 }
@@ -7310,14 +7310,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PositionInfo__ctor_m28D596CD5190272EAD01
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void shrinkEffect_Start_m32CD5ED8C22FF25968EA8F2FC0CEE7CB513B9151 (shrinkEffect_tA7A2D7732193ABD8C2D552D004EC81B45E2534FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/shrinkEffect.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/shrinkEffect.cs:10>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_0, NULL);
 		__this->___startScale = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/shrinkEffect.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/shrinkEffect.cs:11>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___startScale;
@@ -7328,7 +7328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void shrinkEffect_Start_m32CD5ED8C22FF25968EA
 		NullCheck(L_5);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_6;
 		L_6 = TweenHandle_SetLoops_m42CAEFD96CCC04DB7D031419854362BC3A5A3F84(L_5, (-1), 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/shrinkEffect.cs:12>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/shrinkEffect.cs:12>
 		return;
 	}
 }
@@ -7336,7 +7336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void shrinkEffect_Start_m32CD5ED8C22FF25968EA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void shrinkEffect_Update_m9CCC054D8447FBF75B0F2C1292E0F1A0E0A8DF2F (shrinkEffect_tA7A2D7732193ABD8C2D552D004EC81B45E2534FB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/shrinkEffect.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/shrinkEffect.cs:18>
 		return;
 	}
 }
@@ -7360,7 +7360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void shrinkEffect__ctor_m3F617AAE277966652BF0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Start_mABF5581FD9385CEC572FADA22E196E1533E32120 (StoneFall_t1466B198D5323A45FCB8999FBF5A0D18FEF7BCE4* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:11>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_1;
@@ -7370,7 +7370,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Start_mABF5581FD9385CEC572FADA
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_2), (0.0f), (0.0f), L_1, NULL);
 		NullCheck(L_0);
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_0, L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:12>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:12>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
@@ -7381,7 +7381,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Start_mABF5581FD9385CEC572FADA
 		L_6 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_4, L_5, NULL);
 		NullCheck(L_3);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_3, L_6, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:13>
 		return;
 	}
 }
@@ -7395,7 +7395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Update_mB00272ADD4188F309F6394
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:18>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -7408,7 +7408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Update_mB00272ADD4188F309F6394
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:20>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___startPos;
@@ -7423,12 +7423,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Update_mB00272ADD4188F309F6394
 		L_8 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_4, L_7, NULL);
 		NullCheck(L_3);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_3, L_8, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:21>
 		Rigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F* L_9;
 		L_9 = Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2(__this, Component_GetComponent_TisRigidbody2D_tBEBE9523CF4448544085AF46BF7E10AA499F320F_m0712B7A9DBBAE2C319B4B03394E7731B86FACBF2_RuntimeMethod_var);
 		NullCheck(L_9);
 		Rigidbody2D_set_isKinematic_m7C68AB4CFB6D301F0EDF0BFF66FB121ED3CC7853(L_9, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:22>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		float L_11;
@@ -7438,7 +7438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Update_mB00272ADD4188F309F6394
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), (0.0f), (0.0f), L_11, NULL);
 		NullCheck(L_10);
 		Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF(L_10, L_12, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
 		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
@@ -7453,7 +7453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoneFall_Update_mB00272ADD4188F309F6394
 
 IL_00b1:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/miniScript/StoneFall.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/miniScript/StoneFall.cs:25>
 		return;
 	}
 }
@@ -7485,14 +7485,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mosquito_Start_mABAC52295DF5F9D6B877CA7B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:10>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0;
 		L_0 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral8018F4D7A7DBEA66FAD4F7C5D3E5943DF42A989E, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:11>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_1 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_1);
 		GameManager_stopMusic_m137A9AB11B01B1854FC0BEADD907EC75F1630A42(L_1, _stringLiteral230C03C4E43538ED6E72C5E82FD6BB70943EA42D, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:12>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:12>
 		return;
 	}
 }
@@ -7534,7 +7534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Mosquito_loopMosSound_m62B9C40
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mosquito_Update_m35529F13620F0168051B9C4F7C31330E441740FF (Mosquito_t3F62712CE0485BC0DBDD7CB8E402F1E8ED32C613* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:32>
 		return;
 	}
 }
@@ -7550,13 +7550,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mosquito_stopFly_mE42D4870CEA710EF9FA8AB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:36>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		GameManager_stopMusic_m137A9AB11B01B1854FC0BEADD907EC75F1630A42(L_0, _stringLiteral230C03C4E43538ED6E72C5E82FD6BB70943EA42D, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:37>
 		MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F(__this, _stringLiteral7EA0D492508B08A4F513B1556E2C22D2D603B416, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:38>
 		return;
 	}
 }
@@ -7632,7 +7632,7 @@ IL_0010:
 
 IL_0017:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:24>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (4.54500008f), NULL);
 		__this->___U3CU3E2__current = L_3;
@@ -7644,12 +7644,12 @@ IL_0017:
 IL_0030:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:25>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_4);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5;
 		L_5 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_4, _stringLiteral230C03C4E43538ED6E72C5E82FD6BB70943EA42D, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:22>
 		goto IL_0017;
 	}
 }
@@ -7742,7 +7742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CwaitaframeU3Ed__1_MoveNext_mEB0F43300
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:16>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_4 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_4, NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -7754,17 +7754,17 @@ IL_0017:
 IL_0032:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:17>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_5 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_5);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6;
 		L_6 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_5, _stringLiteral230C03C4E43538ED6E72C5E82FD6BB70943EA42D, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:18>
 		Mosquito_t3F62712CE0485BC0DBDD7CB8E402F1E8ED32C613* L_7 = V_1;
 		NullCheck(L_7);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8;
 		L_8 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(L_7, _stringLiteral7EA0D492508B08A4F513B1556E2C22D2D603B416, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Mosquito.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Mosquito.cs:19>
 		return (bool)0;
 	}
 }
@@ -7805,7 +7805,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CwaitaframeU3Ed__1_System_Co
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void outline_Start_mB0453994CA4DCAEA821F604D01A830005D6CBB9B (outline_tCCEE6E8E8993FF4CA1299DDF1262655495F7BA01* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/outline.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/outline.cs:11>
 		return;
 	}
 }
@@ -7813,7 +7813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void outline_Start_mB0453994CA4DCAEA821F604D0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void outline_Update_mFF19756C7D283C037D242FAFBBE9FB343FADCB6A (outline_tCCEE6E8E8993FF4CA1299DDF1262655495F7BA01* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/outline.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/outline.cs:17>
 		return;
 	}
 }
@@ -7837,7 +7837,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void outline__ctor_m5DEEF35E1AF057FAE8DF7412E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_Start_m67EC20E5DBC38448DF419379AAF639CD108592E4 (PanelSetting_t00D1D3E6040F1948CDAB884D44141DE606B13929* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:15>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:15>
 		return;
 	}
 }
@@ -7845,7 +7845,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_Start_m67EC20E5DBC38448DF41
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_Update_m3098C66F0B1919AE3B1D9FA96C27E249BB3B029E (PanelSetting_t00D1D3E6040F1948CDAB884D44141DE606B13929* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:21>
 		return;
 	}
 }
@@ -7859,7 +7859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_changeVolume_m6275B134681D0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:26>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_1 = ___0_slider;
@@ -7868,13 +7868,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_changeVolume_m6275B134681D0
 		L_2 = VirtualFuncInvoker0< float >::Invoke(46, L_1);
 		NullCheck(L_0);
 		GameManager_changeVolume_mED13BA3CA162CCA055420A6514966429D4F9DAD9(L_0, L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:27>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = ___0_slider;
 		NullCheck(L_3);
 		float L_4;
 		L_4 = VirtualFuncInvoker0< float >::Invoke(46, L_3);
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralE359F6FAB740B186702E6266FF2C4659C923C49B, L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:28>
 		return;
 	}
 }
@@ -7912,7 +7912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnEnable_mA3F03DEE4CEDBCB93
 	int32_t G_B8_0 = 0;
 	Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* G_B8_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___bg;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7923,7 +7923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnEnable_mA3F03DEE4CEDBCB93
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:34>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:34>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralB9EFD13F6FC98CC83AD1422F073542AF3CB2EECA, NULL);
 		NullCheck(L_2);
@@ -7931,7 +7931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnEnable_mA3F03DEE4CEDBCB93
 		L_3 = GameObject_GetComponent_TisPanelMain_tDD2812BE7D0C288AB652B7328E7E4BC8C6ACA38A_mFAA23472C9B59D90A9359C3C80A9865351310345(L_2, GameObject_GetComponent_TisPanelMain_tDD2812BE7D0C288AB652B7328E7E4BC8C6ACA38A_mFAA23472C9B59D90A9359C3C80A9865351310345_RuntimeMethod_var);
 		__this->___panelMain = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___panelMain), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:35>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
@@ -7939,7 +7939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnEnable_mA3F03DEE4CEDBCB93
 		L_5 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_4, _stringLiteral96681A2B198D42859DB500CC97021274BD2004F1, NULL);
 		__this->___bg = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bg), (void*)L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:36>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___bg;
 		NullCheck(L_6);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7;
@@ -7949,37 +7949,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnEnable_mA3F03DEE4CEDBCB93
 		L_8 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_7, NULL);
 		float L_9 = L_8.___y;
 		__this->___startY = L_9;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:37>
 		PanelSetting_refresh_m6A3AE935C5021662238BA7BD546E3CF34A15341D(__this, NULL);
 	}
 
 IL_005a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:40>
 		__this->___islock = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:47>
 		float L_10;
 		L_10 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralE359F6FAB740B186702E6266FF2C4659C923C49B, (1.0f), NULL);
 		V_0 = L_10;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:49>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		float L_12 = V_0;
 		NullCheck(L_11);
 		GameManager_changeVolume_mED13BA3CA162CCA055420A6514966429D4F9DAD9(L_11, L_12, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:51>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_13 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		int32_t L_14;
 		L_14 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral240BE9B5E609F0DD8657150691504C4DE92A0925, 0, NULL);
 		NullCheck(L_13);
 		L_13->___isSoundOn = L_14;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:52>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_15 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		int32_t L_16;
 		L_16 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralB9328201E17CA88435781DFC42863E1343C8D5AE, 0, NULL);
 		NullCheck(L_15);
 		L_15->___isSfxOn = L_16;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0DE88AF9C6515E21409CFB65AC5674B01A65BBCD, NULL);
 		NullCheck(L_17);
@@ -8011,7 +8011,7 @@ IL_00c5:
 	{
 		NullCheck(G_B5_1);
 		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(G_B5_1, (bool)G_B5_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:54>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
 		L_21 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralDDC68B8D671C1A6FD1512964842DF30F246474F8, NULL);
 		NullCheck(L_21);
@@ -8044,15 +8044,15 @@ IL_00e9:
 	{
 		NullCheck(G_B8_1);
 		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(G_B8_1, (bool)G_B8_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:57>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_25 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_25);
 		int32_t L_26;
 		L_26 = GameData_GetSystemLaguage_m8BB1D8EC45C52512658D00C87C021484E0FB8325(L_25, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:62>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:63>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:64>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:64>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = __this->___bg;
 		NullCheck(L_27);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28;
@@ -8064,12 +8064,12 @@ IL_00e9:
 		NullCheck(L_29);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_31;
 		L_31 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_29, L_30, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:65>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_32 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_32);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_33;
 		L_33 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_32, _stringLiteralCC7E50C936CCF0F716B6F561A911CE9E01120B3E, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:66>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:66>
 		return;
 	}
 }
@@ -8088,7 +8088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_initText_mFAE542E0B5C0E798F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:70>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:70>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___bg;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -8106,7 +8106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_initText_mFAE542E0B5C0E798F
 		L_5 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_4, _stringLiteral4F45D7C706B4E5CF55A32DBC8B312D659F6669BB, NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_3, L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:71>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:71>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___bg;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -8124,7 +8124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_initText_mFAE542E0B5C0E798F
 		L_11 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_10, _stringLiteral4F45D7C706B4E5CF55A32DBC8B312D659F6669BB, NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_11);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:77>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:77>
 		return;
 	}
 }
@@ -8132,7 +8132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_initText_mFAE542E0B5C0E798F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnDisable_m23B199AD827FA9FAFABF20267A946C47BA5AA28F (PanelSetting_t00D1D3E6040F1948CDAB884D44141DE606B13929* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:82>
 		return;
 	}
 }
@@ -8153,7 +8153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnClick_m64AB54C08BF10D909A
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:86>
 		bool L_0 = __this->___islock;
 		if (!L_0)
 		{
@@ -8161,13 +8161,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnClick_m64AB54C08BF10D909A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:86>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:87>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = ___0_g;
 		NullCheck(L_1);
 		String_t* L_2;
@@ -8191,17 +8191,17 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:93>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:93>
 		__this->___islock = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:94>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_7);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8;
 		L_8 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_7, _stringLiteral3241C5E5BB51817086F89EE34D0BA113922FCD11, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:95>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:96>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:97>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:95>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:98>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___bg;
 		NullCheck(L_9);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10;
@@ -8218,7 +8218,7 @@ IL_0009:
 
 IL_006e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:101>
 		return;
 	}
 }
@@ -8251,7 +8251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnToggle_m9A63BA71E1BEAF91F
 	int32_t G_B15_0 = 0;
 	GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* G_B15_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:105>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:105>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_0 = ___0_toggle;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -8301,13 +8301,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_OnToggle_m9A63BA71E1BEAF91F
 
 IL_004a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:108>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:108>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11;
 		L_11 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_11);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12;
 		L_12 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_11, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:109>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:109>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_13;
 		L_13 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -8338,7 +8338,7 @@ IL_006b:
 	{
 		NullCheck(G_B8_1);
 		G_B8_1->___isSoundOn = G_B8_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:111>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:111>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_16 = ___0_toggle;
 		NullCheck(L_16);
 		bool L_17;
@@ -8349,7 +8349,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:113>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:113>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_18;
 		L_18 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_18);
@@ -8359,7 +8359,7 @@ IL_006b:
 
 IL_0084:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:117>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_19;
 		L_19 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_19);
@@ -8368,26 +8368,26 @@ IL_0084:
 
 IL_0094:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:119>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:119>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_20;
 		L_20 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___isSoundOn;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral240BE9B5E609F0DD8657150691504C4DE92A0925, L_21, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:121>
 		return;
 	}
 
 IL_00a9:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:123>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_22;
 		L_22 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_22);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_23;
 		L_23 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_22, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:124>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:124>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_24;
 		L_24 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -8418,7 +8418,7 @@ IL_00ca:
 	{
 		NullCheck(G_B15_1);
 		G_B15_1->___isSfxOn = G_B15_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:125>
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_27 = ___0_toggle;
 		NullCheck(L_27);
 		bool L_28;
@@ -8429,7 +8429,7 @@ IL_00ca:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:127>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_29;
 		L_29 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_29);
@@ -8438,26 +8438,26 @@ IL_00ca:
 
 IL_00e1:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:130>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_30;
 		L_30 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_30);
 		int32_t L_31 = L_30->___isSfxOn;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralB9328201E17CA88435781DFC42863E1343C8D5AE, L_31, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:131>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:131>
 		return;
 	}
 
 IL_00f6:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:133>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_32;
 		L_32 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_32);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_33;
 		L_33 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_32, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:134>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
 		L_34 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralD4E6E69EFE817F4B3CA0DA70224777C3F74DD6D9, NULL);
 		NullCheck(L_34);
@@ -8472,23 +8472,23 @@ IL_00f6:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:136>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:136>
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralCC1F7052057A1EC518E41F548AA4C5A4BA47C59D, 0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:137>
 		PanelSetting_refresh_m6A3AE935C5021662238BA7BD546E3CF34A15341D(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:139>
 		return;
 	}
 
 IL_012e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:141>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:141>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_37;
 		L_37 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_37);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_38;
 		L_38 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_37, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:142>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:142>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
 		L_39 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral124A6CCAE29B94B690018430A49B239CC55B3FC6, NULL);
 		NullCheck(L_39);
@@ -8503,15 +8503,15 @@ IL_012e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:143>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:143>
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralCC1F7052057A1EC518E41F548AA4C5A4BA47C59D, 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:144>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:144>
 		PanelSetting_refresh_m6A3AE935C5021662238BA7BD546E3CF34A15341D(__this, NULL);
 	}
 
 IL_0165:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:148>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:148>
 		return;
 	}
 }
@@ -8527,7 +8527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_refresh_m6A3AE935C502166223
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:152>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -8535,19 +8535,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_refresh_m6A3AE935C502166223
 		int32_t L_1;
 		L_1 = GameData_GetSystemLaguage_m8BB1D8EC45C52512658D00C87C021484E0FB8325(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:153>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:153>
 		Localization_t968E9F920913D5B70C0AA3CF2FA7513C410A5817* L_2;
 		L_2 = Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD(Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD_RuntimeMethod_var);
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		Localization_SetLanguage_m249410A69BD1694725F9453D633628D6AA501836(L_2, L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:154>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:154>
 		PanelSetting_initText_mFAE542E0B5C0E798F0D248D314F5D809CD5BCD8F(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:155>
 		PanelMain_tDD2812BE7D0C288AB652B7328E7E4BC8C6ACA38A* L_4 = __this->___panelMain;
 		NullCheck(L_4);
 		PanelMain_initView_m7603EAE9A89843E0C5A533EAE646B4194E64F8B0(L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:156>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:156>
 		return;
 	}
 }
@@ -8563,9 +8563,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting__ctor_m50FBD7FDD97035F36B2E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_U3COnEnableU3Eb__6_0_m268297A910837FFC46C797AA2FFFF8A07E1658E0 (PanelSetting_t00D1D3E6040F1948CDAB884D44141DE606B13929* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:63>
 		__this->___islock = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:64>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:64>
 		return;
 	}
 }
@@ -8573,14 +8573,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_U3COnEnableU3Eb__6_0_m26829
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_U3COnClickU3Eb__10_0_m9A3757D697BA29DC5E207D91DA4F2BF6826A4382 (PanelSetting_t00D1D3E6040F1948CDAB884D44141DE606B13929* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:96>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:97>
 		__this->___islock = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelSetting.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelSetting.cs:98>
 		return;
 	}
 }
@@ -8596,7 +8596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelSetting_U3COnClickU3Eb__10_0_m9A375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_Start_mBC5FB8CEAD0EECE7554BDAB9E8991737A787924B (PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:19>
 		return;
 	}
 }
@@ -8604,9 +8604,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_Start_mBC5FB8CEAD0EECE7554BDAB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_OnDisable_m1E7814F54876B7AC5197CA4DA59D860175876C74 (PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:23>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:25>
 		return;
 	}
 }
@@ -8653,9 +8653,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_OnEnable_m50CEBB30F080E44CCB2B
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* V_3 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_4 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:29>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:30>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_0 = __this->___tipTexts;
 		if (L_0)
 		{
@@ -8663,22 +8663,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_OnEnable_m50CEBB30F080E44CCB2B
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:32>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_1 = (List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48*)il2cpp_codegen_object_new(List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48_il2cpp_TypeInfo_var);
 		List_1__ctor_mA63E5569B679BD015D3EEB541EE5D99158BF400E(L_1, List_1__ctor_mA63E5569B679BD015D3EEB541EE5D99158BF400E_RuntimeMethod_var);
 		__this->___tipTexts = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tipTexts), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:33>
 		List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444* L_2 = (List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444*)il2cpp_codegen_object_new(List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444_il2cpp_TypeInfo_var);
 		List_1__ctor_mBCE3BE1FB943396333E483F66490F0690048CA2E(L_2, List_1__ctor_mBCE3BE1FB943396333E483F66490F0690048CA2E_RuntimeMethod_var);
 		__this->___tipButtons = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tipButtons), (void*)L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:34>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:34>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_3, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___locked = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___locked), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:35>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_4);
@@ -8689,7 +8689,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_OnEnable_m50CEBB30F080E44CCB2B
 		L_6 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(L_5, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		__this->___bg = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bg), (void*)L_6);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:36>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->___bg;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -8710,7 +8710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_OnEnable_m50CEBB30F080E44CCB2B
 		L_13 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_12, _stringLiteral2C8AC7F7CB96C5050E734321120D19638E9690BD, NULL);
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_11, L_13);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:37>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___bg;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -8731,7 +8731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_OnEnable_m50CEBB30F080E44CCB2B
 		L_20 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_19, _stringLiteral2C8AC7F7CB96C5050E734321120D19638E9690BD, NULL);
 		NullCheck(L_18);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_18, L_20);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:38>
 		V_0 = 0;
 		goto IL_019a;
 	}
@@ -8745,7 +8745,7 @@ IL_00c8:
 		NullCheck(L_22);
 		L_22->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___U3CU3E4__this), (void*)__this);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:41>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_23 = __this->___bg;
 		NullCheck(L_23);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -8754,7 +8754,7 @@ IL_00c8:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
 		L_25 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_24, NULL);
 		__this->___startPos = L_25;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:42>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26 = __this->___bg;
 		String_t* L_27;
 		L_27 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
@@ -8764,7 +8764,7 @@ IL_00c8:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29;
 		L_29 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_26, L_28, NULL);
 		V_2 = L_29;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:43>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:43>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30 = V_2;
 		NullCheck(L_30);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
@@ -8776,12 +8776,12 @@ IL_00c8:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_33;
 		L_33 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(L_32, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		V_3 = L_33;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:44>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:44>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_34 = __this->___tipTexts;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_35 = V_3;
 		NullCheck(L_34);
 		List_1_Add_m1E764F119DDC62D8B86C24186CBA7A268E9D3092_inline(L_34, L_35, List_1_Add_m1E764F119DDC62D8B86C24186CBA7A268E9D3092_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:46>
 		U3CU3Ec__DisplayClass9_0_tBADB39699FF307C36B71CAEB15679ACF74A52CDB* L_36 = V_1;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = V_2;
 		NullCheck(L_37);
@@ -8796,17 +8796,17 @@ IL_00c8:
 		NullCheck(L_36);
 		L_36->___tButton = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&L_36->___tButton), (void*)L_40);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:47>
 		List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444* L_41 = __this->___tipButtons;
 		U3CU3Ec__DisplayClass9_0_tBADB39699FF307C36B71CAEB15679ACF74A52CDB* L_42 = V_1;
 		NullCheck(L_42);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_43 = L_42->___tButton;
 		NullCheck(L_41);
 		List_1_Add_m4F809219B2B92D16365B4B27F60BA2DD8F5A5650_inline(L_41, L_43, List_1_Add_m4F809219B2B92D16365B4B27F60BA2DD8F5A5650_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:49>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:50>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:51>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:50>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:52>
 		U3CU3Ec__DisplayClass9_0_tBADB39699FF307C36B71CAEB15679ACF74A52CDB* L_44 = V_1;
 		NullCheck(L_44);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_45 = L_44->___tButton;
@@ -8818,7 +8818,7 @@ IL_00c8:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_48, L_47, (intptr_t)((void*)U3CU3Ec__DisplayClass9_0_U3COnEnableU3Eb__0_mC7E0802A9E9C3B01F4F7B25B66AE305AEF8E962D_RuntimeMethod_var), NULL);
 		NullCheck(L_46);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_46, L_48, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:54>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_49 = V_2;
 		NullCheck(L_49);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50;
@@ -8830,19 +8830,19 @@ IL_00c8:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52;
 		L_52 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_51, NULL);
 		V_4 = L_52;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:55>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_53 = __this->___locked;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54 = V_4;
 		NullCheck(L_53);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_53, L_54, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:38>
 		int32_t L_55 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_55, 1));
 	}
 
 IL_019a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:38>
 		int32_t L_56 = V_0;
 		if ((((int32_t)L_56) < ((int32_t)3)))
 		{
@@ -8850,7 +8850,7 @@ IL_019a:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:58>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:58>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_57 = __this->___bg;
 		NullCheck(L_57);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58;
@@ -8863,7 +8863,7 @@ IL_019a:
 		L_60 = Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB(L_59, Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var);
 		__this->___btnClose = L_60;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___btnClose), (void*)L_60);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:59>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_61 = __this->___btnClose;
 		NullCheck(L_61);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_62;
@@ -8876,21 +8876,21 @@ IL_019a:
 
 IL_01dd:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:62>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_64 = __this->___bg;
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_65;
 		L_65 = SmoothTweenExtensions_DOLocalMoveY_m6557408E2D1F9E0B364C1A01D187A6B1840A98F5(L_64, (1.0f), (0.200000003f), NULL);
 		NullCheck(L_65);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_66;
 		L_66 = TweenHandle_SetUpdate_m0A62959C0DFDDF41BCB6EF9158C13DE23C5D2CB1(L_65, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:67>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:67>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_67 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_67);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_68;
 		L_68 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_67, _stringLiteralCC7E50C936CCF0F716B6F561A911CE9E01120B3E, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:69>
 		PanelTips_refreshTips_mD82324D60E91AF6C525BAB45C2D2D95F297AA5B3(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:70>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:70>
 		return;
 	}
 }
@@ -8915,7 +8915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_refreshTips_mD82324D60E91AF6C5
 	int32_t V_1 = 0;
 	String_t* V_2 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:74>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -8928,14 +8928,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_refreshTips_mD82324D60E91AF6C5
 		int32_t L_4;
 		L_4 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:75>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:75>
 		V_1 = 0;
 		goto IL_013e;
 	}
 
 IL_002b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:77>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:77>
 		int32_t L_5 = V_1;
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_5) < ((int32_t)L_6)))
@@ -8944,7 +8944,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:81>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:81>
 		int32_t L_7 = V_1;
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_7) <= ((int32_t)L_8)))
@@ -8953,7 +8953,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:83>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_9 = __this->___locked;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -8961,7 +8961,7 @@ IL_002b:
 		L_11 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_9, L_10, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:84>
 		List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444* L_12 = __this->___tipButtons;
 		int32_t L_13 = V_1;
 		NullCheck(L_12);
@@ -8972,7 +8972,7 @@ IL_002b:
 		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:85>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_16 = __this->___tipTexts;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
@@ -8990,7 +8990,7 @@ IL_002b:
 
 IL_0084:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:89>
 		List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444* L_21 = __this->___tipButtons;
 		int32_t L_22 = V_1;
 		NullCheck(L_21);
@@ -9001,7 +9001,7 @@ IL_0084:
 		L_24 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_23, NULL);
 		NullCheck(L_24);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:90>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_25 = __this->___locked;
 		int32_t L_26 = V_1;
 		NullCheck(L_25);
@@ -9009,7 +9009,7 @@ IL_0084:
 		L_27 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_25, L_26, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		NullCheck(L_27);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_27, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:91>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_28 = __this->___tipTexts;
 		int32_t L_29 = V_1;
 		NullCheck(L_28);
@@ -9027,7 +9027,7 @@ IL_0084:
 
 IL_00cf:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:96>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_33 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_33);
@@ -9039,7 +9039,7 @@ IL_00cf:
 		String_t* L_37;
 		L_37 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_35, _stringLiteralCC117B19A2BD6AA385C42C312A84989EAF23FBFF, L_36, NULL);
 		V_2 = L_37;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:97>
 		List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* L_38 = __this->___tipTexts;
 		int32_t L_39 = V_1;
 		NullCheck(L_38);
@@ -9053,7 +9053,7 @@ IL_00cf:
 		L_43 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_41, L_42, NULL);
 		NullCheck(L_40);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_40, L_43);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:98>
 		List_1_tCB5B3B0C70F6DFB6B059BB2C65DC77B101849444* L_44 = __this->___tipButtons;
 		int32_t L_45 = V_1;
 		NullCheck(L_44);
@@ -9064,7 +9064,7 @@ IL_00cf:
 		L_47 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_46, NULL);
 		NullCheck(L_47);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_47, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:100>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:100>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_48 = __this->___locked;
 		int32_t L_49 = V_1;
 		NullCheck(L_48);
@@ -9076,14 +9076,14 @@ IL_00cf:
 
 IL_013a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:75>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:75>
 		int32_t L_51 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_51, 1));
 	}
 
 IL_013e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:75>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:75>
 		int32_t L_52 = V_1;
 		if ((((int32_t)L_52) < ((int32_t)3)))
 		{
@@ -9091,7 +9091,7 @@ IL_013e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:104>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:104>
 		return;
 	}
 }
@@ -9108,14 +9108,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_clickClose_m1130B17E93E9A09B4C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:108>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:108>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1;
 		L_1 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_0, _stringLiteral3241C5E5BB51817086F89EE34D0BA113922FCD11, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:109>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:110>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:111>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:109>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:110>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:111>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = __this->___bg;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___startPos);
 		float L_4 = L_3->___y;
@@ -9129,7 +9129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_clickClose_m1130B17E93E9A09B4C
 		NullCheck(L_6);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_8;
 		L_8 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_6, L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:112>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:112>
 		return;
 	}
 }
@@ -9143,11 +9143,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_clickTipDetail_mFF85168C6AD378
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:116>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:116>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
 		GameManager_showGoogleRewardedAd_mCC3ABED94E05FF186937A263F0534AAE78B90E01(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:117>
 		return;
 	}
 }
@@ -9161,7 +9161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_noReward_mD19283AF50866BF9A07D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:121>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___panelNoTip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9172,7 +9172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_noReward_mD19283AF50866BF9A07D
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:123>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___panelNoTip;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
@@ -9180,7 +9180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_noReward_mD19283AF50866BF9A07D
 
 IL_001a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:125>
 		return;
 	}
 }
@@ -9194,7 +9194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_rewardError_mBC3593DEC4ED29244
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:129>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:129>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___panelNoTip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -9205,7 +9205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_rewardError_mBC3593DEC4ED29244
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:131>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:131>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___panelNoTip;
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
@@ -9213,7 +9213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_rewardError_mBC3593DEC4ED29244
 
 IL_001a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:133>
 		return;
 	}
 }
@@ -9221,7 +9221,7 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_Update_m495A3E6F2766DE7CFBC5AC14D0F8DB87932E2C02 (PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:139>
 		return;
 	}
 }
@@ -9237,12 +9237,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips__ctor_m53C0F9BBFFA5F87CB6C08FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PanelTips_U3CclickCloseU3Eb__11_0_m43C939BB78CE1616788A4AB1B652701767CD8E52 (PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:110>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:110>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:111>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:111>
 		return;
 	}
 }
@@ -9266,7 +9266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0__ctor_m9B589A14
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3COnEnableU3Eb__0_mC7E0802A9E9C3B01F4F7B25B66AE305AEF8E962D (U3CU3Ec__DisplayClass9_0_tBADB39699FF307C36B71CAEB15679ACF74A52CDB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:51>
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_0 = __this->___U3CU3E4__this;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___tButton;
 		NullCheck(L_1);
@@ -9274,7 +9274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass9_0_U3COnEnableU3Eb
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_0);
 		PanelTips_clickTipDetail_mFF85168C6AD378DFD6755F9DB069509E5C84BF96(L_0, L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/PanelTips.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/PanelTips.cs:52>
 		return;
 	}
 }
@@ -9296,10 +9296,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_Start_m8DA45EECC08A8F3BD4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:20>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0;
 		L_0 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral818ED2AA4C1AB2C5D8520BCD8FE858175BF58D48, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:21>
 		return;
 	}
 }
@@ -9326,7 +9326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SceneContainer_waitframe_mBB6A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_checkArrow_mC28FDC67EFE64F07E9A6D045FA8310729B4F9EF8 (SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:46>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->___mapMarks;
 		NullCheck(L_0);
 		if ((((RuntimeArray*)L_0)->max_length))
@@ -9335,14 +9335,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_checkArrow_mC28FDC67EFE64
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:48>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:48>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_1 = __this->___btnLeft;
 		NullCheck(L_1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_1, NULL);
 		NullCheck(L_2);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:49>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___btnRight;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
@@ -9354,7 +9354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_checkArrow_mC28FDC67EFE64
 
 IL_002c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:53>
 		int32_t L_5 = __this->___cPage;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = __this->___mapMarks;
 		NullCheck(L_6);
@@ -9364,7 +9364,7 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:55>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___btnRight;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
@@ -9376,7 +9376,7 @@ IL_002c:
 
 IL_0051:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:60>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:60>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___btnRight;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -9387,7 +9387,7 @@ IL_0051:
 
 IL_0062:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:63>
 		int32_t L_11 = __this->___cPage;
 		if ((((int32_t)L_11) <= ((int32_t)0)))
 		{
@@ -9395,7 +9395,7 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:65>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___btnLeft;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -9407,14 +9407,14 @@ IL_0062:
 
 IL_007d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:69>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___btnLeft;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:73>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:73>
 		return;
 	}
 }
@@ -9432,7 +9432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickLeft_m2321A643C8C9F7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:79>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:79>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -9445,18 +9445,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickLeft_m2321A643C8C9F7
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:81>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:81>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
 		L_3 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_2, _stringLiteralBCF11231D486ACBEE84589EDF91213CD577E58D4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:82>
 		int32_t L_4 = __this->___cPage;
 		__this->___cPage = ((int32_t)il2cpp_codegen_subtract(L_4, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:83>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:84>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:85>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:86>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___mainCam;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -9480,7 +9480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickLeft_m2321A643C8C9F7
 		NullCheck(L_14);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_16;
 		L_16 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_14, L_15, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:87>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_17;
 		L_17 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -9490,9 +9490,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickLeft_m2321A643C8C9F7
 
 IL_0078:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:89>
 		SceneContainer_checkArrow_mC28FDC67EFE64F07E9A6D045FA8310729B4F9EF8(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:91>
 		return;
 	}
 }
@@ -9510,7 +9510,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickRight_mDFB0669442084
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:96>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -9523,18 +9523,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickRight_mDFB0669442084
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:98>
 		int32_t L_2 = __this->___cPage;
 		__this->___cPage = ((int32_t)il2cpp_codegen_add(L_2, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:99>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:99>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_3 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_3);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
 		L_4 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_3, _stringLiteralBCF11231D486ACBEE84589EDF91213CD577E58D4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:100>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:101>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:102>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:103>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:100>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:102>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:103>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___mainCam;
 		NullCheck(L_5);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
@@ -9558,7 +9558,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickRight_mDFB0669442084
 		NullCheck(L_14);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_16;
 		L_16 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_14, L_15, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:104>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:104>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_17;
 		L_17 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -9568,9 +9568,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_clickRight_mDFB0669442084
 
 IL_0078:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:106>
 		SceneContainer_checkArrow_mC28FDC67EFE64F07E9A6D045FA8310729B4F9EF8(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:107>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:107>
 		return;
 	}
 }
@@ -9578,7 +9578,7 @@ IL_0078:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_Update_mBEDC895CA09D3DD5D1C35D478208A23A866EDF3B (SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:117>
 		return;
 	}
 }
@@ -9602,13 +9602,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_manualScene_m5240A2E88791
 		bool L_2 = ___1_keepLock;
 		NullCheck(L_1);
 		L_1->___keepLock = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:121>
 		int32_t L_3 = ___0_index;
 		__this->___cPage = L_3;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:122>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:123>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:124>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:124>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:125>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___mainCam;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -9633,9 +9633,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_manualScene_m5240A2E88791
 		NullCheck(L_13);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_16;
 		L_16 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_13, L_15, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:126>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:126>
 		SceneContainer_checkArrow_mC28FDC67EFE64F07E9A6D045FA8310729B4F9EF8(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:127>
 		return;
 	}
 }
@@ -9659,13 +9659,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_U3CclickLeftU3Eb__9_0_m93
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:84>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:85>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		int32_t L_2 = __this->___cPage;
@@ -9673,7 +9673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_U3CclickLeftU3Eb__9_0_m93
 		RuntimeObject* L_4 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_3);
 		NullCheck(L_1);
 		GameObject_SendMessage_m452B3418BE240EC79550C15E1F2EAE61488F06DF(L_1, _stringLiteralE39C2BD1EE7FB25A18791A45E5E5E4D7091C631F, L_4, 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:86>
 		return;
 	}
 }
@@ -9689,13 +9689,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_U3CclickRightU3Eb__10_0_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:101>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:102>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:102>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		int32_t L_2 = __this->___cPage;
@@ -9703,7 +9703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneContainer_U3CclickRightU3Eb__10_0_m
 		RuntimeObject* L_4 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_3);
 		NullCheck(L_1);
 		GameObject_SendMessage_m452B3418BE240EC79550C15E1F2EAE61488F06DF(L_1, _stringLiteralE39C2BD1EE7FB25A18791A45E5E5E4D7091C631F, L_4, 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:103>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:103>
 		return;
 	}
 }
@@ -9750,13 +9750,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CwaitframeU3Eb__7_0_mEBD5599FC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:40>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:40>
 		return;
 	}
 }
@@ -9786,7 +9786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CmanualScene
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:123>
 		bool L_0 = __this->___keepLock;
 		if (L_0)
 		{
@@ -9794,7 +9794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CmanualScene
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:123>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1;
 		L_1 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -9804,7 +9804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass12_0_U3CmanualScene
 
 IL_0013:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:125>
 		return;
 	}
 }
@@ -9884,7 +9884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CwaitframeU3Ed__7_MoveNext_mB987E33930
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:26>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_4 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_4, NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -9896,7 +9896,7 @@ IL_0017:
 IL_0032:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:27>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_5 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7039E61E5DAA3492B88802370D9E6F9E28387A31, NULL);
@@ -9906,7 +9906,7 @@ IL_0032:
 		NullCheck(L_5);
 		L_5->___btnLeft = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___btnLeft), (void*)L_7);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:28>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_8 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralE57D784DADB4A19C6B9CE6A7C2BA0FE9EBEC7229, NULL);
@@ -9916,7 +9916,7 @@ IL_0032:
 		NullCheck(L_8);
 		L_8->___btnRight = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___btnRight), (void*)L_10);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:29>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_11 = V_1;
 		NullCheck(L_11);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = L_11->___btnLeft;
@@ -9928,7 +9928,7 @@ IL_0032:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_15, L_14, (intptr_t)((void*)SceneContainer_clickLeft_m2321A643C8C9F7C177B96FDA27229F447B550DD0_RuntimeMethod_var), NULL);
 		NullCheck(L_13);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_13, L_15, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:30>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_16 = V_1;
 		NullCheck(L_16);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_17 = L_16->___btnRight;
@@ -9940,31 +9940,31 @@ IL_0032:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_20, L_19, (intptr_t)((void*)SceneContainer_clickRight_mDFB0669442084AB18142C744FA65251F5CCC2A86_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_18, L_20, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:32>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_21 = V_1;
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_22 = V_1;
 		NullCheck(L_22);
 		int32_t L_23 = L_22->___startMarkNo;
 		NullCheck(L_21);
 		L_21->___cPage = L_23;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:33>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_24 = V_1;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
 		L_25 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralDA7E8B88100AA34B19982A11B0554BAF879AFF81, NULL);
 		NullCheck(L_24);
 		L_24->___mainCam = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&L_24->___mainCam), (void*)L_25);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:36>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_26 = V_1;
 		NullCheck(L_26);
 		SceneContainer_checkArrow_mC28FDC67EFE64F07E9A6D045FA8310729B4F9EF8(L_26, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_27;
 		L_27 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_27);
 		GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline(L_27, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:40>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_28 = V_1;
 		NullCheck(L_28);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = L_28->___mainCam;
@@ -10018,7 +10018,7 @@ IL_0118:
 		NullCheck(G_B6_1);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_46;
 		L_46 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(G_B6_1, G_B6_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/SceneContainer.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/SceneContainer.cs:42>
 		return (bool)0;
 	}
 }
@@ -10072,7 +10072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_Start_m11FA0FC520430E9F20
 	MemberInfo_t* V_2 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:13>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_1;
@@ -10087,14 +10087,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_Start_m11FA0FC520430E9F20
 
 IL_0014:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:13>
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_3 = V_0;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		MemberInfo_t* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_2 = L_6;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:15>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:15>
 		MemberInfo_t* L_7 = V_2;
 		NullCheck(L_7);
 		String_t* L_8;
@@ -10102,7 +10102,7 @@ IL_0014:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_8, NULL);
 		V_3 = L_9;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:16>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -10113,7 +10113,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:18>
 		Type_t* L_12;
 		L_12 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
 		MemberInfo_t* L_13 = V_2;
@@ -10136,7 +10136,7 @@ IL_0045:
 
 IL_0049:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:13>
 		int32_t L_18 = V_1;
 		MemberInfoU5BU5D_t4CB6970BB166E8E1CFB06152B2A2284971873053* L_19 = V_0;
 		NullCheck(L_19);
@@ -10146,18 +10146,18 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:22>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = __this->___girlsitside;
 		NullCheck(L_20);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:23>
 		float L_21;
 		L_21 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((4.0f), (7.0f), NULL);
 		__this->___trnd = il2cpp_codegen_cast_double_to_int<int32_t>(L_21);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:24>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_22;
 		L_22 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral09AD934B2BC4DEAA090040D90227075D6D7BE2BA, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:25>
 		return;
 	}
 }
@@ -10210,7 +10210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_walktoend_m42845D89F4EACA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:82>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlwalk;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -10236,17 +10236,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_walktoend_m42845D89F4EACA
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_10), L_5, L_9, (0.0f), NULL);
 		NullCheck(L_1);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:83>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:84>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:85>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:86>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:87>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:88>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:89>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:90>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:91>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:92>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:93>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:92>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:93>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___girlwalk;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -10269,7 +10269,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_walktoend_m42845D89F4EACA
 		NullCheck(L_18);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_20;
 		L_20 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_18, L_19, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:94>
 		return;
 	}
 }
@@ -10277,7 +10277,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_walktoend_m42845D89F4EACA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_Update_m4813A3462F976703A0C943BEDEDD5D08971F08CD (StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:99>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:99>
 		return;
 	}
 }
@@ -10299,15 +10299,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CstartPlayU3Eb__10_0_m2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:41>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlwalk;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:42>
 		int32_t L_1;
 		L_1 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
 		__this->___trnd = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:43>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:43>
 		int32_t L_2 = __this->___trnd;
 		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
 		{
@@ -10315,11 +10315,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CstartPlayU3Eb__10_0_m2
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:45>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___girlstandease;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:46>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___girlstandease;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -10345,11 +10345,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CstartPlayU3Eb__10_0_m2
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_14), L_9, L_13, (0.0f), NULL);
 		NullCheck(L_5);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_5, L_14, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:47>
 		float L_15;
 		L_15 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((4.0f), (7.0f), NULL);
 		__this->___trnd = il2cpp_codegen_cast_double_to_int<int32_t>(L_15);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:48>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:48>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_16;
 		L_16 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral0D861E4B764CA2BB49429E2403C5554AAC715EDE, NULL);
 		return;
@@ -10357,11 +10357,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CstartPlayU3Eb__10_0_m2
 
 IL_0095:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:52>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___girlhello;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:53>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___girlhello;
 		NullCheck(L_18);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_19;
@@ -10387,14 +10387,14 @@ IL_0095:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_28), L_23, L_27, (0.0f), NULL);
 		NullCheck(L_19);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_19, L_28, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:54>
 		float L_29;
 		L_29 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((4.0f), (7.0f), NULL);
 		__this->___trnd = il2cpp_codegen_cast_double_to_int<int32_t>(L_29);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:55>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_30;
 		L_30 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral0D861E4B764CA2BB49429E2403C5554AAC715EDE, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:57>
 		return;
 	}
 }
@@ -10402,9 +10402,9 @@ IL_0095:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CstartPlayU3Eb__10_1_mFB743DA42C56E5FA36668BD9E717636BEE7859A3 (StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:62>
 		StartMenuScene_walktoend_m42845D89F4EACA477C7AB613C54427968EFEBD7C(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:63>
 		return;
 	}
 }
@@ -10412,9 +10412,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CstartPlayU3Eb__10_1_mF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CleaveStandU3Eb__11_0_m9B23AFDC2CCC590F56B65C01F825EAEB767E7CD0 (StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:75>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:75>
 		StartMenuScene_walktoend_m42845D89F4EACA477C7AB613C54427968EFEBD7C(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:76>
 		return;
 	}
 }
@@ -10429,28 +10429,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CwalktoendU3Eb__12_0_mA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:84>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlwalk;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:85>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___girlsitside;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:86>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:87>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:88>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:89>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:90>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:91>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:92>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:92>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_2, __this, (intptr_t)((void*)StartMenuScene_U3CwalktoendU3Eb__12_1_m23464D4DCFBB89EAF196A03E40FC6E35AC9DA25B_RuntimeMethod_var), NULL);
 		RuntimeObject* L_3;
 		L_3 = Util_DelayToInvokeDo_m79C2D7816F5E2F430CF9C3CE4285754910B9AF9E(L_2, (1.0f), NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:93>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:93>
 		return;
 	}
 }
@@ -10464,22 +10464,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartMenuScene_U3CwalktoendU3Eb__12_1_m2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:88>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___girlsitside;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:89>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___girlsitfront;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:90>
 		float L_2;
 		L_2 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((4.0f), (7.0f), NULL);
 		__this->___trnd = il2cpp_codegen_cast_double_to_int<int32_t>(L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:91>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
 		L_3 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral09AD934B2BC4DEAA090040D90227075D6D7BE2BA, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:92>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:92>
 		return;
 	}
 }
@@ -10546,7 +10546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CleaveStandU3Ed__11_MoveNext_m96A88DCE
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:69>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_4 = V_1;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___trnd;
@@ -10561,28 +10561,28 @@ IL_0017:
 IL_0039:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:70>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:70>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_7 = V_1;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___girlhello;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:71>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:71>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___girlstandease;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:72>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:72>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_11 = V_1;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = L_11->___girlwalk;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:73>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:74>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:75>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:73>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:75>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:76>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_13 = V_1;
 		NullCheck(L_13);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = L_13->___girlwalk;
@@ -10610,7 +10610,7 @@ IL_0039:
 		NullCheck(L_22);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_25;
 		L_25 = TweenHandle_OnComplete_mA82FDDD2133C19C86AB322B62BFAACC82071FE33(L_22, L_24, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:78>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:78>
 		return (bool)0;
 	}
 }
@@ -10703,7 +10703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CstartPlayU3Ed__10_MoveNext_mC974D31C0
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:31>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:31>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_4 = V_1;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___trnd;
@@ -10718,19 +10718,19 @@ IL_0017:
 IL_0039:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:32>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_7 = V_1;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___girlsitside;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:33>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___girlsitfront;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:34>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:34>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_11 = V_1;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = L_11->___girlwalk;
@@ -10762,19 +10762,19 @@ IL_0039:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_24), L_18, L_23, (0.0f), NULL);
 		NullCheck(L_13);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_13, L_24, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:35>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_25 = V_1;
 		NullCheck(L_25);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = L_25->___girlwalk;
 		NullCheck(L_26);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:37>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_27 = V_1;
 		int32_t L_28;
 		L_28 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, 2, NULL);
 		NullCheck(L_27);
 		L_27->___trnd = L_28;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:38>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_29 = V_1;
 		NullCheck(L_29);
 		int32_t L_30 = L_29->___trnd;
@@ -10784,24 +10784,24 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:40>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:41>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:42>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:43>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:44>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:45>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:46>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:47>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:48>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:49>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:50>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:51>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:52>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:53>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:54>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:55>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:56>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:43>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:44>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:48>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:50>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:56>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:57>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_31 = V_1;
 		NullCheck(L_31);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = L_31->___girlwalk;
@@ -10834,9 +10834,9 @@ IL_0039:
 
 IL_0102:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:61>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:62>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:63>
 		StartMenuScene_t7293DB14F4375933068DA7367B80F01293B65DB7* L_44 = V_1;
 		NullCheck(L_44);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = L_44->___girlwalk;
@@ -10868,7 +10868,7 @@ IL_0102:
 
 IL_0144:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/StartMenuScene.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/StartMenuScene.cs:65>
 		return (bool)0;
 	}
 }
@@ -10909,7 +10909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CstartPlayU3Ed__10_System_Co
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger2D_Start_m5A3C3DE8BA4950FC4FA0E7D0C0CE2A6FB35F5338 (Trigger2D_t53A88ECA29FB944C1F12993AF1E19CFDED592FD3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:10>
 		return;
 	}
 }
@@ -10917,7 +10917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger2D_Start_m5A3C3DE8BA4950FC4FA0E7D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger2D_Update_mE4B6584710ABD827425CE2F232A75E5457433B82 (Trigger2D_t53A88ECA29FB944C1F12993AF1E19CFDED592FD3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:16>
 		return;
 	}
 }
@@ -10944,7 +10944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger2D_OnTriggerEnter2D_mAFE6C7662FF9
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:20>
 		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_0 = ___0_collision;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -11009,7 +11009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Trigger2D_OnTriggerEnter2D_mAFE6C7662FF9
 
 IL_0065:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_14);
@@ -11023,7 +11023,7 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:24>
 		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_17 = ___0_collision;
 		NullCheck(L_17);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
@@ -11033,7 +11033,7 @@ IL_0065:
 		L_19 = GameObject_GetComponent_TisDragMove_tF28B6BB8FDD4B756C8CD0A59B9EC67B7CE7BD39F_mBCB8D7D2FFA300FD0DA922B7698DC68986280B07(L_18, GameObject_GetComponent_TisDragMove_tF28B6BB8FDD4B756C8CD0A59B9EC67B7CE7BD39F_mBCB8D7D2FFA300FD0DA922B7698DC68986280B07_RuntimeMethod_var);
 		NullCheck(L_19);
 		L_19->___canDrag = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:25>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
 		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_20);
@@ -11045,12 +11045,12 @@ IL_0065:
 
 IL_00a2:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:27>
 		BoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA* L_22;
 		L_22 = Component_GetComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m8E881B105EA2AA2D9E3CFB68EE0924719FA96813(__this, Component_GetComponent_TisBoxCollider2D_tF860C7737FFB062CEC06577E0CD8364EEC1D4EDA_m8E881B105EA2AA2D9E3CFB68EE0924719FA96813_RuntimeMethod_var);
 		NullCheck(L_22);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_22, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:28>
 		Collider2D_t6A17BA7734600EF3F26588E9ED903617D5B8EB52* L_23 = ___0_collision;
 		NullCheck(L_23);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
@@ -11065,18 +11065,18 @@ IL_00a2:
 		L_27 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_26, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_28;
 		L_28 = SmoothTweenExtensions_DOMove_mF30E3A25715C97D07861867636B0F9958214C3CA(L_25, L_27, (0.300000012f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:29>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_29 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_29);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_30;
 		L_30 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_29, _stringLiteralBCFB66F26F64F2D57BF8A222488404C9F7DCC31F, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:30>
 		return;
 	}
 
 IL_00e0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31;
 		L_31 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_31);
@@ -11089,13 +11089,13 @@ IL_00e0:
 		L_34 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_33, NULL);
 		NullCheck(L_32);
 		Component_SendMessage_mA1D80D8BB7836EADB7799CAE71F10710298F4CDB(L_32, _stringLiteral0E370F8C89167E3846F1A1F7BDC60EF2E792F161, L_34, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:33>
 		return;
 	}
 
 IL_0101:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:35>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
 		L_35 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_35);
@@ -11108,13 +11108,13 @@ IL_0101:
 		L_38 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_37, NULL);
 		NullCheck(L_36);
 		Component_SendMessage_mA1D80D8BB7836EADB7799CAE71F10710298F4CDB(L_36, _stringLiteral0E370F8C89167E3846F1A1F7BDC60EF2E792F161, L_38, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:36>
 		return;
 	}
 
 IL_0122:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:38>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39;
 		L_39 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_39);
@@ -11127,13 +11127,13 @@ IL_0122:
 		L_42 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_41, NULL);
 		NullCheck(L_40);
 		Component_SendMessage_mA1D80D8BB7836EADB7799CAE71F10710298F4CDB(L_40, _stringLiteral0E370F8C89167E3846F1A1F7BDC60EF2E792F161, L_42, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:39>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:39>
 		return;
 	}
 
 IL_0143:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:41>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
 		L_43 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_43);
@@ -11148,13 +11148,13 @@ IL_0143:
 		L_47 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_46, NULL);
 		NullCheck(L_44);
 		Component_SendMessage_mA1D80D8BB7836EADB7799CAE71F10710298F4CDB(L_44, _stringLiteral0E370F8C89167E3846F1A1F7BDC60EF2E792F161, L_47, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:42>
 		return;
 	}
 
 IL_0164:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:44>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:44>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_48;
 		L_48 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_48);
@@ -11169,7 +11169,7 @@ IL_0164:
 		L_52 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_51, NULL);
 		NullCheck(L_49);
 		Component_SendMessage_mA1D80D8BB7836EADB7799CAE71F10710298F4CDB(L_49, _stringLiteral0E370F8C89167E3846F1A1F7BDC60EF2E792F161, L_52, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/Trigger2D.cs:48>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/Trigger2D.cs:48>
 		return;
 	}
 }
@@ -11216,7 +11216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_Start_m606DDFECDA4B7B2942C4C17
 	int32_t V_3 = 0;
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* V_4 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:20>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralAD44651979F834F984AF62CC7C720B876D6B7E95, NULL);
 		NullCheck(L_0);
@@ -11224,19 +11224,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_Start_m606DDFECDA4B7B2942C4C17
 		L_1 = GameObject_GetComponent_TisSceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B_m6C4AB60EAC0E3BB7F388ADFFCBDAFB8FC4C67801(L_0, GameObject_GetComponent_TisSceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B_m6C4AB60EAC0E3BB7F388ADFFCBDAFB8FC4C67801_RuntimeMethod_var);
 		__this->___sceneContainer = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sceneContainer), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:21>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_2 = (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*)il2cpp_codegen_object_new(List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
 		List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268(L_2, List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
 		__this->___slots = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___slots), (void*)L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:22>
 		V_0 = 0;
 		goto IL_0041;
 	}
 
 IL_0024:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:24>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		int32_t L_4 = V_0;
@@ -11244,19 +11244,19 @@ IL_0024:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
 		L_5 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_3, L_4, NULL);
 		V_1 = L_5;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:25>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_6 = __this->___slots;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_1;
 		NullCheck(L_6);
 		List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_inline(L_6, L_7, List_1_Add_m36829EC89855C8C23CEDA8C5F5B12B76ADFE2248_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:22>
 		int32_t L_8 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_0041:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:22>
 		int32_t L_9 = V_0;
 		if ((((int32_t)L_9) < ((int32_t)6)))
 		{
@@ -11264,17 +11264,17 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral2B64A576AAEE2A3C35C4AEF8B817A503B76DFE4F, NULL);
 		__this->___specialCam = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___specialCam), (void*)L_10);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralCA999ABBD77A38B61237466AFE96D01EC8B26C61, NULL);
 		__this->___specialSp = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___specialSp), (void*)L_11);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:30>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
 		L_12 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_12);
@@ -11286,7 +11286,7 @@ IL_0041:
 		NullCheck(L_14);
 		float L_15;
 		L_15 = Canvas_get_scaleFactor_m6B8D694A68376EE5E13D9B0B0F037E2E90C99921(L_14, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:32>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
 		L_16 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_16);
@@ -11302,7 +11302,7 @@ IL_0041:
 		float L_20;
 		L_20 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_2), NULL);
 		__this->___UIScreenHeight = L_20;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:33>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21;
 		L_21 = Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4(__this, Component_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m0640480E7E38BB88B0D1F6AD59E697C8EE6AAFA4_RuntimeMethod_var);
 		NullCheck(L_21);
@@ -11312,21 +11312,21 @@ IL_0041:
 		float L_23;
 		L_23 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_2), NULL);
 		__this->___barHeight = L_23;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:37>
 		V_3 = 0;
 		goto IL_0124;
 	}
 
 IL_00bb:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:39>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:39>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
 		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		int32_t L_25 = V_3;
 		NullCheck(L_24);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
 		L_26 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_24, L_25, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:40>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_27 = __this->___slots;
 		int32_t L_28 = V_3;
 		NullCheck(L_27);
@@ -11337,7 +11337,7 @@ IL_00bb:
 		L_30 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_29, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		NullCheck(L_30);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_30, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:42>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_31 = __this->___slots;
 		int32_t L_32 = V_3;
 		NullCheck(L_31);
@@ -11346,33 +11346,33 @@ IL_00bb:
 		NullCheck(L_33);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_34;
 		L_34 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_33, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:45>
 		NullCheck(L_34);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
 		L_35 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_34, NULL);
 		V_4 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_35, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:46>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_36 = V_4;
 		NullCheck(L_36);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37;
 		L_37 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_36, NULL);
 		float L_38 = L_37.___x;
 		__this->___oriWidth = L_38;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:47>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_39 = V_4;
 		NullCheck(L_39);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40;
 		L_40 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_39, NULL);
 		float L_41 = L_40.___y;
 		__this->___oriHeight = L_41;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:37>
 		int32_t L_42 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_0124:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:37>
 		int32_t L_43 = V_3;
 		if ((((int32_t)L_43) < ((int32_t)6)))
 		{
@@ -11380,7 +11380,7 @@ IL_0124:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:49>
 		return;
 	}
 }
@@ -11388,7 +11388,7 @@ IL_0124:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_Update_m84DB2595770C7072758638AD25A189E1E470697A (UIItemBar_tD529ACBABAA42730E2CF22A7FF5B74005C009C85* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:55>
 		return;
 	}
 }
@@ -11409,7 +11409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_OnMouseDown_mEB87E82B39F7499D0
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:61>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
@@ -11421,33 +11421,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_OnMouseDown_mEB87E82B39F7499D0
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:61>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:62>
 		__this->___startDrag = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:63>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___0_g;
 		NullCheck(L_2);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3;
 		L_3 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_2, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 		NullCheck(L_3);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_3, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___specialSp;
 		NullCheck(L_4);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_5;
 		L_5 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_4, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
 		NullCheck(L_5);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:68>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:68>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
 		V_0 = L_6;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:69>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___specialCam;
 		NullCheck(L_7);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_8;
@@ -11457,7 +11457,7 @@ IL_000d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
 		L_10 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_8, L_9, NULL);
 		V_0 = L_10;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:70>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:70>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___specialSp;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -11465,7 +11465,7 @@ IL_000d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
 		NullCheck(L_12);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_12, L_13, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:73>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:73>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = ___0_g;
 		NullCheck(L_14);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_15;
@@ -11474,7 +11474,7 @@ IL_000d:
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_16;
 		L_16 = Image_get_sprite_mB2AA377708722E100574F6F75BC102513BB3BCB1_inline(L_15, NULL);
 		V_1 = L_16;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___specialSp;
 		NullCheck(L_17);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_18;
@@ -11482,7 +11482,7 @@ IL_000d:
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_19 = V_1;
 		NullCheck(L_18);
 		SpriteRenderer_set_sprite_m7B176E33955108C60CAE21DFC153A0FAC674CB53(L_18, L_19, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:77>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:77>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = ___0_g;
 		NullCheck(L_20);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
@@ -11491,7 +11491,7 @@ IL_000d:
 		int32_t L_22;
 		L_22 = Transform_GetSiblingIndex_m45EE497589C36D1FBED87FB802BD80A95CE68575(L_21, NULL);
 		V_2 = L_22;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:78>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:78>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___specialSp;
 		NullCheck(L_23);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
@@ -11507,7 +11507,7 @@ IL_000d:
 		L_30 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_25, L_29, NULL);
 		NullCheck(L_24);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_24, L_30, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:80>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:80>
 		return;
 	}
 }
@@ -11541,7 +11541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_OnMouseUp_m6C0443161D85222865A
 	SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* V_6 = NULL;
 	String_t* V_7 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:83>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
@@ -11553,29 +11553,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_OnMouseUp_m6C0443161D85222865A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:83>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:84>
 		__this->___startDrag = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:85>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = ___0_g;
 		NullCheck(L_2);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3;
 		L_3 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_2, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 		NullCheck(L_3);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_3, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:87>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___specialSp;
 		NullCheck(L_4);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_5;
 		L_5 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_4, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
 		NullCheck(L_5);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:94>
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_6;
 		L_6 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
@@ -11591,16 +11591,16 @@ IL_000d:
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_11;
 		L_11 = Physics2D_RaycastAll_mA3C18E34CE2F30B92DC336174962C021D437F6C1(L_9, L_10, NULL);
 		V_0 = L_11;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:96>
 		V_1 = 0;
 		goto IL_0214;
 	}
 
 IL_0057:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:98>
 		V_2 = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:99>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:99>
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_12 = V_0;
 		int32_t L_13 = V_1;
 		NullCheck(L_12);
@@ -11615,7 +11615,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:101>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = ___0_g;
 		NullCheck(L_16);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
@@ -11624,7 +11624,7 @@ IL_0057:
 		int32_t L_18;
 		L_18 = Transform_GetSiblingIndex_m45EE497589C36D1FBED87FB802BD80A95CE68575(L_17, NULL);
 		V_3 = L_18;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:103>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_19 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_19);
@@ -11636,18 +11636,18 @@ IL_0057:
 		NullCheck(L_22);
 		ItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043* L_23;
 		L_23 = GameObject_GetComponent_TisItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043_m2935BE7365D3C9718AF3B2442772317D02067B2E(L_22, GameObject_GetComponent_TisItemInteractable_t0DFBA01151E22FCE590EB85EA6323D2C05931043_m2935BE7365D3C9718AF3B2442772317D02067B2E_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:104>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:104>
 		NullCheck(L_23);
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_24 = L_23->___interactiveTargets;
 		V_4 = L_24;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:106>
 		V_5 = 0;
 		goto IL_01ff;
 	}
 
 IL_00a0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:108>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:108>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_25 = V_4;
 		int32_t L_26 = V_5;
 		NullCheck(L_25);
@@ -11672,7 +11672,7 @@ IL_00a0:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:111>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:111>
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_34 = V_0;
 		int32_t L_35 = V_1;
 		NullCheck(L_34);
@@ -11682,7 +11682,7 @@ IL_00a0:
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_37;
 		L_37 = Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45(L_36, Component_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m6181F10C09FC1650DAE0EF2308D344A2F170AA45_RuntimeMethod_var);
 		V_6 = L_37;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:112>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:112>
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_38 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_39;
@@ -11705,9 +11705,9 @@ IL_00a0:
 
 IL_00f2:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:117>
 		V_2 = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:120>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:120>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_42 = V_4;
 		int32_t L_43 = V_5;
 		NullCheck(L_42);
@@ -11721,7 +11721,7 @@ IL_00f2:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:122>
 		SceneContainer_tC85C4BB625ED9ACF65FD42A65B1A52EFFBD9AA4B* L_46 = __this->___sceneContainer;
 		NullCheck(L_46);
 		int32_t L_47 = L_46->___cPage;
@@ -11738,15 +11738,15 @@ IL_00f2:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:124>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:124>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteral78801FFB2E4EF9308690D453D341CB3BEF5A922A, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:126>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:126>
 		goto IL_020d;
 	}
 
 IL_012e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:130>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_52 = V_4;
 		int32_t L_53 = V_5;
 		NullCheck(L_52);
@@ -11763,7 +11763,7 @@ IL_012e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:132>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:132>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_57 = V_4;
 		int32_t L_58 = V_5;
 		NullCheck(L_57);
@@ -11775,7 +11775,7 @@ IL_012e:
 		String_t* L_61;
 		L_61 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_60, NULL);
 		V_7 = L_61;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:133>
 		String_t* L_62 = V_7;
 		if (!L_62)
 		{
@@ -11792,7 +11792,7 @@ IL_012e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:135>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:135>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_65 = V_4;
 		int32_t L_66 = V_5;
 		NullCheck(L_65);
@@ -11821,7 +11821,7 @@ IL_012e:
 
 IL_019f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:139>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_77 = V_4;
 		int32_t L_78 = V_5;
 		NullCheck(L_77);
@@ -11842,7 +11842,7 @@ IL_019f:
 
 IL_01c0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:141>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:141>
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_85 = V_4;
 		int32_t L_86 = V_5;
 		NullCheck(L_85);
@@ -11856,14 +11856,14 @@ IL_01c0:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:143>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:143>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = __this->___specialSp;
 		NullCheck(L_89);
 		SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B* L_90;
 		L_90 = GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9(L_89, GameObject_GetComponent_TisSpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B_m8EE7EDCCEECA15A55F6D81B522B17AFB14AB25F9_RuntimeMethod_var);
 		NullCheck(L_90);
 		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_90, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:144>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:144>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_91 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_91);
@@ -11871,22 +11871,22 @@ IL_01c0:
 		int32_t L_93 = V_3;
 		NullCheck(L_92);
 		List_1_RemoveAt_m3196E18C5CF157CAC58991FACEB9DFD441702260(L_92, L_93, List_1_RemoveAt_m3196E18C5CF157CAC58991FACEB9DFD441702260_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:145>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:145>
 		UIItemBar_refreshUI_m66E00B064C95ECE870409663340223B2CC50FC78(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:150>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:150>
 		goto IL_020d;
 	}
 
 IL_01f9:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:106>
 		int32_t L_94 = V_5;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_94, 1));
 	}
 
 IL_01ff:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:106>
 		int32_t L_95 = V_5;
 		List_1_t4C38FC87DAD04926C2E2CF34D672953CAA735721* L_96 = V_4;
 		NullCheck(L_96);
@@ -11900,7 +11900,7 @@ IL_01ff:
 
 IL_020d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:155>
 		bool L_98 = V_2;
 		if (L_98)
 		{
@@ -11908,14 +11908,14 @@ IL_020d:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:96>
 		int32_t L_99 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_99, 1));
 	}
 
 IL_0214:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:96>
 		int32_t L_100 = V_1;
 		RaycastHit2DU5BU5D_t28739C686586993113318B63C84927FD43063FC7* L_101 = V_0;
 		NullCheck(L_101);
@@ -11927,7 +11927,7 @@ IL_0214:
 
 IL_021d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:160>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:160>
 		return;
 	}
 }
@@ -11944,7 +11944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_OnMouseDrag_m0E00DE3F298F08EC9
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:164>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:164>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_0);
@@ -11956,17 +11956,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_OnMouseDrag_m0E00DE3F298F08EC9
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:164>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:164>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:165>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:165>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
 		V_0 = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:166>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:166>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___specialCam;
 		NullCheck(L_3);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_4;
@@ -11976,7 +11976,7 @@ IL_000d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Camera_ScreenToWorldPoint_m5EA3148F070985EC72127AAC3448D8D6ABE6E7E5(L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:167>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:167>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___specialSp;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -11984,7 +11984,7 @@ IL_000d:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		NullCheck(L_8);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_8, L_9, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:168>
 		return;
 	}
 }
@@ -12017,21 +12017,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar_refreshUI_m66E00B064C95ECE8704
 	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 V_10;
 	memset((&V_10), 0, sizeof(V_10));
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:176>
 		V_0 = 0;
 		goto IL_002c;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:178>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Transform_GetChild_mE686DF0C7AAC1F7AEF356967B1C04D8B8E240EAF(L_0, L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:179>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_3 = __this->___slots;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
@@ -12042,14 +12042,14 @@ IL_0004:
 		L_6 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_5, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		NullCheck(L_6);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_6, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:176>
 		int32_t L_7 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 	}
 
 IL_002c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:176>
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_8) < ((int32_t)6)))
 		{
@@ -12057,14 +12057,14 @@ IL_002c:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:181>
 		V_1 = 0;
 		goto IL_0172;
 	}
 
 IL_0037:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:183>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_9 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_9);
@@ -12074,7 +12074,7 @@ IL_0037:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_10, L_11, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
 		V_2 = L_12;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:184>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_13 = __this->___slots;
 		int32_t L_14 = V_1;
 		NullCheck(L_13);
@@ -12085,7 +12085,7 @@ IL_0037:
 		L_16 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_15, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		NullCheck(L_16);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_16, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:188>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_17 = __this->___slots;
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
@@ -12095,13 +12095,13 @@ IL_0037:
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_20;
 		L_20 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_19, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		V_3 = L_20;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:190>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_21 = V_3;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
 		L_22 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_21, NULL);
 		V_4 = ((RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)IsInstSealed((RuntimeObject*)L_22, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_il2cpp_TypeInfo_var));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:194>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_23 = __this->___slots;
 		int32_t L_24 = V_1;
 		NullCheck(L_23);
@@ -12118,7 +12118,7 @@ IL_0037:
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_29 = L_28->___Icon;
 		NullCheck(L_26);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_26, L_29, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:199>
 		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_30 = __this->___slots;
 		int32_t L_31 = V_1;
 		NullCheck(L_30);
@@ -12129,21 +12129,21 @@ IL_0037:
 		L_33 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_32, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		NullCheck(L_33);
 		VirtualActionInvoker0::Invoke(45, L_33);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:200>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_34 = V_4;
 		NullCheck(L_34);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35;
 		L_35 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_34, NULL);
 		float L_36 = L_35.___x;
 		V_5 = L_36;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:201>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_37 = V_4;
 		NullCheck(L_37);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
 		L_38 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_37, NULL);
 		float L_39 = L_38.___y;
 		V_6 = L_39;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:204>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:204>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_40 = V_3;
 		NullCheck(L_40);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_41;
@@ -12167,18 +12167,18 @@ IL_0037:
 		L_48 = Bounds_get_size_m0699A53A55A78B3201D7270D6F338DFA91B6FAD4_inline((&V_10), NULL);
 		float L_49 = L_48.___x;
 		V_7 = ((float)(L_44/L_49));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:206>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:206>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_50 = V_4;
 		NullCheck(L_50);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51;
 		L_51 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_50, NULL);
 		float L_52 = L_51.___x;
 		V_8 = L_52;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:207>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:207>
 		float L_53 = V_5;
 		float L_54 = V_8;
 		V_9 = ((float)(L_53/L_54));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:210>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:210>
 		float L_55 = V_5;
 		float L_56 = V_6;
 		if ((!(((float)L_55) > ((float)L_56))))
@@ -12187,7 +12187,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:212>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:212>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_57 = V_4;
 		float L_58 = __this->___oriWidth;
 		float L_59 = __this->___oriWidth;
@@ -12202,7 +12202,7 @@ IL_0037:
 
 IL_013e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:216>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:216>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_62 = V_4;
 		float L_63 = __this->___oriHeight;
 		float L_64 = V_7;
@@ -12216,26 +12216,26 @@ IL_013e:
 
 IL_0159:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:220>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:220>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_67 = __this->___scales;
 		int32_t L_68 = V_1;
 		float L_69 = V_9;
 		NullCheck(L_67);
 		(L_67)->SetAt(static_cast<il2cpp_array_size_t>(L_68), (float)L_69);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:221>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:221>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_70 = V_3;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_71;
 		L_71 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		NullCheck(L_70);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_70, L_71);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:181>
 		int32_t L_72 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_72, 1));
 	}
 
 IL_0172:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:181>
 		int32_t L_73 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_74 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
@@ -12250,7 +12250,7 @@ IL_0172:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:227>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:227>
 		bool L_77 = __this->___isFolded;
 		if (L_77)
 		{
@@ -12258,7 +12258,7 @@ IL_0172:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:229>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:229>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_78 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_78);
@@ -12284,7 +12284,7 @@ IL_0172:
 
 IL_01af:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:231>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:231>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_83;
 		L_83 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_83);
@@ -12294,14 +12294,14 @@ IL_01af:
 		float L_86 = __this->___barHeight;
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_87;
 		L_87 = SmoothTweenExtensions_DOLocalMoveY_m6557408E2D1F9E0B364C1A01D187A6B1840A98F5(L_84, ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract((0.0f), ((float)(L_85/(2.0f))))), ((float)(L_86/(2.0f))))), (0.200000003f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:232>
 		__this->___isFolded = (bool)1;
 		return;
 	}
 
 IL_01ec:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:241>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:241>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_88 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_88);
@@ -12325,7 +12325,7 @@ IL_01ec:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:243>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_93;
 		L_93 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_93);
@@ -12335,13 +12335,13 @@ IL_01ec:
 		float L_96 = __this->___barHeight;
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_97;
 		L_97 = SmoothTweenExtensions_DOLocalMoveY_m6557408E2D1F9E0B364C1A01D187A6B1840A98F5(L_94, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract((0.0f), ((float)(L_95/(2.0f))))), ((float)(L_96/(2.0f))))), (0.200000003f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:244>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:244>
 		__this->___isFolded = (bool)0;
 	}
 
 IL_0246:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:248>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:248>
 		return;
 	}
 }
@@ -12355,11 +12355,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar__ctor_m78C18A25381D5086DDA524C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:12>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:12>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)6);
 		__this->___scales = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___scales), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/game/_script/UIItemBar.cs:171>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/game/_script/UIItemBar.cs:171>
 		__this->___isFolded = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12377,7 +12377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIItemBar__ctor_m78C18A25381D5086DDA524C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Const_Start_mA2BBEE29CB95E8CB41FDD0BC232B0EAA8186BCD5 (Const_t3A740566E950C71D678FC26D9EFED47120EF45EA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:9>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:9>
 		return;
 	}
 }
@@ -12385,7 +12385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Const_Start_mA2BBEE29CB95E8CB41FDD0BC232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Const_Update_m9C1279A36519DDECF673FA181796B588D184C193 (Const_t3A740566E950C71D678FC26D9EFED47120EF45EA* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:14>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:14>
 		return;
 	}
 }
@@ -12412,29 +12412,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Const__cctor_mA4FB031687DB338B88B3D4A6E4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:19>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___deviceType = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___deviceType), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:20>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IPAD = _stringLiteral7471CF369EB4DA2EE5A6B4B393E75B10A3E8CE17;
 		Il2CppCodeGenWriteBarrier((void**)(&((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IPAD), (void*)_stringLiteral7471CF369EB4DA2EE5A6B4B393E75B10A3E8CE17);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:21>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IPHONE = _stringLiteralDE5D6F4491F25880F76AEE08DB13C8EF8D1FF91B;
 		Il2CppCodeGenWriteBarrier((void**)(&((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IPHONE), (void*)_stringLiteralDE5D6F4491F25880F76AEE08DB13C8EF8D1FF91B);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:22>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IPHONE5 = _stringLiteralA96623C66B0E27F6295B3453388C5B1C644D896D;
 		Il2CppCodeGenWriteBarrier((void**)(&((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IPHONE5), (void*)_stringLiteralA96623C66B0E27F6295B3453388C5B1C644D896D);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:25>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___LEADER_BOARD_ID = _stringLiteral272168FCAA506CC5433915844366AB312398EE43;
 		Il2CppCodeGenWriteBarrier((void**)(&((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___LEADER_BOARD_ID), (void*)_stringLiteral272168FCAA506CC5433915844366AB312398EE43);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:26>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___appid = ((int32_t)1516154589);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:29>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___AndroidBuddleId = _stringLiteral272168FCAA506CC5433915844366AB312398EE43;
 		Il2CppCodeGenWriteBarrier((void**)(&((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___AndroidBuddleId), (void*)_stringLiteral272168FCAA506CC5433915844366AB312398EE43);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:31>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:31>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___IS_PC = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Const.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Const.cs:35>
 		((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___Gravity = ((int32_t)10);
 		return;
 	}
@@ -12458,7 +12458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:25>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12469,13 +12469,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:27>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___SCShader;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
 		__this->___SCMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SCMaterial), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:28>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->___SCMaterial;
 		NullCheck(L_4);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)61), NULL);
@@ -12483,7 +12483,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 
 IL_002c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:30>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___SCMaterial;
 		return L_5;
 	}
@@ -12492,13 +12492,13 @@ IL_002c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_Start_mDA6A2490DAC92EFC35731A72019468F8DC464827 (FilterFire_t9CE18C66BAF1BCF2DBF663E6445FAACF964DE9E7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:36>
 		String_t* L_0 = __this->___ShaderName;
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_1;
 		L_1 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(L_0, NULL);
 		__this->___SCShader = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SCShader), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:37>
 		bool L_2;
 		L_2 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
 		if (L_2)
@@ -12507,15 +12507,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_Start_mDA6A2490DAC92EFC35731A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:39>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:39>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:40>
 		return;
 	}
 
 IL_0020:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:42>
 		return;
 	}
 }
@@ -12534,7 +12534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_OnRenderImage_m8B6B9C15E8A9DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:46>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->___SCShader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12545,12 +12545,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_OnRenderImage_m8B6B9C15E8A9DB
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:48>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:48>
 		float L_2 = __this->___TimeX;
 		float L_3;
 		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___TimeX = ((float)il2cpp_codegen_add(L_2, L_3));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:49>
 		float L_4 = __this->___TimeX;
 		if ((!(((float)L_4) > ((float)(100.0f)))))
 		{
@@ -12558,31 +12558,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_OnRenderImage_m8B6B9C15E8A9DB
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:49>
 		__this->___TimeX = (0.0f);
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:50>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:50>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5;
 		L_5 = FilterFire_get_material_m8AE360E7EFC687273F2EF28E335FC6B9C9322EDA(__this, NULL);
 		float L_6 = __this->___TimeX;
 		NullCheck(L_5);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_5, _stringLiteral05D0EA256F35E24338851CD911ACA33A676223BC, L_6, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:51>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7;
 		L_7 = FilterFire_get_material_m8AE360E7EFC687273F2EF28E335FC6B9C9322EDA(__this, NULL);
 		float L_8 = __this->___Switch;
 		NullCheck(L_7);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_7, _stringLiteral01844AFBB12A5FFA9878308D9934996B164C3291, L_8, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:52>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9;
 		L_9 = FilterFire_get_material_m8AE360E7EFC687273F2EF28E335FC6B9C9322EDA(__this, NULL);
 		float L_10 = __this->___Fade;
 		NullCheck(L_9);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_9, _stringLiteral2C8545B8128C9A96611EE86A55C61CE13EC1FD59, L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:53>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11;
 		L_11 = FilterFire_get_material_m8AE360E7EFC687273F2EF28E335FC6B9C9322EDA(__this, NULL);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_12 = ___0_sourceTexture;
@@ -12598,7 +12598,7 @@ IL_003b:
 		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_16), ((float)L_13), ((float)L_15), (0.0f), (0.0f), NULL);
 		NullCheck(L_11);
 		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_11, _stringLiteralD25C228C0713BE6299973D2B4F68EDD3BA201FB2, L_16, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:54>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = ___0_sourceTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___1_destTexture;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_19;
@@ -12610,12 +12610,12 @@ IL_003b:
 
 IL_00b8:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:58>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:58>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_20 = ___0_sourceTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_21 = ___1_destTexture;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_20, L_21, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:60>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:60>
 		return;
 	}
 }
@@ -12623,7 +12623,7 @@ IL_00b8:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_Update_mB8DEC8AAA9A8C6ED5378DA25A7E8A0DF62568C9C (FilterFire_t9CE18C66BAF1BCF2DBF663E6445FAACF964DE9E7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:69>
 		return;
 	}
 }
@@ -12637,7 +12637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_OnDisable_m584CD8A1EACFBD6A41
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:72>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:72>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12648,7 +12648,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_OnDisable_m584CD8A1EACFBD6A41
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:74>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
@@ -12656,7 +12656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire_OnDisable_m584CD8A1EACFBD6A41
 
 IL_0018:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:76>
 		return;
 	}
 }
@@ -12670,14 +12670,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterFire__ctor_mC81BA238CB91AAF2E47B7B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:10>
 		__this->___ShaderName = _stringLiteralA7B09E476B5A7E97CEAD041352BC5EDEEB55F231;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ShaderName), (void*)_stringLiteralA7B09E476B5A7E97CEAD041352BC5EDEEB55F231);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:11>
 		__this->___TimeX = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:15>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:15>
 		__this->___Switch = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterFire.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterFire.cs:17>
 		__this->___Fade = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12702,7 +12702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:27>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12713,13 +12713,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:29>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___SCShader;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
 		__this->___SCMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SCMaterial), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:30>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->___SCMaterial;
 		NullCheck(L_4);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)61), NULL);
@@ -12727,7 +12727,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 
 IL_002c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:32>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___SCMaterial;
 		return L_5;
 	}
@@ -12742,12 +12742,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_Start_mC54AA8222A707C86F6B21A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:39>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:39>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0;
 		L_0 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteralEF456B24814D0ABB53656FF1A4FFA02DA42614E9, NULL);
 		__this->___SCShader = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SCShader), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:41>
 		bool L_1;
 		L_1 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
 		if (L_1)
@@ -12756,15 +12756,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_Start_mC54AA8222A707C86F6B21A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:43>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:43>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:44>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:44>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:46>
 		return;
 	}
 }
@@ -12782,7 +12782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_OnRenderImage_mE22655CB4F12C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:50>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:50>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->___SCShader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12793,12 +12793,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_OnRenderImage_mE22655CB4F12C2
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:52>
 		float L_2 = __this->___TimeX;
 		float L_3;
 		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___TimeX = ((float)il2cpp_codegen_add(L_2, L_3));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:53>
 		float L_4 = __this->___TimeX;
 		if ((!(((float)L_4) > ((float)(100.0f)))))
 		{
@@ -12806,25 +12806,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_OnRenderImage_mE22655CB4F12C2
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:53>
 		__this->___TimeX = (0.0f);
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:54>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5;
 		L_5 = FilterWave_get_material_m8B3EF39D164A9B0CB885E833DE7608749BA1D45F(__this, NULL);
 		float L_6 = __this->___WaveIntensity;
 		NullCheck(L_5);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_5, _stringLiteral205D7FFEC5A2791434F6F22042C0F7B4B843B66E, L_6, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:55>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7;
 		L_7 = FilterWave_get_material_m8B3EF39D164A9B0CB885E833DE7608749BA1D45F(__this, NULL);
 		float L_8 = __this->___TimeX;
 		NullCheck(L_7);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_7, _stringLiteral05D0EA256F35E24338851CD911ACA33A676223BC, L_8, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:56>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:56>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9;
 		L_9 = FilterWave_get_material_m8B3EF39D164A9B0CB885E833DE7608749BA1D45F(__this, NULL);
 		int32_t L_10;
@@ -12838,7 +12838,7 @@ IL_003b:
 		L_13 = Vector4_op_Implicit_mB193CD8DA20DEB9E9F95CFEB5A2B1B9B3B7ECFEB_inline(L_12, NULL);
 		NullCheck(L_9);
 		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_9, _stringLiteralD25C228C0713BE6299973D2B4F68EDD3BA201FB2, L_13, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:57>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_14 = ___0_sourceTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_15 = ___1_destTexture;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_16;
@@ -12850,12 +12850,12 @@ IL_003b:
 
 IL_009b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:61>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_17 = ___0_sourceTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___1_destTexture;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_17, L_18, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:65>
 		return;
 	}
 }
@@ -12863,7 +12863,7 @@ IL_009b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_Update_m632693B0E6798A834396160BAFD58B987148D56F (FilterWave_t11371D42659DA625A7908C11F1D9BC12F42D2859* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:79>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:79>
 		return;
 	}
 }
@@ -12877,7 +12877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_OnDisable_m1AE4963E42D7E1A0B9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:83>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12888,7 +12888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_OnDisable_m1AE4963E42D7E1A0B9
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:85>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
@@ -12896,7 +12896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave_OnDisable_m1AE4963E42D7E1A0B9
 
 IL_0018:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:88>
 		return;
 	}
 }
@@ -12904,9 +12904,9 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FilterWave__ctor_mBBB53B84B836F52C75DB973194252F69F019E80E (FilterWave_t11371D42659DA625A7908C11F1D9BC12F42D2859* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:13>
 		__this->___TimeX = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/FilterWave.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/FilterWave.cs:17>
 		__this->___WaveIntensity = (32.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12936,32 +12936,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData__ctor_mA9048174D2C20A10AD865A4B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:37>
 		__this->___coin = ((int32_t)20);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)L_0);
 		__this->___tipUsed = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tipUsed), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:45>
 		__this->___controlType = 1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:86>
 		__this->___tickStartTime = _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tickStartTime), (void*)_stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:87>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98(L_2, ((int32_t)260), List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_RuntimeMethod_var);
 		__this->___lvStar = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___lvStar), (void*)L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:8>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:8>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:11>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:11>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_3, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___itemPicked = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___itemPicked), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:12>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:12>
 		return;
 	}
 }
@@ -12976,21 +12976,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData__cctor_m7A059AF6ED70ECA3DB4FD30
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:30>
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___lastWindow = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___lastWindow), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:31>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:31>
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___isInGame = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:32>
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___isAds = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:41>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:41>
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel = ((int32_t)20);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:17>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6*)il2cpp_codegen_object_new(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData__ctor_mA9048174D2C20A10AD865A4B919045878E27099A(L_0, NULL);
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:18>
 		return;
 	}
 }
@@ -12998,7 +12998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData__cctor_m7A059AF6ED70ECA3DB4FD30
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_Start_m6BE02CBEE4AE1CDFD3BA4EA45B1AAFC9FB73C02B (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:63>
 		return;
 	}
 }
@@ -13006,7 +13006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_Start_m6BE02CBEE4AE1CDFD3BA4EA4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_Update_m5B7AA37FDF09EADE859D796A2C99DAF94C9C9CFB (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:69>
 		return;
 	}
 }
@@ -13020,7 +13020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameData_t857DCFA51343FE2611A88BE4D943BDA16FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:74>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		if (L_0)
@@ -13029,7 +13029,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameData_t857DCFA51343FE2611A88BE4D943BDA16FB
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:76>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1 = (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6*)il2cpp_codegen_object_new(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData__ctor_mA9048174D2C20A10AD865A4B919045878E27099A(L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
@@ -13039,7 +13039,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameData_t857DCFA51343FE2611A88BE4D943BDA16FB
 
 IL_0011:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:79>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:79>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_2 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		return L_2;
@@ -13068,22 +13068,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_resetData_mA9F8DC88E34B109F8E76
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:95>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:95>
 		__this->___islock = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:97>
 		__this->___isWin = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:98>
 		__this->___isFail = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:100>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:100>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral1BC1FA4A643A84EED0F785EB8A4DD905BAE18033, 1, NULL);
 		__this->___tipRemain = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:101>
 		String_t* L_1;
 		L_1 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral6591027F7F6031D94D7B5E50212A5B5CF31105A2, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		__this->___tickStartTime = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tickStartTime), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:102>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:102>
 		String_t* L_2 = __this->___tickStartTime;
 		bool L_3;
 		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_2, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
@@ -13093,10 +13093,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_resetData_mA9F8DC88E34B109F8E76
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:104>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:104>
 		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		TimeSpan__ctor_m513B2AFB80D3350E59FBD23F53B2F1322175C24D((&V_0), ((int32_t)50), 0, 0, 0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:105>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:105>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
 		L_4 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
@@ -13105,34 +13105,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_resetData_mA9F8DC88E34B109F8E76
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
 		L_6 = DateTime_Subtract_m0FB94627DF00A641CED19654047F5A6185CB5D27((&V_3), L_5, NULL);
 		V_1 = L_6;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:106>
 		int64_t L_7;
 		L_7 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&V_1), NULL);
 		V_2 = ((int64_t)(L_7/((int64_t)((int32_t)10000000))));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:107>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:107>
 		String_t* L_8;
 		L_8 = Int64_ToString_m284E4E55662818E38654309A41C2B07CD436F36B((&V_2), NULL);
 		__this->___tickStartTime = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tickStartTime), (void*)L_8);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:108>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:108>
 		String_t* L_9 = __this->___tickStartTime;
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral6591027F7F6031D94D7B5E50212A5B5CF31105A2, L_9, NULL);
 	}
 
 IL_0094:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:113>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:113>
 		__this->___cLvShowedTip = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:116>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:116>
 		__this->___startgame = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:118>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:118>
 		__this->___isDead = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:120>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:120>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_10 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_10, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___itemPicked = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___itemPicked), (void*)L_10);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:121>
 		return;
 	}
 }
@@ -13171,9 +13171,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameData_getLevelBestScore_m4D339745C
 	memset((&V_2), 0, sizeof(V_2));
 	uint32_t V_3 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:129>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:129>
 		V_0 = ((int32_t)10);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:130>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
 		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -13694,173 +13694,173 @@ IL_02d4:
 
 IL_02e3:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:133>
 		V_0 = ((int32_t)15);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:134>
 		goto IL_0349;
 	}
 
 IL_02e8:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:136>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:136>
 		V_0 = ((int32_t)11);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:137>
 		goto IL_0349;
 	}
 
 IL_02ed:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:139>
 		V_0 = ((int32_t)15);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:140>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:140>
 		goto IL_0349;
 	}
 
 IL_02f2:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:142>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:142>
 		V_0 = ((int32_t)22);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:143>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:143>
 		goto IL_0349;
 	}
 
 IL_02f7:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:145>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:145>
 		V_0 = ((int32_t)34);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:146>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:146>
 		goto IL_0349;
 	}
 
 IL_02fc:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:148>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:148>
 		V_0 = ((int32_t)25);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:149>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:149>
 		goto IL_0349;
 	}
 
 IL_0301:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:151>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:151>
 		V_0 = ((int32_t)12);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:152>
 		goto IL_0349;
 	}
 
 IL_0306:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:154>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:154>
 		V_0 = ((int32_t)10);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:155>
 		goto IL_0349;
 	}
 
 IL_030b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:157>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:157>
 		V_0 = ((int32_t)30);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:158>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:158>
 		goto IL_0349;
 	}
 
 IL_0310:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:160>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:160>
 		V_0 = ((int32_t)24);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:161>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:161>
 		goto IL_0349;
 	}
 
 IL_0315:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:163>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:163>
 		V_0 = ((int32_t)19);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:164>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:164>
 		goto IL_0349;
 	}
 
 IL_031a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:166>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:166>
 		V_0 = 8;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:167>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:167>
 		goto IL_0349;
 	}
 
 IL_031e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:169>
 		V_0 = ((int32_t)120);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:170>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:170>
 		goto IL_0349;
 	}
 
 IL_0323:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:172>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:172>
 		V_0 = ((int32_t)10);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:173>
 		goto IL_0349;
 	}
 
 IL_0328:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:175>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:175>
 		V_0 = ((int32_t)29);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:176>
 		goto IL_0349;
 	}
 
 IL_032d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:178>
 		V_0 = ((int32_t)16);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:179>
 		goto IL_0349;
 	}
 
 IL_0332:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:181>
 		V_0 = ((int32_t)24);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:182>
 		goto IL_0349;
 	}
 
 IL_0337:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:184>
 		V_0 = ((int32_t)13);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:185>
 		goto IL_0349;
 	}
 
 IL_033c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:187>
 		V_0 = ((int32_t)25);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:188>
 		goto IL_0349;
 	}
 
 IL_0341:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:190>
 		V_0 = ((int32_t)63);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:191>
 		goto IL_0349;
 	}
 
 IL_0346:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:193>
 		V_0 = ((int32_t)10);
 	}
 
 IL_0349:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:197>
 		int32_t L_71 = V_0;
 		return L_71;
 	}
@@ -13870,10 +13870,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_lockGame_m0318713FE9155A18A15A4
 {
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:207>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:207>
 		bool L_0 = ___0__lock;
 		__this->___islock = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:208>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:208>
 		bool L_1 = ___1_stopTime;
 		if (!L_1)
 		{
@@ -13881,7 +13881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_lockGame_m0318713FE9155A18A15A4
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:210>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:210>
 		bool L_2 = __this->___islock;
 		if (L_2)
 		{
@@ -13905,7 +13905,7 @@ IL_0016:
 
 IL_001c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:212>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:212>
 		return;
 	}
 }
@@ -13913,7 +13913,7 @@ IL_001c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameData_get_isLock_mE9F047E712148899B4ED08048FB224BDC01D8D87 (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:221>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:221>
 		bool L_0 = __this->___islock;
 		return L_0;
 	}
@@ -13922,10 +13922,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameData_get_isLock_mE9F047E712148899B4E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74 (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:225>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:225>
 		bool L_0 = ___0_value;
 		__this->___islock = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:226>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:226>
 		return;
 	}
 }
@@ -13943,13 +13943,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameData_GetSystemLaguage_m8BB1D8EC45
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:237>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:237>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralCC1F7052057A1EC518E41F548AA4C5A4BA47C59D, (-1), NULL);
 		V_0 = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:238>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:238>
 		V_1 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:239>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:239>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_1;
 		L_1 = Application_get_systemLanguage_m4D8B6DC60ED7236DD233C8DCB9E13D287B4FCF65(NULL);
@@ -13980,37 +13980,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameData_GetSystemLaguage_m8BB1D8EC45
 
 IL_0024:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:242>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:242>
 		V_1 = 1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:243>
 		goto IL_0032;
 	}
 
 IL_0028:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:245>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:245>
 		V_1 = 1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:246>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:246>
 		goto IL_0032;
 	}
 
 IL_002c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:248>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:248>
 		V_1 = 1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:249>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:249>
 		goto IL_0032;
 	}
 
 IL_0030:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:251>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:251>
 		V_1 = 0;
 	}
 
 IL_0032:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:256>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:256>
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_5) == ((int32_t)(-1))))
 		{
@@ -14018,14 +14018,14 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:258>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:258>
 		int32_t L_6 = V_0;
 		V_1 = L_6;
 	}
 
 IL_0038:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:260>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:260>
 		int32_t L_7 = V_1;
 		return L_7;
 	}
@@ -14042,7 +14042,7 @@ IL_0038:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:20>
 		return;
 	}
 }
@@ -14050,7 +14050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:26>
 		return;
 	}
 }
@@ -14064,7 +14064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:35>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		if (L_0)
 		{
@@ -14072,12 +14072,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEA
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:37>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_1 = (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6*)il2cpp_codegen_object_new(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var);
 		GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368(L_1, NULL);
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:38>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_2);
 		GameManager_init_m7093FE26C40C871395176C438001B12C3F409024(L_2, NULL);
@@ -14085,7 +14085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEA
 
 IL_001b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:40>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:40>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_3 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		return L_3;
 	}
@@ -14094,10 +14094,10 @@ IL_001b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_setVolume_m8639248F1222C176C49B28F07AAA6DF284AA286F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, float ___0_v, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:46>
 		float L_0 = ___0_v;
 		__this->___volume_ = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:47>
 		return;
 	}
 }
@@ -14105,7 +14105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_setVolume_m8639248F1222C176C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GameManager_getVolume_mDF432712FDA0007918DA00BF9FFB1B3853D34BD6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:51>
 		float L_0 = __this->___volume_;
 		return L_0;
 	}
@@ -14129,7 +14129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_playMusic_mF62DD355F8A66ECEE
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_0 = NULL;
 	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:64>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:64>
 		bool L_0 = ___1_isforce;
 		if (L_0)
 		{
@@ -14137,7 +14137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_playMusic_mF62DD355F8A66ECEE
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:66>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:66>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1 = __this->___bgMusic;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -14158,13 +14158,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_playMusic_mF62DD355F8A66ECEE
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:68>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:68>
 		return;
 	}
 
 IL_0020:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:73>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:73>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->___music;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14175,15 +14175,15 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:74>
 		return;
 	}
 
 IL_002e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:77>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:77>
 		V_0 = (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:79>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:79>
 		String_t* L_8 = ___0_str;
 		String_t* L_9;
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDB3875DDA3CDDBFFAEBF9874BB297D7E657D1259, L_8, NULL);
@@ -14194,7 +14194,7 @@ IL_002e:
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_12;
 		L_12 = Resources_Load_m6CD8FBBCCFFF22179FA0E7B1806B888103008D33(L_9, L_11, NULL);
 		V_1 = ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)CastclassSealed((RuntimeObject*)L_12, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:81>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:81>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_13;
 		L_13 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -14206,7 +14206,7 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:83>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = __this->___bgMusic;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -14217,7 +14217,7 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:84>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:84>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_17 = __this->___bgMusic;
 		NullCheck(L_17);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_17, NULL);
@@ -14225,7 +14225,7 @@ IL_002e:
 
 IL_0074:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:85>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___music;
 		NullCheck(L_18);
 		musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* L_19;
@@ -14235,12 +14235,12 @@ IL_0074:
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_21;
 		L_21 = musicScript_PlayAudioClip_mB9DCF630D20867693D42C9491BDBA9797E59F29D(L_19, L_20, (bool)1, NULL);
 		V_0 = L_21;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:86>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_22 = V_0;
 		float L_23 = __this->___volume_;
 		NullCheck(L_22);
 		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_22, L_23, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:87>
 		String_t* L_24 = ___0_str;
 		NullCheck(L_24);
 		String_t* L_25;
@@ -14253,11 +14253,11 @@ IL_0074:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:89>
 		String_t* L_27 = ___0_str;
 		__this->___musicName = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___musicName), (void*)L_27);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:90>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_28 = V_0;
 		__this->___bgMusic = L_28;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bgMusic), (void*)L_28);
@@ -14265,7 +14265,7 @@ IL_0074:
 
 IL_00b5:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:94>
 		return;
 	}
 }
@@ -14292,9 +14292,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_0 = NULL;
 	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:112>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:112>
 		V_0 = (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:114>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:114>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___music;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14305,13 +14305,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:115>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:115>
 		return (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
 	}
 
 IL_0011:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:119>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:119>
 		String_t* L_2 = ___0_str;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDB3875DDA3CDDBFFAEBF9874BB297D7E657D1259, L_2, NULL);
@@ -14322,7 +14322,7 @@ IL_0011:
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_6;
 		L_6 = Resources_Load_m6CD8FBBCCFFF22179FA0E7B1806B888103008D33(L_3, L_5, NULL);
 		V_1 = ((AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)CastclassSealed((RuntimeObject*)L_6, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20_il2cpp_TypeInfo_var));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:120>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:120>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_7;
 		L_7 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -14334,7 +14334,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:122>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___music;
 		NullCheck(L_9);
 		musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* L_10;
@@ -14344,7 +14344,7 @@ IL_0011:
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12;
 		L_12 = musicScript_PlayAudioClip_mB9DCF630D20867693D42C9491BDBA9797E59F29D(L_10, L_11, (bool)0, NULL);
 		V_0 = L_12;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:123>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_13 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -14355,12 +14355,12 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:125>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = V_0;
 		float L_16 = __this->___volume_;
 		NullCheck(L_15);
 		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_15, L_16, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:126>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:126>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_17 = __this->___sfxdic;
 		String_t* L_18 = ___0_str;
 		NullCheck(L_17);
@@ -14385,17 +14385,17 @@ IL_0011:
 
 IL_0082:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:128>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:128>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_23 = __this->___currentSFX;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24 = V_0;
 		NullCheck(L_23);
 		List_1_Add_m854AB1F4912F4A70C478FAE8E282C8F6CE880550_inline(L_23, L_24, List_1_Add_m854AB1F4912F4A70C478FAE8E282C8F6CE880550_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:130>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_25 = __this->___sfxdic;
 		String_t* L_26 = ___0_str;
 		NullCheck(L_25);
 		Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2(L_25, L_26, 1, Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:131>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:131>
 		String_t* L_27 = ___0_str;
 		bool L_28;
 		L_28 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_27, _stringLiteralF87551CF202A9D753BE355AA74860ED99F53B97E, NULL);
@@ -14405,7 +14405,7 @@ IL_0082:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:133>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_29 = V_0;
 		__this->___cWalk = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cWalk), (void*)L_29);
@@ -14413,7 +14413,7 @@ IL_0082:
 
 IL_00af:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:139>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_30 = V_0;
 		return L_30;
 	}
@@ -14429,7 +14429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_stopBGMusic_m17D03879C168234
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:152>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___bgMusic;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14440,18 +14440,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_stopBGMusic_m17D03879C168234
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:154>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:154>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___bgMusic;
 		NullCheck(L_2);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:155>
 		__this->___musicName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___musicName), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 	}
 
 IL_0023:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:157>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:157>
 		return;
 	}
 }
@@ -14474,7 +14474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_stopAllSFX_mEC8C6FF25E7945ED
 	memset((&V_0), 0, sizeof(V_0));
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:163>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:163>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_0 = __this->___currentSFX;
 		NullCheck(L_0);
 		Enumerator_t75EB440EAE3C47E257B0E6B36E26A1E77F7152F2 L_1;
@@ -14499,11 +14499,11 @@ FINALLY_0030:
 
 IL_000e_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:163>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:163>
 				AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2;
 				L_2 = Enumerator_get_Current_m4F15E2C4D265A17EFE27DC0FBC1AAF89ADB8CF71_inline((&V_0), Enumerator_get_Current_m4F15E2C4D265A17EFE27DC0FBC1AAF89ADB8CF71_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:165>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:165>
 				AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_4;
@@ -14514,7 +14514,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:165>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:165>
 				AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = V_1;
 				NullCheck(L_5);
 				AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_5, NULL);
@@ -14522,7 +14522,7 @@ IL_000e_1:
 
 IL_0025_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:163>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:163>
 				bool L_6;
 				L_6 = Enumerator_MoveNext_m5DA90FC4276CA7412BD36B6D54E84F1A42F392E4((&V_0), Enumerator_MoveNext_m5DA90FC4276CA7412BD36B6D54E84F1A42F392E4_RuntimeMethod_var);
 				if (L_6)
@@ -14542,15 +14542,15 @@ IL_0025_1:
 
 IL_003e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:167>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:167>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_7 = __this->___currentSFX;
 		NullCheck(L_7);
 		List_1_Clear_mBADBB9534522F4606CDFB33A02BD09314CBD1488_inline(L_7, List_1_Clear_mBADBB9534522F4606CDFB33A02BD09314CBD1488_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:168>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_8 = __this->___sfxdic;
 		NullCheck(L_8);
 		Dictionary_2_Clear_m841DBE29811833266CC127714688998A50D5F7CD(L_8, Dictionary_2_Clear_m841DBE29811833266CC127714688998A50D5F7CD_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:169>
 		return;
 	}
 }
@@ -14566,9 +14566,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameManager_isPlayingSfx_mC34A351CC85394
 	}
 	bool V_0 = false;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:178>
 		V_0 = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:179>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_0 = __this->___sfxdic;
 		String_t* L_1 = ___0_str;
 		NullCheck(L_0);
@@ -14591,13 +14591,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameManager_isPlayingSfx_mC34A351CC85394
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:181>
 		V_0 = (bool)1;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:183>
 		bool L_6 = V_0;
 		return L_6;
 	}
@@ -14621,7 +14621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_stopMusic_m137A9AB11B01B1854
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_2 = NULL;
 	String_t* V_3 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:193>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___music;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14632,12 +14632,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_stopMusic_m137A9AB11B01B1854
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:195>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___music;
 		NullCheck(L_2);
 		AudioSourceU5BU5D_tBBF6E920E0DC80D53D4BB2A8D4C80D244EF170B2* L_3;
 		L_3 = GameObject_GetComponentsInChildren_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m41483C7E181553AB4464C84D879E546DD8A05B7C(L_2, GameObject_GetComponentsInChildren_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m41483C7E181553AB4464C84D879E546DD8A05B7C_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:196>
 		V_0 = L_3;
 		V_1 = 0;
 		goto IL_00bf;
@@ -14645,14 +14645,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_stopMusic_m137A9AB11B01B1854
 
 IL_0023:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:196>
 		AudioSourceU5BU5D_tBBF6E920E0DC80D53D4BB2A8D4C80D244EF170B2* L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_2 = L_7;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:198>
 		String_t* L_8 = ___0_musicName;
 		bool L_9;
 		L_9 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -14662,17 +14662,17 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:200>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = V_2;
 		NullCheck(L_10);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:201>
 		return;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:205>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:205>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_11 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -14696,7 +14696,7 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:207>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:207>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16 = V_2;
 		NullCheck(L_16);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_17;
@@ -14705,7 +14705,7 @@ IL_003b:
 		String_t* L_18;
 		L_18 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_17, NULL);
 		V_3 = L_18;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:208>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:208>
 		String_t* L_19 = V_3;
 		String_t* L_20 = ___0_musicName;
 		bool L_21;
@@ -14716,13 +14716,13 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:210>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:210>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_22 = V_2;
 		NullCheck(L_22);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_22, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:213>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:213>
 		___0_musicName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:214>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:214>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_23 = __this->___sfxdic;
 		String_t* L_24 = V_3;
 		NullCheck(L_23);
@@ -14734,12 +14734,12 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:216>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:216>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_26 = __this->___sfxdic;
 		String_t* L_27 = V_3;
 		NullCheck(L_26);
 		Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2(L_26, L_27, 0, Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:217>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:217>
 		String_t* L_28 = V_3;
 		bool L_29;
 		L_29 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_28, _stringLiteralF87551CF202A9D753BE355AA74860ED99F53B97E, NULL);
@@ -14749,7 +14749,7 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:219>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:219>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_30 = __this->___cWalk;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_31;
@@ -14760,14 +14760,14 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:221>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:221>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = __this->___cWalk;
 		NullCheck(L_32);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_32, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:222>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:222>
 		__this->___cWalk = (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cWalk), (void*)(AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:226>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:226>
 		return;
 	}
 
@@ -14779,7 +14779,7 @@ IL_00bb:
 
 IL_00bf:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:196>
 		int32_t L_34 = V_1;
 		AudioSourceU5BU5D_tBBF6E920E0DC80D53D4BB2A8D4C80D244EF170B2* L_35 = V_0;
 		NullCheck(L_35);
@@ -14791,7 +14791,7 @@ IL_00bf:
 
 IL_00c8:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:232>
 		return;
 	}
 }
@@ -14812,7 +14812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_changeVolume_mED13BA3CA162CC
 	memset((&V_0), 0, sizeof(V_0));
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:237>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:237>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_0 = __this->___currentSFX;
 		NullCheck(L_0);
 		Enumerator_t75EB440EAE3C47E257B0E6B36E26A1E77F7152F2 L_1;
@@ -14837,11 +14837,11 @@ FINALLY_0031:
 
 IL_000e_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:237>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:237>
 				AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2;
 				L_2 = Enumerator_get_Current_m4F15E2C4D265A17EFE27DC0FBC1AAF89ADB8CF71_inline((&V_0), Enumerator_get_Current_m4F15E2C4D265A17EFE27DC0FBC1AAF89ADB8CF71_RuntimeMethod_var);
 				V_1 = L_2;
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:239>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:239>
 				AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_4;
@@ -14852,7 +14852,7 @@ IL_000e_1:
 				}
 			}
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:239>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:239>
 				AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = V_1;
 				float L_6 = ___0_tvalue;
 				NullCheck(L_5);
@@ -14861,7 +14861,7 @@ IL_000e_1:
 
 IL_0026_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:237>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:237>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_m5DA90FC4276CA7412BD36B6D54E84F1A42F392E4((&V_0), Enumerator_MoveNext_m5DA90FC4276CA7412BD36B6D54E84F1A42F392E4_RuntimeMethod_var);
 				if (L_7)
@@ -14881,7 +14881,7 @@ IL_0026_1:
 
 IL_003f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:241>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:241>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = __this->___bgMusic;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -14892,7 +14892,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:243>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10 = __this->___bgMusic;
 		float L_11 = ___0_tvalue;
 		NullCheck(L_10);
@@ -14901,10 +14901,10 @@ IL_003f:
 
 IL_0059:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:245>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:245>
 		float L_12 = ___0_tvalue;
 		__this->___volume_ = L_12;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:248>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:248>
 		return;
 	}
 }
@@ -14918,13 +14918,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_toggleSound_mC1B0D75CE36EBEB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:257>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:257>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___isSoundOn;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:259>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:259>
 		return;
 	}
 }
@@ -14940,7 +14940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_submitGameCenter_mAF211A2E46
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:268>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:268>
 		bool L_0 = __this->___isAuthored;
 		if (L_0)
 		{
@@ -14948,26 +14948,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_submitGameCenter_mAF211A2E46
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:271>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:271>
 		GameManager_initGameCenter_m6088781C6D075DF3CD5F3620254F9165923BAC7F(__this, NULL);
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:277>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:277>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1;
 		L_1 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_1);
 		int32_t L_2 = L_1->___bestScore;
 		V_0 = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:278>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:278>
 		il2cpp_codegen_runtime_class_init_inline(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var);
 		String_t* L_3 = ((Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_StaticFields*)il2cpp_codegen_static_fields_for(Const_t3A740566E950C71D678FC26D9EFED47120EF45EA_il2cpp_TypeInfo_var))->___LEADER_BOARD_ID;
 		int32_t L_4 = V_0;
 		GameManager_ReportScore_m4AA9841ED8D5D1DBE4F76A8FFC5CB02B6269129A(__this, L_3, ((int64_t)L_4), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:282>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:282>
 		return;
 	}
 }
@@ -14997,33 +14997,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_init_m7093FE26C40C871395176C
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:287>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:287>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		GameData_resetData_mA9F8DC88E34B109F8E767906B8CFE649EF2A14BE(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:290>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:290>
 		GameManager_initAds_mB8F2916A1EC3B02488DE230504FDC64636487FB4(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:291>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:291>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7A9D14B94D28FB9E5C1133505C5CFB7767D6C55F, NULL);
 		__this->___music = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___music), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:292>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:292>
 		float L_2;
 		L_2 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralE359F6FAB740B186702E6266FF2C4659C923C49B, (1.0f), NULL);
 		__this->___volume_ = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:293>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:293>
 		V_0 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:294>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:294>
 		V_1 = 1;
 		goto IL_005b;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:296>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:296>
 		String_t* L_3;
 		L_3 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
 		String_t* L_4;
@@ -15031,18 +15031,18 @@ IL_003b:
 		int32_t L_5;
 		L_5 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_4, 0, NULL);
 		V_2 = L_5;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:297>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:297>
 		int32_t L_6 = V_0;
 		int32_t L_7 = V_2;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, L_7));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:294>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:294>
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
 	}
 
 IL_005b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:294>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:294>
 		int32_t L_9 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_10 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
@@ -15052,7 +15052,7 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:301>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:301>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_11;
 		L_11 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -15060,21 +15060,21 @@ IL_005b:
 		L_12 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral1FC0AA0390E984F59AC0AF74C2C4B38969B6AEF0, 0, NULL);
 		NullCheck(L_11);
 		L_11->___levelPassed = L_12;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:303>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:303>
 		V_3 = 0;
 		goto IL_0080;
 	}
 
 IL_007c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:303>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:303>
 		int32_t L_13 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0080:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:303>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:303>
 		int32_t L_14 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_15;
@@ -15087,14 +15087,14 @@ IL_0080:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:309>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:309>
 		V_4 = 0;
 		goto IL_00c2;
 	}
 
 IL_0092:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:313>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:313>
 		String_t* L_17;
 		L_17 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_4), NULL);
 		String_t* L_18;
@@ -15102,7 +15102,7 @@ IL_0092:
 		int32_t L_19;
 		L_19 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_18, 0, NULL);
 		V_5 = L_19;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:314>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:314>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_20;
 		L_20 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -15111,14 +15111,14 @@ IL_0092:
 		int32_t L_22 = V_5;
 		NullCheck(L_21);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_21, L_22, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:309>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:309>
 		int32_t L_23 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_23, 1));
 	}
 
 IL_00c2:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:309>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:309>
 		int32_t L_24 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_25 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
@@ -15128,14 +15128,14 @@ IL_00c2:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:320>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:320>
 		V_6 = 1;
 		goto IL_00fa;
 	}
 
 IL_00d0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:322>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:322>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_26 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_26);
@@ -15149,14 +15149,14 @@ IL_00d0:
 		L_31 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_30, 0, NULL);
 		NullCheck(L_27);
 		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(L_28), (int32_t)L_31);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:320>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:320>
 		int32_t L_32 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_32, 1));
 	}
 
 IL_00fa:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:320>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:320>
 		int32_t L_33 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_34 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
@@ -15166,32 +15166,32 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:325>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:325>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_35;
 		L_35 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_36 = V_0;
 		NullCheck(L_35);
 		L_35->___bestScore = L_36;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:326>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:326>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_37;
 		L_37 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_38;
 		L_38 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral240BE9B5E609F0DD8657150691504C4DE92A0925, 0, NULL);
 		NullCheck(L_37);
 		L_37->___isSoundOn = L_38;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:327>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:327>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_39;
 		L_39 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_40;
 		L_40 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralB9328201E17CA88435781DFC42863E1343C8D5AE, 0, NULL);
 		NullCheck(L_39);
 		L_39->___isSfxOn = L_40;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:329>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:329>
 		GameManager_initGameCenter_m6088781C6D075DF3CD5F3620254F9165923BAC7F(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:331>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:331>
 		GameManager_initStore_mC33E2FD21A2322CBCE9B650421B6F2B5479A2522(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:336>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:336>
 		return;
 	}
 }
@@ -15206,12 +15206,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_setToggleState_m74107EB0CB30
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:344>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:344>
 		__this->___noToggleSound = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:345>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:345>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral8FCBDEA674D7CB87B13F731D1A9662EA3689F301, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:346>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:346>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
@@ -15221,13 +15221,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_setToggleState_m74107EB0CB30
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:349>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:349>
 		__this->___noToggleSound = (bool)0;
 	}
 
 IL_001f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:352>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:352>
 		return;
 	}
 }
@@ -15243,14 +15243,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_initGameCenter_m6088781C6D07
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:358>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:358>
 		RuntimeObject* L_0;
 		L_0 = Social_get_localUser_m7ED6D68F8CBFB7930562BE54601520AEED1D0CE4(NULL);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_1 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_1, __this, (intptr_t)((void*)GameManager_HandleAuthenticated_m572C507BFC6B56D61C293B0341B1211A06DA4FC6_RuntimeMethod_var), NULL);
 		NullCheck(L_0);
 		InterfaceActionInvoker1< Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* >::Invoke(0, ILocalUser_t8D7F34634AF940D34302E4F415AD50C7132EB7F6_il2cpp_TypeInfo_var, L_0, L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:359>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:359>
 		return;
 	}
 }
@@ -15270,7 +15270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleAuthenticated_m572C507
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:366>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:366>
 		bool L_0 = ___0_success;
 		if (!L_0)
 		{
@@ -15278,30 +15278,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleAuthenticated_m572C507
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:368>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:368>
 		RuntimeObject* L_1;
 		L_1 = Social_get_localUser_m7ED6D68F8CBFB7930562BE54601520AEED1D0CE4(NULL);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_2 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
 		Action_1__ctor_mA8C3AC97D1F076EA5D1D0C10CEE6BD3E94711501(L_2, __this, (intptr_t)((void*)GameManager_HandleFriendsLoaded_mC0FFC3768F1BFFBCB244415B4F2FD10E71B1A325_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		InterfaceActionInvoker1< Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* >::Invoke(1, ILocalUser_t8D7F34634AF940D34302E4F415AD50C7132EB7F6_il2cpp_TypeInfo_var, L_1, L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:369>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:369>
 		Action_1_t4AB51E58A5F757E5EB04E408FD37B7BE6D34B0B5* L_3 = (Action_1_t4AB51E58A5F757E5EB04E408FD37B7BE6D34B0B5*)il2cpp_codegen_object_new(Action_1_t4AB51E58A5F757E5EB04E408FD37B7BE6D34B0B5_il2cpp_TypeInfo_var);
 		Action_1__ctor_mE787B6B7CA2CE6B7FBADA36222B807C4BAD079E8(L_3, __this, (intptr_t)((void*)GameManager_HandleAchievementsLoaded_m0A31AD4A9DC764DE441D4AC148010D0B086CE538_RuntimeMethod_var), NULL);
 		Social_LoadAchievements_m35B0E6E5F4F06710F6EF09C78B157E89E2729672(L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:370>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:370>
 		Action_1_t8739D9AE03007E7B95C8FA61FA2FA5829D864C49* L_4 = (Action_1_t8739D9AE03007E7B95C8FA61FA2FA5829D864C49*)il2cpp_codegen_object_new(Action_1_t8739D9AE03007E7B95C8FA61FA2FA5829D864C49_il2cpp_TypeInfo_var);
 		Action_1__ctor_mB293DDC26229F2AD961A307B3ACC7308B7BE3496(L_4, __this, (intptr_t)((void*)GameManager_HandleAchievementDescriptionsLoaded_m2EAEC93798A1BF0A424CDFF3056195CA4FC0AF5B_RuntimeMethod_var), NULL);
 		Social_LoadAchievementDescriptions_mC7A3A47337F2048C10FC3D2B6F98ECB45F296EED(L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:373>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:373>
 		__this->___isAuthored = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:375>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:375>
 		GameManager_submitGameCenter_mAF211A2E46146E6D960E957EDFCF12EA6A2635B4(__this, NULL);
 	}
 
 IL_0048:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:381>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:381>
 		return;
 	}
 }
@@ -15317,7 +15317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleFriendsLoaded_mC0FFC37
 	IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:386>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:386>
 		RuntimeObject* L_0;
 		L_0 = Social_get_localUser_m7ED6D68F8CBFB7930562BE54601520AEED1D0CE4(NULL);
 		NullCheck(L_0);
@@ -15330,7 +15330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleFriendsLoaded_mC0FFC37
 
 IL_000f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:386>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:386>
 		IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
@@ -15342,7 +15342,7 @@ IL_000f:
 
 IL_0017:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:386>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:386>
 		int32_t L_7 = V_1;
 		IUserProfileU5BU5D_t0179D2FF9BD9F78A4E0A10AE350DC1F19E5FCB43* L_8 = V_0;
 		NullCheck(L_8);
@@ -15352,7 +15352,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:390>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:390>
 		return;
 	}
 }
@@ -15362,7 +15362,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleAchievementsLoaded_m0A
 	IAchievementU5BU5D_t2EB94CCAA33FED505799D764256677258220CEA3* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:395>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:395>
 		IAchievementU5BU5D_t2EB94CCAA33FED505799D764256677258220CEA3* L_0 = ___0_achievements;
 		V_0 = L_0;
 		V_1 = 0;
@@ -15371,7 +15371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleAchievementsLoaded_m0A
 
 IL_0006:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:395>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:395>
 		IAchievementU5BU5D_t2EB94CCAA33FED505799D764256677258220CEA3* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
@@ -15383,7 +15383,7 @@ IL_0006:
 
 IL_000e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:395>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:395>
 		int32_t L_6 = V_1;
 		IAchievementU5BU5D_t2EB94CCAA33FED505799D764256677258220CEA3* L_7 = V_0;
 		NullCheck(L_7);
@@ -15393,7 +15393,7 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:399>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:399>
 		return;
 	}
 }
@@ -15403,7 +15403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleAchievementDescription
 	IAchievementDescriptionU5BU5D_tA09B03FB7807D9E82F5DBB3D88F4761CB6EFBDD1* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:404>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:404>
 		IAchievementDescriptionU5BU5D_tA09B03FB7807D9E82F5DBB3D88F4761CB6EFBDD1* L_0 = ___0_achievementDescriptions;
 		V_0 = L_0;
 		V_1 = 0;
@@ -15412,7 +15412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleAchievementDescription
 
 IL_0006:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:404>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:404>
 		IAchievementDescriptionU5BU5D_tA09B03FB7807D9E82F5DBB3D88F4761CB6EFBDD1* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
@@ -15424,7 +15424,7 @@ IL_0006:
 
 IL_000e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:404>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:404>
 		int32_t L_6 = V_1;
 		IAchievementDescriptionU5BU5D_tA09B03FB7807D9E82F5DBB3D88F4761CB6EFBDD1* L_7 = V_0;
 		NullCheck(L_7);
@@ -15434,7 +15434,7 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:408>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:408>
 		return;
 	}
 }
@@ -15450,7 +15450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReportProgress_mCE681996E131
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:414>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:414>
 		RuntimeObject* L_0;
 		L_0 = Social_get_localUser_m7ED6D68F8CBFB7930562BE54601520AEED1D0CE4(NULL);
 		NullCheck(L_0);
@@ -15462,7 +15462,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReportProgress_mCE681996E131
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:416>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:416>
 		String_t* L_2 = ___0_achievementId;
 		double L_3 = ___1_progress;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_4 = (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)il2cpp_codegen_object_new(Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var);
@@ -15472,7 +15472,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReportProgress_mCE681996E131
 
 IL_001f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:418>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:418>
 		return;
 	}
 }
@@ -15480,7 +15480,7 @@ IL_001f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleProgressReported_mBD4A64CC64D2D7EB39EAD0D56BDCB32A79540E48 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, bool ___0_success, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:423>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:423>
 		return;
 	}
 }
@@ -15494,7 +15494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowAchievements_mEB78D51AAD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:427>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:427>
 		RuntimeObject* L_0;
 		L_0 = Social_get_localUser_m7ED6D68F8CBFB7930562BE54601520AEED1D0CE4(NULL);
 		NullCheck(L_0);
@@ -15506,13 +15506,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowAchievements_mEB78D51AAD
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:429>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:429>
 		Social_ShowAchievementsUI_mEDAD5CD6256BAF4494D24A44243F00C918735B0A(NULL);
 	}
 
 IL_0011:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:431>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:431>
 		return;
 	}
 }
@@ -15520,7 +15520,7 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReportScore_m4AA9841ED8D5D1DBE4F76A8FFC5CB02B6269129A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_leaderboardId, int64_t ___1_score, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:443>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:443>
 		return;
 	}
 }
@@ -15528,7 +15528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ReportScore_m4AA9841ED8D5D1D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_HandleScoreReported_mD03C8C7B341C2EC1CBCA992B6FC6197D713356E7 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, bool ___0_success, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:448>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:448>
 		return;
 	}
 }
@@ -15544,10 +15544,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowLeaderboard_m8F8E26F98BF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:452>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:452>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral19878F465F2CBAD1AE42480C8096CEE4C459B147, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:453>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:453>
 		RuntimeObject* L_0;
 		L_0 = Social_get_localUser_m7ED6D68F8CBFB7930562BE54601520AEED1D0CE4(NULL);
 		NullCheck(L_0);
@@ -15559,13 +15559,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowLeaderboard_m8F8E26F98BF
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:455>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:455>
 		Social_ShowLeaderboardUI_m3C925568256ECA8A80A014F535453857DF8A1A8A(NULL);
 	}
 
 IL_001b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:457>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:457>
 		return;
 	}
 }
@@ -15573,7 +15573,7 @@ IL_001b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_buyFullVersion_m70B1CB7D2DBE6A144E078075C4DE36B4624BEBF1 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:464>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:464>
 		return;
 	}
 }
@@ -15581,12 +15581,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_buyFullVersion_m70B1CB7D2DBE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_initAds_mB8F2916A1EC3B02488DE230504FDC64636487FB4 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:476>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:476>
 		AdsService_tC319179A98867ADE72C2B6D626615351A93006B8* L_0;
 		L_0 = AdsService_get_Instance_m10ADFFC1317BA4FA8D5DE757FF64A1A8F5C1B1F3(NULL);
 		NullCheck(L_0);
 		AdsService_InitializeFromResources_m272C81E215C93958333056F64E1DA478FB3181EF(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:477>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:477>
 		return;
 	}
 }
@@ -15594,7 +15594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_initAds_mB8F2916A1EC3B02488D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_hideBanner_m7F52965C0CEA684B700E0E045CA40CE65ABC9799 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, bool ___0_isHidden, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:482>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:482>
 		return;
 	}
 }
@@ -15608,10 +15608,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_showBanner_m8F850421CF46085E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:486>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:486>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		bool L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___isAds;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:490>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:490>
 		return;
 	}
 }
@@ -15625,10 +15625,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CacheInterestial_m5437AFB1D7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:495>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:495>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		bool L_0 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___isAds;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:500>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:500>
 		return;
 	}
 }
@@ -15636,7 +15636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_CacheInterestial_m5437AFB1D7
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowInterestitial_m2CF8A1B609A7D909AF3F54A5806A53B91988C9E7 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:520>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:520>
 		return;
 	}
 }
@@ -15644,7 +15644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowInterestitial_m2CF8A1B60
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_setConsent_m93B1056F90AD68244F72A84DA41F5EE5E68CDF59 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:529>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:529>
 		return;
 	}
 }
@@ -15652,7 +15652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_setConsent_m93B1056F90AD6824
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_InterstitialClosed_mBC2B45B3341F73FCB8DBC76D4E514A61D7104E5F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_advertiser, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:537>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:537>
 		return;
 	}
 }
@@ -15669,7 +15669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_showGoogleRewardedAd_mCC3ABE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:541>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:541>
 		RewardManager_t0055B226D57E8DAC0B6CE2DE2EFD20DDCC550A7E* L_0 = ((RewardManager_t0055B226D57E8DAC0B6CE2DE2EFD20DDCC550A7E_StaticFields*)il2cpp_codegen_static_fields_for(RewardManager_t0055B226D57E8DAC0B6CE2DE2EFD20DDCC550A7E_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -15680,7 +15680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_showGoogleRewardedAd_mCC3ABE
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:543>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:543>
 		RewardManager_t0055B226D57E8DAC0B6CE2DE2EFD20DDCC550A7E* L_2 = ((RewardManager_t0055B226D57E8DAC0B6CE2DE2EFD20DDCC550A7E_StaticFields*)il2cpp_codegen_static_fields_for(RewardManager_t0055B226D57E8DAC0B6CE2DE2EFD20DDCC550A7E_il2cpp_TypeInfo_var))->___Instance;
 		UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* L_3 = (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7*)il2cpp_codegen_object_new(UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7_il2cpp_TypeInfo_var);
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_3, __this, (intptr_t)((void*)GameManager_GiveReward_mABA0F33BE50BEC7DC498490D16C3F1671E8F024E_RuntimeMethod_var), NULL);
@@ -15690,7 +15690,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_showGoogleRewardedAd_mCC3ABE
 
 IL_0022:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:545>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:545>
 		return;
 	}
 }
@@ -15698,12 +15698,12 @@ IL_0022:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_GiveReward_mABA0F33BE50BEC7DC498490D16C3F1671E8F024E (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:549>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:549>
 		TipsService_t7FF8895BD9073519B7FDD29E9EA87E655E8952B4* L_0;
 		L_0 = TipsService_get_Instance_m7075702D6C23BD3F7A31D18E8B3F718D2719ADB0(NULL);
 		NullCheck(L_0);
 		TipsService_IncrementCurrentLevelTips_m9A4FDBB4877BA5CB257B97962E7A4CE1EF926248(L_0, 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:550>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:550>
 		return;
 	}
 }
@@ -15740,17 +15740,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ShowRewardedAd_m8830A8186BAB
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B5_2 = NULL;
 	AdsService_tC319179A98867ADE72C2B6D626615351A93006B8* G_B5_3 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:555>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:556>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:557>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:558>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:559>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:560>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:561>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:562>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:563>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:564>
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:565>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:555>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:556>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:557>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:558>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:559>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:560>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:561>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:562>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:563>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:564>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:565>
 		AdsService_tC319179A98867ADE72C2B6D626615351A93006B8* L_0;
 		L_0 = AdsService_get_Instance_m10ADFFC1317BA4FA8D5DE757FF64A1A8F5C1B1F3(NULL);
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5_il2cpp_TypeInfo_var);
@@ -15842,7 +15842,7 @@ IL_0062:
 	{
 		NullCheck(G_B6_3);
 		AdsService_ShowRewardedAd_mB6680CFAEDE369E0F67B3B9914DE1DE8FA20A89A(G_B6_3, G_B6_2, G_B6_1, G_B6_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:566>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:566>
 		return;
 	}
 }
@@ -15859,7 +15859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_completeMethod_m4A4D1CBB0E8F
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:572>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:572>
 		bool L_0 = ___0_completed;
 		if (!L_0)
 		{
@@ -15867,18 +15867,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_completeMethod_m4A4D1CBB0E8F
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:576>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:576>
 		GameManager_getReward_m98AAEF315F133C641CEB78DED636E726CDE484D0(__this, NULL);
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:581>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:581>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral50EC4B90B561A63A87A0ED65BC647743A3CCE98E, NULL);
 		V_0 = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:582>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:582>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -15889,7 +15889,7 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:584>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:584>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
 		NullCheck(L_4);
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_5;
@@ -15900,7 +15900,7 @@ IL_000a:
 
 IL_0029:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:587>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:587>
 		return;
 	}
 }
@@ -15921,7 +15921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_getReward_m98AAEF315F133C641
 	int32_t V_0 = 0;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:591>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:591>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -15934,10 +15934,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_getReward_m98AAEF315F133C641
 		int32_t L_4;
 		L_4 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:592>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:592>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:593>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:593>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6;
 		L_6 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_6);
@@ -15948,11 +15948,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_getReward_m98AAEF315F133C641
 		L_9 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_8, _stringLiteralCC117B19A2BD6AA385C42C312A84989EAF23FBFF, NULL);
 		int32_t L_10 = V_0;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(L_9, L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:594>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:594>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11;
 		L_11 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral50EC4B90B561A63A87A0ED65BC647743A3CCE98E, NULL);
 		V_1 = L_11;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:595>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:595>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -15963,7 +15963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_getReward_m98AAEF315F133C641
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:597>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:597>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
 		NullCheck(L_14);
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_15;
@@ -15974,7 +15974,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_getReward_m98AAEF315F133C641
 
 IL_006b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:599>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:599>
 		return;
 	}
 }
@@ -15993,7 +15993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_makeReward_m08337A5A6262B36F
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:604>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:604>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -16002,17 +16002,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_makeReward_m08337A5A6262B36F
 		int32_t L_2 = L_1->___coin;
 		NullCheck(L_1);
 		L_1->___coin = ((int32_t)il2cpp_codegen_add(L_2, ((int32_t)20)));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:605>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:605>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_3;
 		L_3 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___coin;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral7BFACA17C49A18C41E4228E845AEC02D3C3A44A7, L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:606>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:606>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral305AEBFB357629452759FEF33EFF7759DCE00411, NULL);
 		V_0 = L_5;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:607>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:607>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -16023,7 +16023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_makeReward_m08337A5A6262B36F
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:609>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:609>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = V_0;
 		NullCheck(L_8);
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9;
@@ -16041,7 +16041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_makeReward_m08337A5A6262B36F
 
 IL_0055:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:611>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:611>
 		return;
 	}
 }
@@ -16055,10 +16055,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_initStore_mC33E2FD21A2322CBC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:627>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:627>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7A9D14B94D28FB9E5C1133505C5CFB7767D6C55F, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:631>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:631>
 		return;
 	}
 }
@@ -16066,7 +16066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_initStore_mC33E2FD21A2322CBC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnInitializationComplete_m3611D794F44EA7116849BD187B7B4F95314EE7F6 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:710>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:710>
 		return;
 	}
 }
@@ -16074,7 +16074,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnInitializationComplete_m36
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnInitializationFailed_m729E850447374521DF6D9E465AFB7BF858B9C302 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:714>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:714>
 		return;
 	}
 }
@@ -16088,7 +16088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsAdLoaded_m09E89CCE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:719>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:719>
 		String_t* L_0 = ___0_adUnitId;
 		String_t* L_1 = __this->___rewardPlacementId;
 		bool L_2;
@@ -16099,7 +16099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsAdLoaded_m09E89CCE
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:721>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:721>
 		String_t* L_3 = __this->___rewardPlacementId;
 		il2cpp_codegen_runtime_class_init_inline(Advertisement_tA24B0B700823049F9FFF77F4D46E4F4599671EC5_il2cpp_TypeInfo_var);
 		Advertisement_Show_m8F5AB716E9FB227B3FCD267DBCA7BCCE63C06C6B(L_3, __this, NULL);
@@ -16107,7 +16107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsAdLoaded_m09E89CCE
 
 IL_001a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:723>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:723>
 		return;
 	}
 }
@@ -16126,17 +16126,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsFailedToLoad_mD38F
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:727>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:727>
 		String_t* L_0 = ___2_message;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9A0FD205D743CA8AB0B810CF4E5C38ED5C304565, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:728>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:728>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral50EC4B90B561A63A87A0ED65BC647743A3CCE98E, NULL);
 		V_0 = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:729>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:729>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -16147,7 +16147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsFailedToLoad_mD38F
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:731>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:731>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_0;
 		NullCheck(L_5);
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_6;
@@ -16158,7 +16158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsFailedToLoad_mD38F
 
 IL_002f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:733>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:733>
 		return;
 	}
 }
@@ -16166,7 +16166,7 @@ IL_002f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowStart_m24625EB6BC05BE4038A49C971DF6527D7942B1C3 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_adUnitId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:738>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:738>
 		return;
 	}
 }
@@ -16174,7 +16174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowStart_m24625EB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowClick_m22B948FA9A07D24D31E0E259643E149C1835A34A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, String_t* ___0_adUnitId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:742>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:742>
 		return;
 	}
 }
@@ -16198,7 +16198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowComplete_mAB3D
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:747>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:747>
 		int32_t L_0 = ___1_showCompletionState;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -16206,7 +16206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowComplete_mAB3D
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:750>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:750>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1;
 		L_1 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -16219,10 +16219,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowComplete_mAB3D
 		int32_t L_5;
 		L_5 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:751>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:751>
 		int32_t L_6 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_6, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:752>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:752>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_7;
 		L_7 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_7);
@@ -16233,11 +16233,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowComplete_mAB3D
 		L_10 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_9, _stringLiteralCC117B19A2BD6AA385C42C312A84989EAF23FBFF, NULL);
 		int32_t L_11 = V_0;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(L_10, L_11, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:753>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:753>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral50EC4B90B561A63A87A0ED65BC647743A3CCE98E, NULL);
 		V_1 = L_12;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:754>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:754>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -16248,7 +16248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowComplete_mAB3D
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:756>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:756>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_1;
 		NullCheck(L_15);
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_16;
@@ -16260,7 +16260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowComplete_mAB3D
 
 IL_0070:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:759>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:759>
 		int32_t L_17 = ___1_showCompletionState;
 		if (!L_17)
 		{
@@ -16268,7 +16268,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:763>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:763>
 		int32_t L_18 = ___1_showCompletionState;
 		if ((!(((uint32_t)L_18) == ((uint32_t)2))))
 		{
@@ -16276,14 +16276,14 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:765>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:765>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralB0F19CB20401FA0261401184DADF6FA70F7DB748, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:767>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:767>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
 		L_19 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral50EC4B90B561A63A87A0ED65BC647743A3CCE98E, NULL);
 		V_2 = L_19;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:768>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:768>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -16294,7 +16294,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:770>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:770>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = V_2;
 		NullCheck(L_22);
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_23;
@@ -16305,7 +16305,7 @@ IL_0070:
 
 IL_00a0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:773>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:773>
 		return;
 	}
 }
@@ -16324,17 +16324,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowFailure_mD01A6
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:777>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:777>
 		String_t* L_0 = ___2_message;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCFA4526330869D88ADBFA4197E52656D41075FFD, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:779>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:779>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral50EC4B90B561A63A87A0ED65BC647743A3CCE98E, NULL);
 		V_0 = L_2;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:780>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:780>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -16345,7 +16345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowFailure_mD01A6
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:782>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:782>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = V_0;
 		NullCheck(L_5);
 		PanelTips_t9531E79487DC9063C2AE977C4086107A1BC1A5CB* L_6;
@@ -16356,7 +16356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnUnityAdsShowFailure_mD01A6
 
 IL_002f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:784>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:784>
 		return;
 	}
 }
@@ -16378,43 +16378,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:101>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_0 = (List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235*)il2cpp_codegen_object_new(List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235_il2cpp_TypeInfo_var);
 		List_1__ctor_m1572AF991CD3CD21B43B0D6F699FE6296DEDF9E7(L_0, List_1__ctor_m1572AF991CD3CD21B43B0D6F699FE6296DEDF9E7_RuntimeMethod_var);
 		__this->___currentSFX = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentSFX), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:102>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:102>
 		Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* L_1 = (Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588*)il2cpp_codegen_object_new(Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_mA3C3860EDE2CDD08BBD68C389377BC89D029D968(L_1, Dictionary_2__ctor_mA3C3860EDE2CDD08BBD68C389377BC89D029D968_RuntimeMethod_var);
 		__this->___sfxdic = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sfxdic), (void*)L_1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:104>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:104>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)il2cpp_codegen_object_new(AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_il2cpp_TypeInfo_var);
 		AudioSource__ctor_mC67BD65374AC3CDFB702307F4A89932D803191C1(L_2, NULL);
 		__this->___cWalk = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cWalk), (void*)L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:145>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:145>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)il2cpp_codegen_object_new(AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_il2cpp_TypeInfo_var);
 		AudioSource__ctor_mC67BD65374AC3CDFB702307F4A89932D803191C1(L_3, NULL);
 		__this->___bgMusic = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___bgMusic), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:146>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:146>
 		__this->___musicName = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___musicName), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:469>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:469>
 		__this->___testmode = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:470>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:470>
 		__this->___androidGameId = _stringLiteral966A742E431AFCC8A21264DA404520E0486E0998;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___androidGameId), (void*)_stringLiteral966A742E431AFCC8A21264DA404520E0486E0998);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:471>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:471>
 		__this->___iosGameId = _stringLiteral7564A6C0C337BA1F44C9E48647DE58E924C2AEBE;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___iosGameId), (void*)_stringLiteral7564A6C0C337BA1F44C9E48647DE58E924C2AEBE);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:473>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:473>
 		__this->___rewardPlacementId = _stringLiteralF608EA91E59D48E4F094374F02A0EA5BD5C97708;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___rewardPlacementId), (void*)_stringLiteralF608EA91E59D48E4F094374F02A0EA5BD5C97708);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:502>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:502>
 		__this->___isfirst = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:635>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:635>
 		__this->___test = (bool)1;
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -16457,12 +16457,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m6A162D1CE45F1D23F65A28A8D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowRewardedAdU3Eb__53_0_mD7E6D2B71B91FEBAC9C5541C315E8AC1D4CA4C7B (U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:557>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:557>
 		TipsService_t7FF8895BD9073519B7FDD29E9EA87E655E8952B4* L_0;
 		L_0 = TipsService_get_Instance_m7075702D6C23BD3F7A31D18E8B3F718D2719ADB0(NULL);
 		NullCheck(L_0);
 		TipsService_IncrementCurrentLevelTips_m9A4FDBB4877BA5CB257B97962E7A4CE1EF926248(L_0, 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:558>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:558>
 		return;
 	}
 }
@@ -16470,7 +16470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowRewardedAdU3Eb__53_0_mD7E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowRewardedAdU3Eb__53_1_m2F2FE0D382C285A990BFAFF291F91F3C074BAD8A (U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:561>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:561>
 		return;
 	}
 }
@@ -16478,12 +16478,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowRewardedAdU3Eb__53_1_m2F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CShowRewardedAdU3Eb__53_2_m4C665C5BC59D02AC45B8E1363178B58BA2B4479D (U3CU3Ec_t934A682FC7A2310EB64DF8FB184FC75102272AA5* __this, String_t* ___0_err, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:563>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:563>
 		TipsService_t7FF8895BD9073519B7FDD29E9EA87E655E8952B4* L_0;
 		L_0 = TipsService_get_Instance_m7075702D6C23BD3F7A31D18E8B3F718D2719ADB0(NULL);
 		NullCheck(L_0);
 		TipsService_NotifyRewardError_mEAFB8219EBDD4C2ABAE5D3511CF953868E415A28(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:564>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:564>
 		return;
 	}
 }
@@ -16518,18 +16518,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_Start_m427A91544406639156A20C0
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:19>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_0);
 		GameManager_init_m7093FE26C40C871395176C438001B12C3F409024(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:20>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1;
 		L_1 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_1);
 		GameData_resetData_mA9F8DC88E34B109F8E767906B8CFE649EF2A14BE(L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:22>
 		Localization_t968E9F920913D5B70C0AA3CF2FA7513C410A5817* L_2;
 		L_2 = Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD(Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD_RuntimeMethod_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_3;
@@ -16539,19 +16539,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_Start_m427A91544406639156A20C0
 		L_4 = GameData_GetSystemLaguage_m8BB1D8EC45C52512658D00C87C021484E0FB8325(L_3, NULL);
 		NullCheck(L_2);
 		Localization_SetLanguage_m249410A69BD1694725F9453D633628D6AA501836(L_2, L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:23>
 		LevelMenu_initView_m6FBD93E48C09AA9562361D495A0E5E0962DA9345(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0F3BFB7B8AD6F40579A2F324672623A6A03A6E2E, NULL);
 		__this->___mainContainer = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mainContainer), (void*)L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:25>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_6 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_6, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___groups = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___groups), (void*)L_6);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:26>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___mainContainer;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -16596,13 +16596,13 @@ IL_0093:
 
 IL_005c_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:26>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:26>
 				RuntimeObject* L_13 = V_0;
 				NullCheck(L_13);
 				RuntimeObject* L_14;
 				L_14 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_13);
 				V_1 = ((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_14, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var));
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:28>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:28>
 				List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_15 = __this->___groups;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16 = V_1;
 				NullCheck(L_16);
@@ -16614,7 +16614,7 @@ IL_005c_1:
 
 IL_0079_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:26>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:26>
 				RuntimeObject* L_18 = V_0;
 				NullCheck(L_18);
 				bool L_19;
@@ -16636,11 +16636,11 @@ IL_0079_1:
 
 IL_0094:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:31>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:31>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_20 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_20);
 		GameManager_playMusic_mF62DD355F8A66ECEE12134AB945AE959C6D54112(L_20, _stringLiteral420AB0AA41C7EEF4FC1049D4C3B11C551D6C471F, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:32>
 		return;
 	}
 }
@@ -16648,7 +16648,7 @@ IL_0094:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_nEnable_mF289F0A686E6717BB573D95E24885381FE471591 (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:37>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:37>
 		return;
 	}
 }
@@ -16656,7 +16656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_nEnable_mF289F0A686E6717BB573D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_Update_m2125DF961C8A68FF8190B34F5400BE8963B33CD0 (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:44>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:44>
 		return;
 	}
 }
@@ -16674,7 +16674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_move_m00CFADE738363256E3A3DA68
 	RuntimeObject* V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:49>
 		bool L_0 = __this->___canmove;
 		if (!L_0)
 		{
@@ -16682,7 +16682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_move_m00CFADE738363256E3A3DA68
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:51>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___mainContainer;
 		NullCheck(L_1);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
@@ -16727,12 +16727,12 @@ IL_0055:
 
 IL_001b_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:51>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:51>
 				RuntimeObject* L_7 = V_0;
 				NullCheck(L_7);
 				RuntimeObject* L_8;
 				L_8 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(1, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_7);
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:53>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:53>
 				NullCheck(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_8, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)));
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 				L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(((Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)CastclassClass((RuntimeObject*)L_8, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_il2cpp_TypeInfo_var)), NULL);
@@ -16743,7 +16743,7 @@ IL_001b_1:
 
 IL_003b_1:
 			{
-				//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:51>
+				//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:51>
 				RuntimeObject* L_11 = V_0;
 				NullCheck(L_11);
 				bool L_12;
@@ -16765,13 +16765,13 @@ IL_003b_1:
 
 IL_0056:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:55>
 		__this->___isMoving = (bool)1;
 	}
 
 IL_005d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:57>
 		return;
 	}
 }
@@ -16786,7 +16786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_swipePage_m220371380501EA02D73
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:66>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:66>
 		float L_0 = ___0_force;
 		float L_1;
 		L_1 = fabsf(L_0);
@@ -16796,7 +16796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_swipePage_m220371380501EA02D73
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:67>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:67>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_2 = __this->___groups;
 		int32_t L_3 = __this->___page;
 		NullCheck(L_2);
@@ -16817,7 +16817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_swipePage_m220371380501EA02D73
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:68>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:68>
 		int32_t L_9 = __this->___page;
 		if ((((int32_t)L_9) < ((int32_t)0)))
 		{
@@ -16833,21 +16833,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_swipePage_m220371380501EA02D73
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:69>
 		LevelMenu_GoRight_m5E7A49886B808867D1A0DC564AB7546BFFD24A8D(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_005c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:71>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:71>
 		LevelMenu_returnPage_m45E4F96D82120EE31DD7E8CD8BEA996E12CAFFDD(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_0067:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:74>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_12 = __this->___groups;
 		int32_t L_13 = __this->___page;
 		NullCheck(L_12);
@@ -16868,7 +16868,7 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:75>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:75>
 		int32_t L_19 = __this->___page;
 		int32_t L_20 = __this->___pages;
 		if ((((int32_t)L_19) > ((int32_t)L_20)))
@@ -16884,28 +16884,28 @@ IL_0067:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:76>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:76>
 		LevelMenu_GoLeft_m542D04D1A95F290116381261B566CC3233E1E03D(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_00b1:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:78>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:78>
 		LevelMenu_returnPage_m45E4F96D82120EE31DD7E8CD8BEA996E12CAFFDD(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_00bc:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:82>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:82>
 		LevelMenu_returnPage_m45E4F96D82120EE31DD7E8CD8BEA996E12CAFFDD(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_00c7:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:86>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = __this->___groups;
 		int32_t L_23 = __this->___page;
 		NullCheck(L_22);
@@ -16926,7 +16926,7 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:87>
 		int32_t L_29 = __this->___page;
 		if ((((int32_t)L_29) < ((int32_t)0)))
 		{
@@ -16942,21 +16942,21 @@ IL_00c7:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:88>
 		LevelMenu_GoRight_m5E7A49886B808867D1A0DC564AB7546BFFD24A8D(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_0110:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:90>
 		LevelMenu_returnPage_m45E4F96D82120EE31DD7E8CD8BEA996E12CAFFDD(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_0118:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:93>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:93>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_32 = __this->___groups;
 		int32_t L_33 = __this->___page;
 		NullCheck(L_32);
@@ -16977,7 +16977,7 @@ IL_0118:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:94>
 		int32_t L_39 = __this->___page;
 		int32_t L_40 = __this->___pages;
 		if ((((int32_t)L_39) > ((int32_t)L_40)))
@@ -16993,32 +16993,32 @@ IL_0118:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:95>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:95>
 		LevelMenu_GoLeft_m542D04D1A95F290116381261B566CC3233E1E03D(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_0161:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:97>
 		LevelMenu_returnPage_m45E4F96D82120EE31DD7E8CD8BEA996E12CAFFDD(__this, NULL);
 		goto IL_016f;
 	}
 
 IL_0169:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:101>
 		LevelMenu_returnPage_m45E4F96D82120EE31DD7E8CD8BEA996E12CAFFDD(__this, NULL);
 	}
 
 IL_016f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:106>
 		MonoBehaviour_StopCoroutine_m1DA0B9343DCDB53221A6CD707CBF0827A6FFF17F(__this, _stringLiteral054981537C2977DD56D9B0478B17D846146BC166, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:107>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:107>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_42;
 		L_42 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral054981537C2977DD56D9B0478B17D846146BC166, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:109>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:109>
 		return;
 	}
 }
@@ -17093,7 +17093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_initView_m6FBD93E48C09AA956236
 	int32_t V_12 = 0;
 	int32_t V_13 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:128>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:128>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_0);
@@ -17109,26 +17109,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_initView_m6FBD93E48C09AA956236
 		float L_4;
 		L_4 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_2), NULL);
 		V_0 = L_4;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:130>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_5 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_5, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___pageDots = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pageDots), (void*)L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:133>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:133>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
 		int32_t L_7 = __this->___perpage;
 		int32_t L_8;
 		L_8 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)((int32_t)(L_6/L_7))), NULL);
 		__this->___pages = L_8;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:134>
 		V_3 = 0;
 		goto IL_0098;
 	}
 
 IL_004a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:135>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:135>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___dot;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___dot;
 		NullCheck(L_10);
@@ -17141,16 +17141,16 @@ IL_004a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_9, L_12, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_4 = L_13;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:136>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:136>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_4;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:137>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_15 = __this->___pageDots;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_4;
 		NullCheck(L_15);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_15, L_16, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:138>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:138>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_4;
 		String_t* L_18;
 		L_18 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
@@ -17158,14 +17158,14 @@ IL_004a:
 		L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralAF10A94AC47DC02F230BEEF95DE799F9C2777506, L_18, NULL);
 		NullCheck(L_17);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_17, L_19, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:134>
 		int32_t L_20 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_0098:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:134>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:134>
 		int32_t L_21 = V_3;
 		int32_t L_22 = __this->___pages;
 		if ((((int32_t)L_21) <= ((int32_t)L_22)))
@@ -17174,16 +17174,16 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:142>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:142>
 		LevelMenu_setpageDot_m50BF37E7F14E5B81402AD50FC8FCDA6BE657882F(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:143>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:143>
 		LevelMenu_fadeOut_m20827E7D17DA99E02BE3899D529EBF97DC71E5CF(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:145>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:145>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_23 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_23, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		__this->___gContainer = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___gContainer), (void*)L_23);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:146>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:146>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_24 = __this->___gContainer;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___levelButton;
 		NullCheck(L_25);
@@ -17197,7 +17197,7 @@ IL_0098:
 		L_28 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_27, NULL);
 		NullCheck(L_24);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_24, L_28, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:147>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:147>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___levelButton;
 		NullCheck(L_29);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_30;
@@ -17206,7 +17206,7 @@ IL_0098:
 		L_31 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		NullCheck(L_30);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_30, L_31, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:148>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = __this->___levelButton;
 		NullCheck(L_32);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
@@ -17214,9 +17214,9 @@ IL_0098:
 		NullCheck(L_33);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
 		L_34 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_33, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:151>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:151>
 		V_1 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:152>
 		int32_t L_35 = __this->___perpage;
 		V_5 = L_35;
 		goto IL_0178;
@@ -17224,7 +17224,7 @@ IL_0098:
 
 IL_010a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:155>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___levelButton;
 		NullCheck(L_36);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37;
@@ -17249,7 +17249,7 @@ IL_010a:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44;
 		L_44 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_39, L_43, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_6 = L_44;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:157>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:157>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = V_6;
 		NullCheck(L_45);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46;
@@ -17261,15 +17261,15 @@ IL_010a:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_49), ((float)il2cpp_codegen_multiply(L_47, ((float)((int32_t)il2cpp_codegen_add(L_48, 1))))), (0.0f), (0.0f), NULL);
 		NullCheck(L_46);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_46, L_49, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:159>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:159>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_50 = __this->___gContainer;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51 = V_6;
 		NullCheck(L_50);
 		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_50, L_51, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:160>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:160>
 		int32_t L_52 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_52, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:152>
 		int32_t L_53 = V_5;
 		int32_t L_54 = __this->___perpage;
 		V_5 = ((int32_t)il2cpp_codegen_add(L_53, L_54));
@@ -17277,7 +17277,7 @@ IL_010a:
 
 IL_0178:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:152>
 		int32_t L_55 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_56 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
@@ -17287,7 +17287,7 @@ IL_0178:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:165>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:165>
 		V_7 = 0;
 		goto IL_0352;
 	}
@@ -17301,7 +17301,7 @@ IL_0189:
 		NullCheck(L_58);
 		L_58->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_58->___U3CU3E4__this), (void*)__this);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:166>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:166>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_59 = V_8;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60 = __this->___levelButton;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
@@ -17314,13 +17314,13 @@ IL_0189:
 		NullCheck(L_59);
 		L_59->___tbtn = L_63;
 		Il2CppCodeGenWriteBarrier((void**)(&L_59->___tbtn), (void*)L_63);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:168>
 		int32_t L_64 = V_7;
 		int32_t L_65 = __this->___perpage;
 		int32_t L_66;
 		L_66 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)((int32_t)(L_64/L_65))), NULL);
 		V_9 = L_66;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:169>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_67 = V_8;
 		NullCheck(L_67);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = L_67->___tbtn;
@@ -17337,13 +17337,13 @@ IL_0189:
 		L_73 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_72, NULL);
 		NullCheck(L_69);
 		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_69, L_73, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:171>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:171>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_74 = V_8;
 		NullCheck(L_74);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75 = L_74->___tbtn;
 		NullCheck(L_75);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_75, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:173>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_76 = V_8;
 		NullCheck(L_76);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77 = L_76->___tbtn;
@@ -17355,7 +17355,7 @@ IL_0189:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_79), (1.0f), (1.0f), (1.0f), NULL);
 		NullCheck(L_78);
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_78, L_79, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:174>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_80 = V_8;
 		NullCheck(L_80);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_81 = L_80->___tbtn;
@@ -17368,7 +17368,7 @@ IL_0189:
 		L_84 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_11), NULL);
 		NullCheck(L_82);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_82, L_84);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:180>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_85 = V_8;
 		NullCheck(L_85);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_86 = L_85->___tbtn;
@@ -17376,7 +17376,7 @@ IL_0189:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_87;
 		L_87 = GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13(L_86, GameObject_GetComponentInChildren_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_m4883A479F4252D21D45D5AD3140CB42598C48A13_RuntimeMethod_var);
 		V_10 = L_87;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:183>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:183>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_88;
 		L_88 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17392,7 +17392,7 @@ IL_0189:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:185>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_92;
 		L_92 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17403,7 +17403,7 @@ IL_0189:
 		int32_t L_95;
 		L_95 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_93, ((int32_t)il2cpp_codegen_add(L_94, 1)), List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
 		V_12 = L_95;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:188>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_96;
 		L_96 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_96);
@@ -17418,14 +17418,14 @@ IL_0189:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:189>
 		V_13 = 1;
 		goto IL_02bd;
 	}
 
 IL_028a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:190>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_100 = V_10;
 		NullCheck(L_100);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_101;
@@ -17445,14 +17445,14 @@ IL_028a:
 		L_106 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_105, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
 		NullCheck(L_106);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_106, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:189>
 		int32_t L_107 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_107, 1));
 	}
 
 IL_02bd:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:189>
 		int32_t L_108 = V_13;
 		int32_t L_109 = V_12;
 		if ((((int32_t)L_108) <= ((int32_t)L_109)))
@@ -17463,7 +17463,7 @@ IL_02bd:
 
 IL_02c3:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:196>
 		int32_t L_110 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_111;
@@ -17483,7 +17483,7 @@ IL_02c3:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:198>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_114 = V_10;
 		NullCheck(L_114);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_114, (bool)0, NULL);
@@ -17492,7 +17492,7 @@ IL_02c3:
 
 IL_02e0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:206>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:206>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_115 = V_8;
 		NullCheck(L_115);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_116 = L_115->___tbtn;
@@ -17504,7 +17504,7 @@ IL_02e0:
 		L_119 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_118, NULL);
 		NullCheck(L_116);
 		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_116, L_119, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:207>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:207>
 		U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* L_120 = V_8;
 		NullCheck(L_120);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_121 = L_120->___tbtn;
@@ -17519,7 +17519,7 @@ IL_02e0:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_125, L_124, (intptr_t)((void*)U3CU3Ec__DisplayClass18_0_U3CinitViewU3Eb__0_mFF141559DFC23F94CCE3FFBE2A44D9FA462F6A72_RuntimeMethod_var), NULL);
 		NullCheck(L_123);
 		UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302(L_123, L_125, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:208>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:208>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_126 = V_10;
 		NullCheck(L_126);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_127;
@@ -17542,14 +17542,14 @@ IL_02e0:
 
 IL_034c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:165>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:165>
 		int32_t L_132 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_132, 1));
 	}
 
 IL_0352:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:165>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:165>
 		int32_t L_133 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_134 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
@@ -17559,7 +17559,7 @@ IL_0352:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:215>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:215>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_135;
 		L_135 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral9FB2F3655E9DD75E99A6C4F16345BA6B6F009B9D, NULL);
 		NullCheck(L_135);
@@ -17578,7 +17578,7 @@ IL_0352:
 		L_140 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_139, _stringLiteral4F3DE61F61ECD9DB18B5DFDD6B02D6466455121B, NULL);
 		NullCheck(L_138);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_138, L_140);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:221>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:221>
 		return;
 	}
 }
@@ -17605,7 +17605,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickDot_mC4A9672EF30444302991
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:227>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:227>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_tdot;
 		NullCheck(L_0);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -17635,12 +17635,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickDot_mC4A9672EF30444302991
 		int32_t L_10;
 		L_10 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_9, NULL);
 		V_0 = L_10;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:228>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:228>
 		int32_t L_11 = V_0;
 		__this->___page = L_11;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:229>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:229>
 		__this->___canmove = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:232>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_12 = __this->___gContainer;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
@@ -17737,7 +17737,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickDot_mC4A9672EF30444302991
 		L_47 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_45, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_48;
 		L_48 = ATween_MoveTo_m6D691F6EF312DC3FF5885264529B71543BE3FD4F(L_16, L_47, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:235>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:235>
 		return;
 	}
 }
@@ -17745,11 +17745,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickDot_mC4A9672EF30444302991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_dotclicked_m06591B1758C17CD0367114C4F36D89527EA65B8A (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:241>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:241>
 		__this->___canmove = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:242>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:242>
 		LevelMenu_setpageDot_m50BF37E7F14E5B81402AD50FC8FCDA6BE657882F(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:244>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:244>
 		return;
 	}
 }
@@ -17765,7 +17765,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickLevel_m40547F86B57A204217
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:253>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:253>
 		bool L_0 = __this->___isMoving;
 		if (L_0)
 		{
@@ -17773,7 +17773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickLevel_m40547F86B57A204217
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:254>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:254>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1;
 		L_1 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17788,13 +17788,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickLevel_m40547F86B57A204217
 		L_5 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_4, NULL);
 		NullCheck(L_1);
 		L_1->___cLevel = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:255>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:255>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = ___0_tbtn;
 		NullCheck(L_6);
 		String_t* L_7;
 		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_6, NULL);
 		LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A2253DA36DCAD3781CD(__this, L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:256>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:256>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8;
 		L_8 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_8);
@@ -17804,7 +17804,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_clickLevel_m40547F86B57A204217
 
 IL_0040:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:260>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:260>
 		return;
 	}
 }
@@ -17821,14 +17821,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_setpageDot_m50BF37E7F14E5B8140
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:267>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:267>
 		V_0 = 0;
 		goto IL_0037;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:268>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:268>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___pageDots;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -17842,14 +17842,14 @@ IL_0004:
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_4), (1.0f), (1.0f), (1.0f), (0.5f), NULL);
 		NullCheck(L_3);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_3, L_4);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:267>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:267>
 		int32_t L_5 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 	}
 
 IL_0037:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:267>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:267>
 		int32_t L_6 = V_0;
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_7 = __this->___pageDots;
 		NullCheck(L_7);
@@ -17861,7 +17861,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:270>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:270>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_9 = __this->___pageDots;
 		int32_t L_10 = __this->___page;
 		NullCheck(L_9);
@@ -17875,7 +17875,7 @@ IL_0037:
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_13), (1.0f), (1.0f), (1.0f), (1.0f), NULL);
 		NullCheck(L_12);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:271>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:271>
 		return;
 	}
 }
@@ -17893,14 +17893,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_continueLevel_m9350A0867B92E34
 	int32_t V_0 = 0;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:279>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:279>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___levelPassed;
 		V_0 = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:281>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:281>
 		int32_t L_2 = V_0;
 		int32_t L_3 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
 		if ((((int32_t)L_2) >= ((int32_t)L_3)))
@@ -17909,7 +17909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_continueLevel_m9350A0867B92E34
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:282>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:282>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_4;
 		L_4 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17921,7 +17921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_continueLevel_m9350A0867B92E34
 
 IL_0020:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:284>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:284>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6;
 		L_6 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17932,7 +17932,7 @@ IL_0020:
 
 IL_002f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:286>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:286>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_8;
 		L_8 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17944,7 +17944,7 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:288>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:288>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_10;
 		L_10 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17954,7 +17954,7 @@ IL_002f:
 
 IL_0046:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:290>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:290>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_11;
 		L_11 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -17965,16 +17965,16 @@ IL_0046:
 		String_t* L_14;
 		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_13, NULL);
 		V_1 = L_14;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:291>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:291>
 		String_t* L_15 = V_1;
 		LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A2253DA36DCAD3781CD(__this, L_15, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:293>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:293>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_16;
 		L_16 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_16);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_17;
 		L_17 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_16, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:294>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:294>
 		return;
 	}
 }
@@ -17988,9 +17988,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_playTutoial_mC3FD1F47B285801E2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:299>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:299>
 		LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A2253DA36DCAD3781CD(__this, _stringLiteral5631113A684CDC9530F8C04A0ADB038572C4E242, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:300>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:300>
 		return;
 	}
 }
@@ -18004,9 +18004,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_playComic_mCA7431DEBDDC9A65010
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:304>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:304>
 		LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A2253DA36DCAD3781CD(__this, _stringLiteral8A8619B5A439A44CB863A8374FE52287C6F7E134, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:305>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:305>
 		return;
 	}
 }
@@ -18020,18 +18020,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_openGC_mAAA33257E6F691A4237200
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:310>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:310>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_0);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1;
 		L_1 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_0, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:311>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:311>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2;
 		L_2 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_2);
 		GameManager_ShowLeaderboard_m8F8E26F98BF6FCAA613F64FEB0C3595A9CD3B7E5(L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:313>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:313>
 		return;
 	}
 }
@@ -18046,15 +18046,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_backMain_mFB53106BA2260721F067
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:319>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:319>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_0);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_1;
 		L_1 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_0, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:320>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:320>
 		LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A2253DA36DCAD3781CD(__this, _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:321>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:321>
 		return;
 	}
 }
@@ -18069,10 +18069,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_loadGameScene_mCEA466F7A2EDA1C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:328>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:328>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral079998E3393B6BDC1FAFFA63A54F724488AE5306, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:329>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:329>
 		return;
 	}
 }
@@ -18087,10 +18087,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_loadMainScene_mA2DB045D2AF5194
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:335>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:335>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:336>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:336>
 		return;
 	}
 }
@@ -18117,7 +18117,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_GoRight_m5E7A49886B808867D1A0D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:344>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:344>
 		bool L_0 = __this->___canmove;
 		if (L_0)
 		{
@@ -18125,13 +18125,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_GoRight_m5E7A49886B808867D1A0D
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:345>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:345>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:346>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:346>
 		int32_t L_1 = __this->___page;
 		int32_t L_2 = __this->___pages;
 		if ((((int32_t)L_1) >= ((int32_t)L_2)))
@@ -18140,12 +18140,12 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:348>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:348>
 		int32_t L_3 = __this->___page;
 		__this->___page = ((int32_t)il2cpp_codegen_add(L_3, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:349>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:349>
 		__this->___canmove = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:352>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:352>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_4 = __this->___gContainer;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -18242,7 +18242,7 @@ IL_0009:
 		L_39 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_37, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_40;
 		L_40 = ATween_MoveTo_m6D691F6EF312DC3FF5885264529B71543BE3FD4F(L_8, L_39, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:354>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:354>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_41;
 		L_41 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_41);
@@ -18252,7 +18252,7 @@ IL_0009:
 
 IL_010a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:356>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:356>
 		return;
 	}
 }
@@ -18279,7 +18279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_GoLeft_m542D04D1A95F2901163812
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:361>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:361>
 		bool L_0 = __this->___canmove;
 		if (L_0)
 		{
@@ -18287,13 +18287,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_GoLeft_m542D04D1A95F2901163812
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:362>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:362>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:363>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:363>
 		int32_t L_1 = __this->___page;
 		if ((((int32_t)L_1) <= ((int32_t)0)))
 		{
@@ -18301,12 +18301,12 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:365>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:365>
 		int32_t L_2 = __this->___page;
 		__this->___page = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:366>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:366>
 		__this->___canmove = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:369>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:369>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_3 = __this->___gContainer;
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
@@ -18403,7 +18403,7 @@ IL_0009:
 		L_38 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_36, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_39;
 		L_39 = ATween_MoveTo_m6D691F6EF312DC3FF5885264529B71543BE3FD4F(L_7, L_38, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:371>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:371>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_40;
 		L_40 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_40);
@@ -18413,7 +18413,7 @@ IL_0009:
 
 IL_0105:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:373>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:373>
 		return;
 	}
 }
@@ -18439,20 +18439,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeOut_m20827E7D17DA99E02BE38
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:377>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:377>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:378>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:378>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___mask;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:380>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:380>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___mask;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -18538,7 +18538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeOut_m20827E7D17DA99E02BE38
 		L_33 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_31, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_34;
 		L_34 = ATween_ValueTo_mCFFCB02D3B8A37D10513D343F1802163EEEB0B8D(L_5, L_33, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:382>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:382>
 		return;
 	}
 }
@@ -18565,7 +18565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:385>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:385>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		NullCheck(L_0);
 		bool L_1;
@@ -18576,27 +18576,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeIn_mB22C17F2CEDD3E7D103D2A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:386>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:386>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:387>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:387>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___mask;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:388>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:388>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___mask;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_5), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_4, L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:390>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:390>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___mask;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
@@ -18691,7 +18691,7 @@ IL_000e:
 		L_38 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_36, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_39;
 		L_39 = ATween_ValueTo_mCFFCB02D3B8A37D10513D343F1802163EEEB0B8D(L_7, L_38, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:392>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:392>
 		return;
 	}
 }
@@ -18705,11 +18705,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeInOver_m734E9EE34B677AC7E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:402>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:402>
 		String_t* L_0 = ___0_sceneName;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:403>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:403>
 		return;
 	}
 }
@@ -18717,14 +18717,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeInOver_m734E9EE34B677AC7E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeOutOver_m73A134AF5C30BDB08FBC9FD6AA44F743857B50A0 (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:409>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:409>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:410>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:410>
 		return;
 	}
 }
@@ -18732,7 +18732,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_fadeOutOver_m73A134AF5C30BDB08
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_OnUpdateTween_m88F1E43103187480E4C1B5FFF2BB769B1BE12C7F (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:420>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:420>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		float L_1 = ___0_value;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
@@ -18740,7 +18740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_OnUpdateTween_m88F1E4310318748
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (0.0f), (0.0f), (0.0f), L_1, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_0, L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:421>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:421>
 		return;
 	}
 }
@@ -18766,9 +18766,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_returnPage_m45E4F96D82120EE31D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:430>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:430>
 		__this->___canmove = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:431>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:431>
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = __this->___gContainer;
 		int32_t L_1 = __this->___page;
 		NullCheck(L_0);
@@ -18866,7 +18866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_returnPage_m45E4F96D82120EE31D
 		L_36 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_34, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_37;
 		L_37 = ATween_MoveTo_m6D691F6EF312DC3FF5885264529B71543BE3FD4F(L_5, L_36, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:433>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:433>
 		return;
 	}
 }
@@ -18874,7 +18874,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_returnPage_m45E4F96D82120EE31D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_debugtext_mC67967E2B55256D82846F19A7ADDEBA8FD4DD497 (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, String_t* ___0_str, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:438>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:438>
 		return;
 	}
 }
@@ -18882,11 +18882,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu_debugtext_mC67967E2B55256D8284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelMenu__ctor_mEDD578461B262CECD2EBC46E9645E5A74A7DF761 (LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:121>
 		__this->___pages = 1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:122>
 		__this->___perpage = 8;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:339>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:339>
 		__this->___canmove = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -18912,7 +18912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m2C90E98
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CinitViewU3Eb__0_mFF141559DFC23F94CCE3FFBE2A44D9FA462F6A72 (U3CU3Ec__DisplayClass18_0_tC6EA8997772346D28D590D824ADAAD79ACA702E5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:207>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:207>
 		LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* L_0 = __this->___U3CU3E4__this;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___tbtn;
 		NullCheck(L_0);
@@ -18981,7 +18981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CswipedU3Ed__9_MoveNext_m6DC857101BF78
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:113>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:113>
 		WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* L_4 = (WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663*)il2cpp_codegen_object_new(WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663_il2cpp_TypeInfo_var);
 		WaitForEndOfFrame__ctor_m4AF7E576C01E6B04443BB898B1AE5D645F7D45AB(L_4, NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -18993,11 +18993,11 @@ IL_0017:
 IL_0032:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:114>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:114>
 		LevelMenu_t6891BFAF859BCE6FD3FC107B0A40B48DFF968D8A* L_5 = V_1;
 		NullCheck(L_5);
 		L_5->___isMoving = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/LevelMenu.cs:115>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/LevelMenu.cs:115>
 		return (bool)0;
 	}
 }
@@ -19046,14 +19046,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_Start_mBADE8064A3ECDE65CA419F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:20>
 		MainScript_initData_mE1468AF3A302E118D337A6273B4F3F3819748AB2(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:21>
 		MainScript_initView_m843D486D2CADB3A4728B2821F0AEBC4FD9C1CC15(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:23>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:23>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0;
 		L_0 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral0BB34C8239D53AB7952E8CAC5BC9F460EF06222C, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:26>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:26>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_1 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -19064,7 +19064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_Start_mBADE8064A3ECDE65CA419F
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:28>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_3 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_3);
 		AdsManager_TopAdeptiveBanner_mB842CBA1581C890D9309A393A04E62B48E107FB2(L_3, NULL);
@@ -19072,7 +19072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_Start_mBADE8064A3ECDE65CA419F
 
 IL_002e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:32>
 		return;
 	}
 }
@@ -19113,11 +19113,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initView_m843D486D2CADB3A4728
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:51>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___lastWindow = _stringLiteral7AA85CFCC1B14978AFCF12FABD54D2AC74400E8B;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___lastWindow), (void*)_stringLiteral7AA85CFCC1B14978AFCF12FABD54D2AC74400E8B);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:55>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
 		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -19125,7 +19125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initView_m843D486D2CADB3A4728
 		String_t* L_1;
 		L_1 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_1), NULL);
 		V_0 = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:56>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:56>
 		String_t* L_2 = V_0;
 		String_t* L_3 = V_0;
 		NullCheck(L_3);
@@ -19137,13 +19137,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initView_m843D486D2CADB3A4728
 		int32_t L_6;
 		L_6 = Int32_Parse_m273CA1A9C7717C99641291A95C543711C0202AF0(L_5, NULL);
 		__this->___clevel = L_6;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:57>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_7;
 		L_7 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_8 = __this->___clevel;
 		NullCheck(L_7);
 		L_7->___cLevel = L_8;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:59>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___txtLevel;
 		Localization_t968E9F920913D5B70C0AA3CF2FA7513C410A5817* L_10;
 		L_10 = Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD(Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD_RuntimeMethod_var);
@@ -19157,19 +19157,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initView_m843D486D2CADB3A4728
 		L_14 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_10, L_13, NULL);
 		NullCheck(L_9);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_9, L_14);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:62>
 		MainScript_fadeOut_mEE4A729AF987119F6143731E1AB9459CF531D8BA(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:65>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
 		L_15 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral789EE06B7EF18131E84C187D976DC0A874598936, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:67>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:67>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_16;
 		L_16 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_16);
 		GameManager_CacheInterestial_m5437AFB1D7333046B5751456DF82BF57F7C7E743(L_16, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:69>
 		MainScript_initGameView_mE3446A5A337720A9B246890A3317F2E436750095(__this, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:70>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:70>
 		return;
 	}
 }
@@ -19185,7 +19185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initGameView_mE3446A5A337720A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:89>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:89>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___txtCoin;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -19196,7 +19196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initGameView_mE3446A5A337720A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:91>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___txtCoin;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_3;
@@ -19207,7 +19207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initGameView_mE3446A5A337720A
 		L_5 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_4, NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_2, L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:92>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:92>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6;
 		L_6 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_6);
@@ -19219,7 +19219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initGameView_mE3446A5A337720A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:94>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralA653EA629117805D5B780657208A4721399A4926, NULL);
 		NullCheck(L_9);
@@ -19228,7 +19228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initGameView_mE3446A5A337720A
 
 IL_0049:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:97>
 		return;
 	}
 }
@@ -19236,7 +19236,7 @@ IL_0049:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_Update_mF34BB130B02E9C1A49776F1CAFABBACE1A493B04 (MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:106>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:106>
 		return;
 	}
 }
@@ -19244,7 +19244,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_Update_mF34BB130B02E9C1A49776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_refreshView_m38810D0349E5BD5C24238AF838B19523774FED0C (MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:111>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:111>
 		return;
 	}
 }
@@ -19261,33 +19261,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initData_mE1468AF3A302E118D33
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_0);
 		L_0->___main = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___main), (void*)__this);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:122>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_1;
 		L_1 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_1);
 		GameData_resetData_mA9F8DC88E34B109F8E767906B8CFE649EF2A14BE(L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:123>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:124>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:124>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralDAC1ACE6197F06A4748BE07744065D31641358D1, NULL);
 		__this->___gameContainer = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___gameContainer), (void*)L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:125>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_3;
 		L_3 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_4;
 		L_4 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteral7BFACA17C49A18C41E4228E845AEC02D3C3A44A7, NULL);
 		NullCheck(L_3);
 		L_3->___coin = L_4;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:127>
 		Localization_t968E9F920913D5B70C0AA3CF2FA7513C410A5817* L_5;
 		L_5 = Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD(Singleton_1_get_Instance_mDD8515046931739905D2DE87B137E045A6925DCD_RuntimeMethod_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_6;
@@ -19297,7 +19297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_initData_mE1468AF3A302E118D33
 		L_7 = GameData_GetSystemLaguage_m8BB1D8EC45C52512658D00C87C021484E0FB8325(L_6, NULL);
 		NullCheck(L_5);
 		Localization_SetLanguage_m249410A69BD1694725F9453D633628D6AA501836(L_5, L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:129>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:129>
 		return;
 	}
 }
@@ -19313,7 +19313,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_gameWin_m7FED00DA81B7D911BD9F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:138>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:138>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -19325,28 +19325,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_gameWin_m7FED00DA81B7D911BD9F
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:139>
 		return;
 	}
 
 IL_000d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:140>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:140>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_2;
 		L_2 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_2);
 		GameData_lockGame_m0318713FE9155A18A15A4ED0C33089AF79FE58BD(L_2, (bool)1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:141>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:141>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_3;
 		L_3 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_3);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
 		L_4 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_3, _stringLiteralE91BBC2315AFCB5BB31489877F8AD2310466A9A2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:142>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:142>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral31CB10D3EBABE854DFE7BC0304C14922A2F5971E, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:145>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:145>
 		return;
 	}
 }
@@ -19382,20 +19382,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_PopupClosedMethod_m65CD6021CC
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:296>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:296>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral2831C35116C4AC64F4583FA21A49DE3A698C9021, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:297>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:297>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralF77F4A09D607264760AA3EC7D11FC321FCD22795, NULL);
 		V_0 = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:298>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:298>
 		int32_t L_1 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_1, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:299>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:299>
 		int32_t L_2 = V_0;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralF77F4A09D607264760AA3EC7D11FC321FCD22795, L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:300>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:300>
 		return;
 	}
 }
@@ -19412,7 +19412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_gameFailed_mF78D0C9E103F7D5A3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:306>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:306>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_0;
 		L_0 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -19437,33 +19437,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_gameFailed_mF78D0C9E103F7D5A3
 
 IL_0018:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:307>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:307>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:309>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:309>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_4;
 		L_4 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_4);
 		GameData_lockGame_m0318713FE9155A18A15A4ED0C33089AF79FE58BD(L_4, (bool)1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:310>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:310>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_5;
 		L_5 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_5);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6;
 		L_6 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_5, _stringLiteral136A70DE9635C6EB738076B69AD40ACE6E703712, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:314>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:314>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_7;
 		L_7 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_7);
 		L_7->___isFail = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:317>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:317>
 		int32_t L_8 = ((MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_StaticFields*)il2cpp_codegen_static_fields_for(MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_il2cpp_TypeInfo_var))->___nFail;
 		((MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_StaticFields*)il2cpp_codegen_static_fields_for(MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_il2cpp_TypeInfo_var))->___nFail = ((int32_t)il2cpp_codegen_add(L_8, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:318>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:318>
 		int32_t L_9 = ((MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_StaticFields*)il2cpp_codegen_static_fields_for(MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_il2cpp_TypeInfo_var))->___nFail;
 		if ((!(((uint32_t)L_9) == ((uint32_t)5))))
 		{
@@ -19471,21 +19471,21 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:319>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:319>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10;
 		L_10 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_10);
 		GameManager_ShowInterestitial_m2CF8A1B609A7D909AF3F54A5806A53B91988C9E7(L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:320>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:320>
 		((MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_StaticFields*)il2cpp_codegen_static_fields_for(MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF_il2cpp_TypeInfo_var))->___nFail = 0;
 	}
 
 IL_0064:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:324>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:324>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
 		L_11 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteralB2C9A1B79388A3548176117524B37FBC20A1A806, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:326>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:326>
 		return;
 	}
 }
@@ -19539,7 +19539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_buttonHandler_m82C3242B1C6869
 	memset((&V_2), 0, sizeof(V_2));
 	int32_t V_3 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:349>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:349>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_g;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -19842,34 +19842,34 @@ IL_0157:
 
 IL_0168:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:352>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:352>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_43;
 		L_43 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_43);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_44;
 		L_44 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_43, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:353>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:353>
 		return;
 	}
 
 IL_0179:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:356>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:356>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_45;
 		L_45 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_45);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_46;
 		L_46 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_45, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:357>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:357>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___isInGame = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:358>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:358>
 		return;
 	}
 
 IL_0190:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:362>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:362>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_47;
 		L_47 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -19877,19 +19877,19 @@ IL_0190:
 		String_t* L_48;
 		L_48 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_2), NULL);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_48, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:363>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:363>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_49;
 		L_49 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_49);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_50;
 		L_50 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_49, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:364>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:364>
 		return;
 	}
 
 IL_01b3:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:366>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:366>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_51;
 		L_51 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -19897,19 +19897,19 @@ IL_01b3:
 		String_t* L_52;
 		L_52 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_2), NULL);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_52, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:367>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:367>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_53;
 		L_53 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_53);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_54;
 		L_54 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_53, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:368>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:368>
 		return;
 	}
 
 IL_01d6:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:370>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:370>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_55;
 		L_55 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -19922,7 +19922,7 @@ IL_01d6:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:371>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:371>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_58;
 		L_58 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -19935,7 +19935,7 @@ IL_01d6:
 
 IL_01fb:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:373>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:373>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_61;
 		L_61 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -19948,19 +19948,19 @@ IL_01fb:
 		L_64 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_63, NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_64, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:375>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:375>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_65;
 		L_65 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_65);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_66;
 		L_66 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_65, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:376>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:376>
 		return;
 	}
 
 IL_022f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:378>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:378>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_67;
 		L_67 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -19968,21 +19968,21 @@ IL_022f:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_68 = L_67->___maing;
 		NullCheck(L_68);
 		GameObject_BroadcastMessage_mB51BBADA9206219343B0E7C4199F75BAFEF19A78(L_68, _stringLiteralF9010398F7F524C05AB19445BDCE02E617A3E267, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:379>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:379>
 		return;
 	}
 
 IL_0244:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:382>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:382>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:383>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:383>
 		return;
 	}
 
 IL_024f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:385>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:385>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_69;
 		L_69 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -20003,30 +20003,30 @@ IL_024f:
 
 IL_0266:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:385>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:385>
 		return;
 	}
 
 IL_0267:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:391>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:391>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_73;
 		L_73 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_73);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_74;
 		L_74 = GameManager_playSfx_m19D96DDC30F62F59A1EAFD41C128C0F56A26E28D(L_73, _stringLiteral43EFCF5E3018D7F9CB3012489204ED178D31F95B, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:392>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:392>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___isInGame = (bool)0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:393>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:393>
 		return;
 	}
 
 IL_027e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:395>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:395>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:396>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:396>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_75;
 		L_75 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -20047,13 +20047,13 @@ IL_027e:
 
 IL_029f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:396>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:396>
 		return;
 	}
 
 IL_02a0:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:401>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:401>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_79;
 		L_79 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -20078,13 +20078,13 @@ IL_02a0:
 
 IL_02b8:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:402>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:402>
 		return;
 	}
 
 IL_02b9:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:404>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:404>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_83;
 		L_83 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -20097,17 +20097,17 @@ IL_02b9:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:405>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:405>
 		return;
 	}
 
 IL_02c6:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:407>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:407>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_85 = __this->___panelTips;
 		NullCheck(L_85);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_85, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:447>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:447>
 		return;
 	}
 }
@@ -20122,10 +20122,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_loadMainScene_mE4838E2F69AADC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:454>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:454>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_LoadLevel_mC3B1E3C869BDA2BE6B30AB846F34991A016E4415(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:455>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:455>
 		return;
 	}
 }
@@ -20140,10 +20140,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_loadLevelScene_m948FAAF5E53E3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:460>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:460>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_LoadLevel_mC3B1E3C869BDA2BE6B30AB846F34991A016E4415(_stringLiteral0C1027955C34F65AB4C5F60D7123BFDD877E0914, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:461>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:461>
 		return;
 	}
 }
@@ -20151,7 +20151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_loadLevelScene_m948FAAF5E53E3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeIn_m1F623B35554B63A827F4A59D9B904FFF01F6A639 (MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:466>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:466>
 		return;
 	}
 }
@@ -20166,14 +20166,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_disableAll_m97CB9875E13B9556D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:472>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:472>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0EF762F5329503B52FDF68E0A4B88E30196F27DC, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:473>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:473>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:476>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:476>
 		return;
 	}
 }
@@ -20202,7 +20202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_OnClick_mFEA55F031EA54AF85582
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:480>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:480>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_g;
 		NullCheck(L_0);
 		String_t* L_1;
@@ -20267,23 +20267,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_OnClick_mFEA55F031EA54AF85582
 
 IL_005c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:486>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:486>
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, _stringLiteral0C1027955C34F65AB4C5F60D7123BFDD877E0914, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:487>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:487>
 		return;
 	}
 
 IL_0068:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:489>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:489>
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:490>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:490>
 		return;
 	}
 
 IL_0074:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:493>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:493>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_14 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -20294,7 +20294,7 @@ IL_0074:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:495>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:495>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_16 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_16);
 		AdsManager_ShowInterstialAds_m6C9EB761E386F41C6A85B704231E0DD7C86A14DA(L_16, NULL);
@@ -20302,7 +20302,7 @@ IL_0074:
 
 IL_008a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:497>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:497>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_17;
 		L_17 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -20310,13 +20310,13 @@ IL_008a:
 		String_t* L_18;
 		L_18 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_1), NULL);
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, L_18, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:499>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:499>
 		return;
 	}
 
 IL_009e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:502>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:502>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_19 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -20327,7 +20327,7 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:504>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:504>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_21 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_21);
 		AdsManager_ShowInterstialAds_m6C9EB761E386F41C6A85B704231E0DD7C86A14DA(L_21, NULL);
@@ -20335,7 +20335,7 @@ IL_009e:
 
 IL_00b4:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:506>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:506>
 		int32_t L_22 = __this->___clevel;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 		String_t* L_23;
@@ -20343,13 +20343,13 @@ IL_00b4:
 		String_t* L_24;
 		L_24 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_23, NULL);
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, L_24, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:508>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:508>
 		return;
 	}
 
 IL_00d5:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:511>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:511>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_25 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -20360,7 +20360,7 @@ IL_00d5:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:513>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:513>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_27 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_27);
 		AdsManager_ShowInterstialAds_m6C9EB761E386F41C6A85B704231E0DD7C86A14DA(L_27, NULL);
@@ -20368,15 +20368,15 @@ IL_00d5:
 
 IL_00eb:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:515>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:515>
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, _stringLiteral0C1027955C34F65AB4C5F60D7123BFDD877E0914, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:517>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:517>
 		return;
 	}
 
 IL_00f7:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:520>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:520>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_28 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -20387,7 +20387,7 @@ IL_00f7:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:522>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:522>
 		AdsManager_tE059594BE435B356831188671B794CDE032FC41B* L_30 = ((AdsManager_tE059594BE435B356831188671B794CDE032FC41B_StaticFields*)il2cpp_codegen_static_fields_for(AdsManager_tE059594BE435B356831188671B794CDE032FC41B_il2cpp_TypeInfo_var))->___Instance;
 		NullCheck(L_30);
 		AdsManager_ShowInterstialAds_m6C9EB761E386F41C6A85B704231E0DD7C86A14DA(L_30, NULL);
@@ -20395,9 +20395,9 @@ IL_00f7:
 
 IL_010d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:524>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:524>
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, _stringLiteral0C1027955C34F65AB4C5F60D7123BFDD877E0914, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:528>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:528>
 		return;
 	}
 }
@@ -20412,7 +20412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_nextLevel_mA97F99CFCDB4C2E620
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:531>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:531>
 		int32_t L_0 = __this->___clevel;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		String_t* L_1;
@@ -20420,7 +20420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_nextLevel_mA97F99CFCDB4C2E620
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9B5D93EBDD41E0250436B5C2FA8A1004ADC41CB9, L_1, NULL);
 		MainScript_fadeIn_m3003D6AC1CF5AC4D55995170FEE7EEC817449C51(__this, L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:532>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:532>
 		return;
 	}
 }
@@ -20446,20 +20446,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeOut_mEE4A729AF987119F6143
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:539>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:539>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:540>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:540>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___mask;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = Color_get_black_mB50217951591A045844C61E7FF31EEE3FEF16737_inline(NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:541>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:541>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___mask;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -20545,7 +20545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeOut_mEE4A729AF987119F6143
 		L_33 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_31, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_34;
 		L_34 = ATween_ValueTo_mCFFCB02D3B8A37D10513D343F1802163EEEB0B8D(L_5, L_33, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:543>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:543>
 		return;
 	}
 }
@@ -20572,7 +20572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeIn_m3003D6AC1CF5AC4D55995
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:549>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:549>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		NullCheck(L_0);
 		bool L_1;
@@ -20583,27 +20583,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeIn_m3003D6AC1CF5AC4D55995
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:550>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:550>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:551>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:551>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___mask;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:552>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:552>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___mask;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
 		memset((&L_5), 0, sizeof(L_5));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_5), (0.0f), (0.0f), (0.0f), (0.0f), NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_4, L_5);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:556>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:556>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___mask;
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
@@ -20698,7 +20698,7 @@ IL_000e:
 		L_38 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_36, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_39;
 		L_39 = ATween_ValueTo_mCFFCB02D3B8A37D10513D343F1802163EEEB0B8D(L_7, L_38, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:559>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:559>
 		return;
 	}
 }
@@ -20712,11 +20712,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeInOver_mF6D830202ACE0F41D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:563>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:563>
 		String_t* L_0 = ___0_sceneName;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:564>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:564>
 		return;
 	}
 }
@@ -20724,14 +20724,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeInOver_mF6D830202ACE0F41D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeOutOver_m3DD86D7D796C47E6B210709DCA908D63B785BDB4 (MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:567>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:567>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:568>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:568>
 		return;
 	}
 }
@@ -20739,7 +20739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_fadeOutOver_m3DD86D7D796C47E6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_OnUpdateTween_mC3B0FC4BF282DE1AFCD83FF83B605C425DA54391 (MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:579>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:579>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___mask;
 		float L_1 = ___0_value;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
@@ -20747,7 +20747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainScript_OnUpdateTween_mC3B0FC4BF282DE
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_2), (0.0f), (0.0f), (0.0f), L_1, NULL);
 		NullCheck(L_0);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_0, L_2);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:580>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:580>
 		return;
 	}
 }
@@ -20839,7 +20839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CfailU3Ed__21_MoveNext_m8975F887874014
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:328>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:328>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -20851,13 +20851,13 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:330>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:330>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_5 = V_1;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = L_5->___panelFail;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:331>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:331>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_7 = V_1;
 		NullCheck(L_7);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = L_7->___panelFail;
@@ -20868,7 +20868,7 @@ IL_0037:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
 		L_10 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_9, _stringLiteralCCAAF7A52D810B3349716A1019C9B54A72B0DBA0, NULL);
 		V_2 = L_10;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:332>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:332>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = V_2;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
@@ -20946,7 +20946,7 @@ IL_0037:
 		L_38 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_35, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_39;
 		L_39 = ATween_MoveTo_m6D691F6EF312DC3FF5885264529B71543BE3FD4F(L_12, L_38, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:334>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:334>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40 = V_2;
 		NullCheck(L_40);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41;
@@ -20964,11 +20964,11 @@ IL_0037:
 		L_45 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_44, _stringLiteral6B650F99ADA662B5388B72B19E2DB0F96A9AE523, NULL);
 		NullCheck(L_43);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_43, L_45);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:338>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:338>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_46 = V_1;
 		NullCheck(L_46);
 		MainScript_disableAll_m97CB9875E13B9556DD033DE140480A2FADB821C1(L_46, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:339>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:339>
 		return (bool)0;
 	}
 }
@@ -21062,7 +21062,7 @@ IL_0017:
 
 IL_001e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:36>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -21074,14 +21074,14 @@ IL_001e:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:38>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_5 = V_1;
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_6 = V_1;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___timeCount;
 		NullCheck(L_5);
 		L_5->___timeCount = ((int32_t)il2cpp_codegen_add(L_7, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:35>
 		goto IL_001e;
 	}
 }
@@ -21224,7 +21224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CwinU3Ed__16_MoveNext_m07AD6A67B151032
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:148>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:148>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (1.0f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -21236,7 +21236,7 @@ IL_0017:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:151>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:151>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_5;
 		L_5 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21249,7 +21249,7 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:152>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:152>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_8 = V_1;
 		NullCheck(L_8);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___panelWin;
@@ -21275,7 +21275,7 @@ IL_0037:
 
 IL_0080:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:154>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:154>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_15 = V_1;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = L_15->___panelWin;
@@ -21300,19 +21300,19 @@ IL_0080:
 
 IL_00af:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:157>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:157>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_22;
 		L_22 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_22);
 		L_22->___isWin = (bool)1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:172>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:172>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_23 = V_1;
 		NullCheck(L_23);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = L_23->___panelWin;
 		NullCheck(L_24);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:173>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_25 = V_1;
 		NullCheck(L_25);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = L_25->___panelWin;
@@ -21323,7 +21323,7 @@ IL_00af:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
 		L_28 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_27, _stringLiteralCCAAF7A52D810B3349716A1019C9B54A72B0DBA0, NULL);
 		V_2 = L_28;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:174>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = V_2;
 		NullCheck(L_29);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
@@ -21401,7 +21401,7 @@ IL_00af:
 		L_56 = ATween_Hash_mABD669E284222D1A363F8562FF2F6A28C24BA297(L_53, NULL);
 		TweenHandle_tB41B7E32FC02D587B5AF53C0CC371291C8921112* L_57;
 		L_57 = ATween_MoveTo_m6D691F6EF312DC3FF5885264529B71543BE3FD4F(L_30, L_56, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:176>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58 = V_2;
 		NullCheck(L_58);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_59;
@@ -21425,7 +21425,7 @@ IL_00af:
 		L_65 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_64, _stringLiteralEC4FE9419134BBCD18260831249C67859EEADFFC, NULL);
 		NullCheck(L_63);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_63, L_65);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:177>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:177>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_66 = V_2;
 		NullCheck(L_66);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
@@ -21449,16 +21449,16 @@ IL_00af:
 		L_73 = Localization_GetString_m84D2E00636BB615A5DE04226F41B2D87FEA8C976(L_72, _stringLiteralEC4FE9419134BBCD18260831249C67859EEADFFC, NULL);
 		NullCheck(L_71);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_71, L_73);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:180>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_74 = V_1;
 		NullCheck(L_74);
 		MainScript_disableAll_m97CB9875E13B9556DD033DE140480A2FADB821C1(L_74, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:184>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_75 = V_1;
 		NullCheck(L_75);
 		int32_t L_76 = L_75->___timeCount;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(((int32_t)600), L_76));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:185>
 		int32_t L_77 = V_3;
 		if ((((int32_t)L_77) >= ((int32_t)0)))
 		{
@@ -21466,13 +21466,13 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:186>
 		V_3 = 0;
 	}
 
 IL_01fc:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:189>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_78 = V_2;
 		NullCheck(L_78);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_79;
@@ -21493,20 +21493,20 @@ IL_01fc:
 		L_84 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
 		NullCheck(L_83);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_83, L_84);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:190>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:190>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_85 = V_1;
 		NullCheck(L_85);
 		int32_t L_86 = L_85->___timeCount;
 		int32_t L_87;
 		L_87 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)L_86)/(60.0f))), NULL);
 		V_4 = L_87;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:191>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_88 = V_1;
 		NullCheck(L_88);
 		int32_t L_89 = L_88->___timeCount;
 		int32_t L_90 = V_4;
 		V_5 = ((int32_t)il2cpp_codegen_subtract(L_89, ((int32_t)il2cpp_codegen_multiply(L_90, ((int32_t)60)))));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:193>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_91 = V_2;
 		NullCheck(L_91);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_92;
@@ -21533,7 +21533,7 @@ IL_01fc:
 		L_103 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral525F5C8DBE02A4413AF96F338A4166104DA95AE4, L_99, L_102, NULL);
 		NullCheck(L_96);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_96, L_103);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:195>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_104;
 		L_104 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21541,9 +21541,9 @@ IL_01fc:
 		int32_t L_105;
 		L_105 = GameData_getLevelBestScore_m4D339745C0CA272EF7FB307E90FD18E45A2AA147(L_104, NULL);
 		V_6 = L_105;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:196>
 		V_7 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:198>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:198>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_106 = V_1;
 		NullCheck(L_106);
 		int32_t L_107 = L_106->___timeCount;
@@ -21554,14 +21554,14 @@ IL_01fc:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:199>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:199>
 		V_7 = 3;
 		goto IL_02d2;
 	}
 
 IL_02ad:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:200>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:200>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_109 = V_1;
 		NullCheck(L_109);
 		int32_t L_110 = L_109->___timeCount;
@@ -21572,14 +21572,14 @@ IL_02ad:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:201>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:201>
 		V_7 = 2;
 		goto IL_02d2;
 	}
 
 IL_02be:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:202>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:202>
 		MainScript_tE5DA41EF9F6C72F24338683BF923785400FDC5FF* L_112 = V_1;
 		NullCheck(L_112);
 		int32_t L_113 = L_112->___timeCount;
@@ -21590,27 +21590,27 @@ IL_02be:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:203>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:203>
 		V_7 = 1;
 		goto IL_02d2;
 	}
 
 IL_02cf:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:205>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:205>
 		V_7 = 0;
 	}
 
 IL_02d2:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:212>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:212>
 		V_10 = 1;
 		goto IL_0317;
 	}
 
 IL_02d7:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:213>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:213>
 		String_t* L_115;
 		L_115 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_10), NULL);
 		String_t* L_116;
@@ -21618,7 +21618,7 @@ IL_02d7:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117;
 		L_117 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_116, NULL);
 		V_11 = L_117;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:214>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:214>
 		int32_t L_118 = V_10;
 		int32_t L_119 = V_7;
 		if ((((int32_t)L_118) > ((int32_t)L_119)))
@@ -21627,7 +21627,7 @@ IL_02d7:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:215>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:215>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = V_11;
 		NullCheck(L_120);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_121;
@@ -21639,7 +21639,7 @@ IL_02d7:
 
 IL_0304:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:217>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:217>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_122 = V_11;
 		NullCheck(L_122);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_123;
@@ -21650,14 +21650,14 @@ IL_0304:
 
 IL_0311:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:212>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:212>
 		int32_t L_124 = V_10;
 		V_10 = ((int32_t)il2cpp_codegen_add(L_124, 1));
 	}
 
 IL_0317:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:212>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:212>
 		int32_t L_125 = V_10;
 		if ((((int32_t)L_125) <= ((int32_t)3)))
 		{
@@ -21665,9 +21665,9 @@ IL_0317:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:222>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:222>
 		V_8 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:224>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:224>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_126;
 		L_126 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21680,7 +21680,7 @@ IL_0317:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:225>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:225>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_129;
 		L_129 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21691,7 +21691,7 @@ IL_0317:
 
 IL_033e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:232>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:232>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_131;
 		L_131 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21704,31 +21704,31 @@ IL_033e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:233>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:233>
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(_stringLiteralBBB06758D26F259C796B1C96E4DC472ADBEB4699, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:234>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:234>
 		int32_t L_134 = V_8;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral1FC0AA0390E984F59AC0AF74C2C4B38969B6AEF0, L_134, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:235>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:235>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_135;
 		L_135 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_136 = V_8;
 		NullCheck(L_135);
 		L_135->___levelPassed = L_136;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:237>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:237>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_137;
 		L_137 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_137);
 		int32_t L_138 = L_137->___tipRemain;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral1BC1FA4A643A84EED0F785EB8A4DD905BAE18033, L_138, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:238>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:238>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 	}
 
 IL_0387:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:243>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:243>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_139;
 		L_139 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21740,7 +21740,7 @@ IL_0387:
 		L_142 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral60C46C592008FDA8FE61CF2ADC7054877899AF83, L_141, NULL);
 		int32_t L_143;
 		L_143 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_142, 0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:245>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:245>
 		int32_t L_144 = V_3;
 		if ((((int32_t)L_143) >= ((int32_t)L_144)))
 		{
@@ -21748,7 +21748,7 @@ IL_0387:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:246>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:246>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_145;
 		L_145 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21760,7 +21760,7 @@ IL_0387:
 		L_148 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral60C46C592008FDA8FE61CF2ADC7054877899AF83, L_147, NULL);
 		int32_t L_149 = V_3;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(L_148, L_149, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:247>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:247>
 		String_t* L_150;
 		L_150 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_151;
@@ -21772,7 +21772,7 @@ IL_0387:
 		String_t* L_154;
 		L_154 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_150, _stringLiteralDFBCE2077B9D2AC0E4E975DD8EA286BE4A64624F, L_153, NULL);
 		MonoBehaviour_print_m9E6FF71C673B651F35DD418C293CFC50C46803B6(L_154, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:250>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:250>
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_155;
 		L_155 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		NullCheck(L_155);
@@ -21786,7 +21786,7 @@ IL_0387:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:251>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:251>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_158;
 		L_158 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21799,16 +21799,16 @@ IL_0387:
 		int32_t L_162 = V_7;
 		NullCheck(L_159);
 		List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587(L_159, L_161, L_162, List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:256>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:256>
 		V_12 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:257>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:257>
 		V_13 = 0;
 		goto IL_044a;
 	}
 
 IL_0424:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:258>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:258>
 		String_t* L_163;
 		L_163 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_13), NULL);
 		String_t* L_164;
@@ -21816,18 +21816,18 @@ IL_0424:
 		int32_t L_165;
 		L_165 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_164, 0, NULL);
 		V_14 = L_165;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:259>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:259>
 		int32_t L_166 = V_12;
 		int32_t L_167 = V_14;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_166, L_167));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:257>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:257>
 		int32_t L_168 = V_13;
 		V_13 = ((int32_t)il2cpp_codegen_add(L_168, 1));
 	}
 
 IL_044a:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:257>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:257>
 		int32_t L_169 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		int32_t L_170 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___totalLevel;
@@ -21837,14 +21837,14 @@ IL_044a:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:263>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:263>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_171;
 		L_171 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
 		int32_t L_172 = V_12;
 		NullCheck(L_171);
 		L_171->___bestScore = L_172;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:264>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:264>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_173;
 		L_173 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
 		NullCheck(L_173);
@@ -21853,7 +21853,7 @@ IL_044a:
 
 IL_0469:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:269>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:269>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_174;
 		L_174 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21865,7 +21865,7 @@ IL_0469:
 		L_177 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC5DCF59E5E370B9AC84038CD992AFCB91084093C, L_176, NULL);
 		int32_t L_178;
 		L_178 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(L_177, 0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:271>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:271>
 		int32_t L_179 = V_7;
 		if ((((int32_t)L_178) >= ((int32_t)L_179)))
 		{
@@ -21873,7 +21873,7 @@ IL_0469:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:273>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:273>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_180;
 		L_180 = GameData_getInstance_m65CF21B64A10FEED9D92B2ACB2533934C0E50C7B(NULL);
@@ -21885,21 +21885,21 @@ IL_0469:
 		L_183 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC5DCF59E5E370B9AC84038CD992AFCB91084093C, L_182, NULL);
 		int32_t L_184 = V_7;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(L_183, L_184, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:274>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:274>
 		V_15 = 1;
 		goto IL_04b7;
 	}
 
 IL_04b1:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:274>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:274>
 		int32_t L_185 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_185, 1));
 	}
 
 IL_04b7:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:274>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:274>
 		int32_t L_186 = V_15;
 		int32_t L_187 = V_7;
 		if ((((int32_t)L_186) <= ((int32_t)L_187)))
@@ -21910,7 +21910,7 @@ IL_04b7:
 
 IL_04bd:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:281>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:281>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_188 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_188);
@@ -21921,17 +21921,17 @@ IL_04bd:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:283>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:283>
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral2DCDD549F9F198B1BCEB0E82B7B833FC750087A5, 1, NULL);
 	}
 
 IL_04d5:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:285>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:285>
 		int32_t L_190;
 		L_190 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(_stringLiteralF77F4A09D607264760AA3EC7D11FC321FCD22795, NULL);
 		V_9 = L_190;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:286>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:286>
 		il2cpp_codegen_runtime_class_init_inline(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var);
 		GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* L_191 = ((GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_StaticFields*)il2cpp_codegen_static_fields_for(GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_191);
@@ -21947,7 +21947,7 @@ IL_04d5:
 
 IL_04f3:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MainScript.cs:290>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MainScript.cs:290>
 		return (bool)0;
 	}
 }
@@ -21995,7 +21995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:30>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22006,13 +22006,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:32>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:32>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_2 = __this->___SCShader;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)il2cpp_codegen_object_new(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_il2cpp_TypeInfo_var);
 		Material__ctor_m7FDF47105D66D19591BE505A0C42B0F90D88C9BF(L_3, L_2, NULL);
 		__this->___SCMaterial = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SCMaterial), (void*)L_3);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:33>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_4 = __this->___SCMaterial;
 		NullCheck(L_4);
 		Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4(L_4, ((int32_t)61), NULL);
@@ -22020,7 +22020,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 
 IL_002c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:35>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:35>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5 = __this->___SCMaterial;
 		return L_5;
 	}
@@ -22035,12 +22035,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_Start_mC9AC33673FD1C070DBE9D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:42>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:42>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0;
 		L_0 = Shader_Find_m183AA54F78320212DDEC811592F98456898A41C5(_stringLiteralA15A3EA72D41245525B879CA2BC9C7A8B3B2ECF3, NULL);
 		__this->___SCShader = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SCShader), (void*)L_0);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:43>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:43>
 		bool L_1;
 		L_1 = SystemInfo_get_supportsImageEffects_mA97A693C45A91780EE8E9F2802D6ED58841D52F0(NULL);
 		if (L_1)
@@ -22049,15 +22049,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_Start_mC9AC33673FD1C070DBE9D1
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:45>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:46>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:48>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:48>
 		return;
 	}
 }
@@ -22079,7 +22079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_OnRenderImage_mDF5EDC9AEFD139
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:52>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:52>
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_0 = __this->___SCShader;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22090,12 +22090,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_OnRenderImage_mDF5EDC9AEFD139
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:54>
 		float L_2 = __this->___TimeX;
 		float L_3;
 		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___TimeX = ((float)il2cpp_codegen_add(L_2, L_3));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:55>
 		float L_4 = __this->___TimeX;
 		if ((!(((float)L_4) > ((float)(100.0f)))))
 		{
@@ -22103,49 +22103,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_OnRenderImage_mDF5EDC9AEFD139
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:55>
 		__this->___TimeX = (0.0f);
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:56>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:56>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_5;
 		L_5 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		float L_6 = __this->___TimeX;
 		NullCheck(L_5);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_5, _stringLiteral05D0EA256F35E24338851CD911ACA33A676223BC, L_6, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:57>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7;
 		L_7 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		float L_8 = __this->___FramePerSecond;
 		NullCheck(L_7);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_7, _stringLiteral01844AFBB12A5FFA9878308D9934996B164C3291, L_8, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:58>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:58>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_9;
 		L_9 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		float L_10 = __this->___Contrast;
 		NullCheck(L_9);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_9, _stringLiteral2C8545B8128C9A96611EE86A55C61CE13EC1FD59, L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:59>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_11;
 		L_11 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		float L_12 = __this->___Burn;
 		NullCheck(L_11);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_11, _stringLiteral48543C37F2D9A3C3B92073D41BFCCDF9E3E2DC25, L_12, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:60>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:60>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_13;
 		L_13 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		float L_14 = __this->___SceneCut;
 		NullCheck(L_13);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_13, _stringLiteral2B8473BFCAD67EEC266E21679C96E195C63AD266, L_14, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:61>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_15;
 		L_15 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		float L_16 = __this->___Fade;
 		NullCheck(L_15);
 		Material_SetFloat_m879CF81D740BAE6F23C9822400679F4D16365836(L_15, _stringLiteralBEF124CB91F2E519215159FD1B9BFEAD497F3A17, L_16, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:62>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_17;
 		L_17 = MovieNoise_get_material_mCB1A9709D5ACFF3E458DF999EE1003FB6246D8BB(__this, NULL);
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_18 = ___0_sourceTexture;
@@ -22161,7 +22161,7 @@ IL_003b:
 		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_22), ((float)L_19), ((float)L_21), (0.0f), (0.0f), NULL);
 		NullCheck(L_17);
 		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_17, _stringLiteralD25C228C0713BE6299973D2B4F68EDD3BA201FB2, L_22, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:63>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_23 = ___0_sourceTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_24 = ___1_destTexture;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_25;
@@ -22173,12 +22173,12 @@ IL_003b:
 
 IL_00fa:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:67>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:67>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_26 = ___0_sourceTexture;
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_27 = ___1_destTexture;
 		il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 		Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_26, L_27, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:69>
 		return;
 	}
 }
@@ -22186,7 +22186,7 @@ IL_00fa:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_Update_m0B66BB122088EAFDB016579944D7EBDDA9167B6D (MovieNoise_t0FE4249DC7BE3F20452FF50FBF76DA0A63662F1F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:80>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:80>
 		return;
 	}
 }
@@ -22200,7 +22200,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_OnDisable_mAC2F6BB33C8AD9214B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:83>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22211,7 +22211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_OnDisable_mAC2F6BB33C8AD9214B
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:85>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___SCMaterial;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_2, NULL);
@@ -22219,7 +22219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise_OnDisable_mAC2F6BB33C8AD9214B
 
 IL_0018:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:87>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:87>
 		return;
 	}
 }
@@ -22227,15 +22227,15 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieNoise__ctor_m397454FB24EE07136E9DB866F1E59C555D92110D (MovieNoise_t0FE4249DC7BE3F20452FF50FBF76DA0A63662F1F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:10>
 		__this->___TimeX = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:14>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:14>
 		__this->___FramePerSecond = (15.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:16>
 		__this->___Contrast = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:20>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:20>
 		__this->___SceneCut = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/MovieNoise.cs:22>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/MovieNoise.cs:22>
 		__this->___Fade = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -22263,7 +22263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_Start_mD7DB58501DF95FB5F736C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:10>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:10>
 		musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* L_0 = ((musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F_StaticFields*)il2cpp_codegen_static_fields_for(musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22274,34 +22274,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_Start_mD7DB58501DF95FB5F736C
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:12>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:12>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
 		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:13>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:13>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:15>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:15>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:16>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:16>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_4 = (List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235*)il2cpp_codegen_object_new(List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235_il2cpp_TypeInfo_var);
 		List_1__ctor_m1572AF991CD3CD21B43B0D6F699FE6296DEDF9E7(L_4, List_1__ctor_m1572AF991CD3CD21B43B0D6F699FE6296DEDF9E7_RuntimeMethod_var);
 		__this->___asgroups = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___asgroups), (void*)L_4);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:17>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:17>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral04F894E8C90281AE22D3C60EE2AC742CAC62FC37, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:18>
 		((musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F_StaticFields*)il2cpp_codegen_static_fields_for(musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F_StaticFields*)il2cpp_codegen_static_fields_for(musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F_il2cpp_TypeInfo_var))->___instance), (void*)__this);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:19>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:19>
 		return;
 	}
 }
@@ -22328,7 +22328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* musicScript_recycle_m03BEFDBE2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_OnApplicationPause_mBDF9E9B94563140628BCE282638B39B2DD6702F5 (musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* __this, bool ___0_pauseStatus, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:54>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:54>
 		return;
 	}
 }
@@ -22346,7 +22346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_Update_mEA45C2D5EDE4BAB80346
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:59>
 		bool L_0;
 		L_0 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)27), NULL);
 		if (!L_0)
@@ -22355,15 +22355,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_Update_mEA45C2D5EDE4BAB80346
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:60>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:60>
 		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:62>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_1;
 		L_1 = Application_get_loadedLevelName_mAFFD7370F3BBFDC7EBAADD1FAF4EE1E3E87BA6DF(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:63>
 		String_t* L_2;
 		L_2 = Application_get_loadedLevelName_mAFFD7370F3BBFDC7EBAADD1FAF4EE1E3E87BA6DF(NULL);
 		NullCheck(L_2);
@@ -22377,7 +22377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_Update_mEA45C2D5EDE4BAB80346
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:65>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_LoadLevel_mC3B1E3C869BDA2BE6B30AB846F34991A016E4415(_stringLiteral0C1027955C34F65AB4C5F60D7123BFDD877E0914, NULL);
 		return;
@@ -22385,7 +22385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void musicScript_Update_mEA45C2D5EDE4BAB80346
 
 IL_0040:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:66>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:66>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_5;
 		L_5 = Application_get_loadedLevelName_mAFFD7370F3BBFDC7EBAADD1FAF4EE1E3E87BA6DF(NULL);
@@ -22397,7 +22397,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:68>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:68>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_LoadLevel_mC3B1E3C869BDA2BE6B30AB846F34991A016E4415(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
 		return;
@@ -22405,7 +22405,7 @@ IL_0040:
 
 IL_005c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:69>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_7;
 		L_7 = Application_get_loadedLevelName_mAFFD7370F3BBFDC7EBAADD1FAF4EE1E3E87BA6DF(NULL);
@@ -22415,7 +22415,7 @@ IL_005c:
 
 IL_006c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:78>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:78>
 		return;
 	}
 }
@@ -22436,7 +22436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 	int32_t V_2 = 0;
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_3 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:83>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -22447,13 +22447,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:83>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:83>
 		return (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*)NULL;
 	}
 
 IL_000b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:91>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:91>
 		bool L_2 = ___1_isloop;
 		if (!L_2)
 		{
@@ -22461,10 +22461,10 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:93>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:93>
 		AudioSourceU5BU5D_tBBF6E920E0DC80D53D4BB2A8D4C80D244EF170B2* L_3;
 		L_3 = Component_GetComponentsInChildren_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0B2E782E5333019BB07171DB8729E45114227660(__this, Component_GetComponentsInChildren_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0B2E782E5333019BB07171DB8729E45114227660_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:94>
 		V_1 = L_3;
 		V_2 = 0;
 		goto IL_0058;
@@ -22472,14 +22472,14 @@ IL_000b:
 
 IL_0019:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:94>
 		AudioSourceU5BU5D_tBBF6E920E0DC80D53D4BB2A8D4C80D244EF170B2* L_4 = V_1;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		V_3 = L_7;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:95>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:95>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -22503,7 +22503,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:96>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:96>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_13 = V_3;
 		NullCheck(L_13);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_14;
@@ -22511,7 +22511,7 @@ IL_0019:
 		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_14, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:97>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:97>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_16 = ___0_clip;
 		NullCheck(L_16);
 		String_t* L_17;
@@ -22524,14 +22524,14 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:98>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:98>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_19 = V_3;
 		V_0 = L_19;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:100>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:100>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_20 = V_0;
 		NullCheck(L_20);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_20, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:101>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:101>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_21 = V_0;
 		return L_21;
 	}
@@ -22544,7 +22544,7 @@ IL_0054:
 
 IL_0058:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:94>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:94>
 		int32_t L_23 = V_2;
 		AudioSourceU5BU5D_tBBF6E920E0DC80D53D4BB2A8D4C80D244EF170B2* L_24 = V_1;
 		NullCheck(L_24);
@@ -22556,31 +22556,31 @@ IL_0058:
 
 IL_005e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:108>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:108>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
 		L_25 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_25);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_26;
 		L_26 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_25, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
 		V_0 = L_26;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:117>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_27 = V_0;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_28 = ___0_clip;
 		NullCheck(L_27);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_27, L_28, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:117>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_29 = V_0;
 		NullCheck(L_29);
 		AudioSource_set_minDistance_m6CBE3A60C03C0F179192FBDD62095B2E9D717690(L_29, (1.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:117>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_30 = V_0;
 		NullCheck(L_30);
 		AudioSource_set_maxDistance_m4BF310D54761500A77A6C4841A0BBDBD09225813(L_30, (50.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:117>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_31 = V_0;
 		NullCheck(L_31);
 		AudioSource_set_rolloffMode_m441D9552D8648D6040E66EE2C2650A79DC5E6FB4(L_31, 1, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:118>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:118>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_32 = V_0;
 		NullCheck(L_32);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33;
@@ -22592,12 +22592,12 @@ IL_005e:
 		L_35 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_34, NULL);
 		NullCheck(L_33);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_33, L_35, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:119>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:119>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_36 = V_0;
 		bool L_37 = ___1_isloop;
 		NullCheck(L_36);
 		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_36, L_37, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:121>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_38 = V_0;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_39;
 		L_39 = GameManager_getInstance_mDA5FFAB2880DEDD708D503E73E9456EF39926730(NULL);
@@ -22606,11 +22606,11 @@ IL_005e:
 		L_40 = GameManager_getVolume_mDF432712FDA0007918DA00BF9FFB1B3853D34BD6_inline(L_39, NULL);
 		NullCheck(L_38);
 		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_38, L_40, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:122>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_41 = V_0;
 		NullCheck(L_41);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_41, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:123>
 		bool L_42 = ___1_isloop;
 		if (L_42)
 		{
@@ -22618,7 +22618,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:124>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:124>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_43 = __this->___asgroups;
 		if (!L_43)
 		{
@@ -22626,7 +22626,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:125>
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_44 = __this->___asgroups;
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_45 = V_0;
 		NullCheck(L_44);
@@ -22635,7 +22635,7 @@ IL_005e:
 
 IL_00d8:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:127>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_46 = V_0;
 		return L_46;
 	}
@@ -22718,7 +22718,7 @@ IL_0017:
 
 IL_001e:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:25>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:25>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_4 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_4, (0.100000001f), NULL);
 		__this->___U3CU3E2__current = L_4;
@@ -22730,7 +22730,7 @@ IL_001e:
 IL_0037:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:27>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:27>
 		musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* L_5 = V_1;
 		NullCheck(L_5);
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_6 = L_5->___asgroups;
@@ -22743,14 +22743,14 @@ IL_0037:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:28>
 		V_2 = 0;
 		goto IL_0072;
 	}
 
 IL_0051:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:30>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:30>
 		musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* L_8 = V_1;
 		NullCheck(L_8);
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_9 = L_8->___asgroups;
@@ -22759,20 +22759,20 @@ IL_0051:
 		L_10 = List_1_get_Item_m819B6C1A78476CF0262F3D90C612006783F22EB6(L_9, 0, List_1_get_Item_m819B6C1A78476CF0262F3D90C612006783F22EB6_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_10, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:31>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:31>
 		musicScript_tD037321FDD26EEEBA84E2F8068489FB78AC8C25F* L_11 = V_1;
 		NullCheck(L_11);
 		List_1_t0EDD1795F87849390F5CA17CBABE75183BE4E235* L_12 = L_11->___asgroups;
 		NullCheck(L_12);
 		List_1_RemoveAt_m023E515689BBE45DA9EE94BE763578B854A74CF2(L_12, 0, List_1_RemoveAt_m023E515689BBE45DA9EE94BE763578B854A74CF2_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:28>
 		int32_t L_13 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0072:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:28>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:28>
 		int32_t L_14 = V_2;
 		if ((((int32_t)L_14) < ((int32_t)((int32_t)15))))
 		{
@@ -22780,7 +22780,7 @@ IL_0072:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/musicScript.cs:24>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/musicScript.cs:24>
 		goto IL_001e;
 	}
 }
@@ -22821,7 +22821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CrecycleU3Ed__4_System_Colle
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F (NicerOutline_t432D6C791FDB18A4FD790712C965C1B6026181C7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:29>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___m_EffectColor;
 		return L_0;
 	}
@@ -22836,10 +22836,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_effectColor_m0427178170
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:33>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:33>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_value;
 		__this->___m_EffectColor = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:34>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:34>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_1;
 		L_1 = BaseMeshEffect_get_graphic_mE8226BAC46FDB49681BEAD2DE8A4EE3CEC18FF04(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22851,7 +22851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_effectColor_m0427178170
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:36>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:36>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_3;
 		L_3 = BaseMeshEffect_get_graphic_mE8226BAC46FDB49681BEAD2DE8A4EE3CEC18FF04(__this, NULL);
 		NullCheck(L_3);
@@ -22860,7 +22860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_effectColor_m0427178170
 
 IL_0020:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:38>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:38>
 		return;
 	}
 }
@@ -22868,7 +22868,7 @@ IL_0020:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 NicerOutline_get_effectDistance_m5F6484DFE38DF395FA4EDCEDADE315E89EE90F4A (NicerOutline_t432D6C791FDB18A4FD790712C965C1B6026181C7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:45>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_EffectDistance;
 		return L_0;
 	}
@@ -22883,7 +22883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_effectDistance_mD23F777
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:49>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:49>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
 		float L_1 = L_0.___x;
 		if ((!(((float)L_1) > ((float)(600.0f)))))
@@ -22892,13 +22892,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_effectDistance_mD23F777
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:51>
 		(&___0_value)->___x = (600.0f);
 	}
 
 IL_0019:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:53>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_value;
 		float L_3 = L_2.___x;
 		if ((!(((float)L_3) < ((float)(-600.0f)))))
@@ -22907,13 +22907,13 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:55>
 		(&___0_value)->___x = (-600.0f);
 	}
 
 IL_0032:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:57>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:57>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_value;
 		float L_5 = L_4.___y;
 		if ((!(((float)L_5) > ((float)(600.0f)))))
@@ -22922,13 +22922,13 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:59>
 		(&___0_value)->___y = (600.0f);
 	}
 
 IL_004b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:61>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:61>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___0_value;
 		float L_7 = L_6.___y;
 		if ((!(((float)L_7) < ((float)(-600.0f)))))
@@ -22937,13 +22937,13 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:63>
 		(&___0_value)->___y = (-600.0f);
 	}
 
 IL_0064:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:65>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:65>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = __this->___m_EffectDistance;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = ___0_value;
 		bool L_10;
@@ -22954,16 +22954,16 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:67>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:67>
 		return;
 	}
 
 IL_0073:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:69>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:69>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = ___0_value;
 		__this->___m_EffectDistance = L_11;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:70>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:70>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_12;
 		L_12 = BaseMeshEffect_get_graphic_mE8226BAC46FDB49681BEAD2DE8A4EE3CEC18FF04(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -22975,7 +22975,7 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:72>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:72>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_14;
 		L_14 = BaseMeshEffect_get_graphic_mE8226BAC46FDB49681BEAD2DE8A4EE3CEC18FF04(__this, NULL);
 		NullCheck(L_14);
@@ -22984,7 +22984,7 @@ IL_0073:
 
 IL_0093:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:74>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:74>
 		return;
 	}
 }
@@ -22992,7 +22992,7 @@ IL_0093:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NicerOutline_get_useGraphicAlpha_m037E570AF63E52F7FA6C267BA47786B72A43854F (NicerOutline_t432D6C791FDB18A4FD790712C965C1B6026181C7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:81>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:81>
 		bool L_0 = __this->___m_UseGraphicAlpha;
 		return L_0;
 	}
@@ -23007,10 +23007,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_useGraphicAlpha_m767C3A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:85>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:85>
 		bool L_0 = ___0_value;
 		__this->___m_UseGraphicAlpha = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:86>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:86>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_1;
 		L_1 = BaseMeshEffect_get_graphic_mE8226BAC46FDB49681BEAD2DE8A4EE3CEC18FF04(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -23022,7 +23022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_useGraphicAlpha_m767C3A
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:88>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:88>
 		Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* L_3;
 		L_3 = BaseMeshEffect_get_graphic_mE8226BAC46FDB49681BEAD2DE8A4EE3CEC18FF04(__this, NULL);
 		NullCheck(L_3);
@@ -23031,7 +23031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_set_useGraphicAlpha_m767C3A
 
 IL_0020:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:90>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:90>
 		return;
 	}
 }
@@ -23058,13 +23058,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ApplyShadow_m326F3A181BC29E
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:107>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:107>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_0 = ___0_verts;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_0, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
 		V_0 = ((int32_t)il2cpp_codegen_multiply(L_1, 2));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:108>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:108>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_2 = ___0_verts;
 		NullCheck(L_2);
 		int32_t L_3;
@@ -23076,7 +23076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ApplyShadow_m326F3A181BC29E
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:110>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:110>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_5 = ___0_verts;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -23085,7 +23085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ApplyShadow_m326F3A181BC29E
 
 IL_0019:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:112>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:112>
 		int32_t L_7 = ___2_start;
 		V_1 = L_7;
 		goto IL_009c;
@@ -23093,41 +23093,41 @@ IL_0019:
 
 IL_001d:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:114>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:114>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_8 = ___0_verts;
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_10;
 		L_10 = List_1_get_Item_m818C7E5E5F73749A39FB30DDDD55D00EDC565C67(L_8, L_9, List_1_get_Item_m818C7E5E5F73749A39FB30DDDD55D00EDC565C67_RuntimeMethod_var);
 		V_2 = L_10;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:115>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:115>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_11 = ___0_verts;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_12 = V_2;
 		NullCheck(L_11);
 		List_1_Add_m21493CD763CBCDBF96B24419D7C72B46F76663EB_inline(L_11, L_12, List_1_Add_m21493CD763CBCDBF96B24419D7C72B46F76663EB_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:117>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:117>
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_13 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = L_13.___position;
 		V_3 = L_14;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:119>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:119>
 		float* L_15 = (float*)(&(&V_3)->___x);
 		float* L_16 = L_15;
 		float L_17 = *((float*)L_16);
 		float L_18 = ___4_x;
 		*((float*)L_16) = (float)((float)il2cpp_codegen_add(L_17, L_18));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:120>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:120>
 		float* L_19 = (float*)(&(&V_3)->___y);
 		float* L_20 = L_19;
 		float L_21 = *((float*)L_20);
 		float L_22 = ___5_y;
 		*((float*)L_20) = (float)((float)il2cpp_codegen_add(L_21, L_22));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:121>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:121>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_3;
 		(&V_2)->___position = L_23;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:122>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:122>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_24 = ___1_color;
 		V_4 = L_24;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:123>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:123>
 		bool L_25 = __this->___m_UseGraphicAlpha;
 		if (!L_25)
 		{
@@ -23135,7 +23135,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:125>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:125>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_26 = V_4;
 		uint8_t L_27 = L_26.___a;
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_28 = ___0_verts;
@@ -23150,23 +23150,23 @@ IL_001d:
 
 IL_0087:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:127>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:127>
 		Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B L_33 = V_4;
 		(&V_2)->___color = L_33;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:129>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:129>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_34 = ___0_verts;
 		int32_t L_35 = V_1;
 		UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207 L_36 = V_2;
 		NullCheck(L_34);
 		List_1_set_Item_m0C5B60C5566C63D5E3E979D8EF02D5DF8D92AB33(L_34, L_35, L_36, List_1_set_Item_m0C5B60C5566C63D5E3E979D8EF02D5DF8D92AB33_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:112>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:112>
 		int32_t L_37 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_37, 1));
 	}
 
 IL_009c:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:112>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:112>
 		int32_t L_38 = V_1;
 		int32_t L_39 = ___3_end;
 		if ((((int32_t)L_38) < ((int32_t)L_39)))
@@ -23175,7 +23175,7 @@ IL_009c:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:131>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:131>
 		return;
 	}
 }
@@ -23191,7 +23191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ModifyMesh_m691C4283FF186AF
 	}
 	List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* V_0 = NULL;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:136>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:136>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (L_0)
@@ -23200,34 +23200,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ModifyMesh_m691C4283FF186AF
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:137>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:137>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:139>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:139>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_1 = (List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A*)il2cpp_codegen_object_new(List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A_il2cpp_TypeInfo_var);
 		List_1__ctor_mF168C27BCDD77482D72C96433F84274EBCCCE11B(L_1, List_1__ctor_mF168C27BCDD77482D72C96433F84274EBCCCE11B_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:140>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:140>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_2 = ___0_vertexHelper;
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_3 = V_0;
 		NullCheck(L_2);
 		VertexHelper_GetUIVertexStream_m87D56EB5559CCCA150F68B1DD660FF4154CACBCE(L_2, L_3, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:142>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:142>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_4 = V_0;
 		NicerOutline_ModifyVertices_mAAE0DFFD05D30BA18A89E3C8FC8715A88229D9AE(__this, L_4, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:144>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:144>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_5 = ___0_vertexHelper;
 		NullCheck(L_5);
 		VertexHelper_Clear_mB19E51AD5AF1C04CB2C6E6A272D032D651EC40F5(L_5, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:145>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:145>
 		VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* L_6 = ___0_vertexHelper;
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_7 = V_0;
 		NullCheck(L_6);
 		VertexHelper_AddUIVertexTriangleStream_m29A217271BF2B3D3D60B7CBDA4114C7BB40C2841(L_6, L_7, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:146>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:146>
 		return;
 	}
 }
@@ -23248,7 +23248,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ModifyVertices_mAAE0DFFD05D
 	float V_3 = 0.0f;
 	int32_t V_4 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:155>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:155>
 		bool L_0;
 		L_0 = VirtualFuncInvoker0< bool >::Invoke(9, __this);
 		if (!L_0)
@@ -23269,19 +23269,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline_ModifyVertices_mAAE0DFFD05D
 
 IL_0010:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:156>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:156>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:158>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:158>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3;
 		L_3 = Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888(__this, Component_GetComponent_TisText_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_mB85C5C0EEF6535E3FC0DBFC14E39FA5A51B6F888_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:160>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:160>
 		V_1 = (1.0f);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:162>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:162>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -23302,7 +23302,7 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:164>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:164>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = V_0;
 		NullCheck(L_8);
 		TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* L_9;
@@ -23319,26 +23319,26 @@ IL_0011:
 
 IL_0045:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:168>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:168>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
 		L_13 = NicerOutline_get_effectDistance_m5F6484DFE38DF395FA4EDCEDADE315E89EE90F4A_inline(__this, NULL);
 		float L_14 = L_13.___x;
 		float L_15 = V_1;
 		V_2 = ((float)il2cpp_codegen_multiply(L_14, L_15));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:169>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:169>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
 		L_16 = NicerOutline_get_effectDistance_m5F6484DFE38DF395FA4EDCEDADE315E89EE90F4A_inline(__this, NULL);
 		float L_17 = L_16.___y;
 		float L_18 = V_1;
 		V_3 = ((float)il2cpp_codegen_multiply(L_17, L_18));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:171>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:171>
 		V_4 = 0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:172>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:172>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_19 = ___0_verts;
 		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_19, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:173>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:173>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_21 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
 		L_22 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23352,14 +23352,14 @@ IL_0045:
 		float L_27 = V_2;
 		float L_28 = V_3;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_21, L_23, L_24, L_26, L_27, L_28, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:174>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:174>
 		V_4 = L_20;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:175>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:175>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_29 = ___0_verts;
 		NullCheck(L_29);
 		int32_t L_30;
 		L_30 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_29, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:176>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:176>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_31 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_32;
 		L_32 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23373,14 +23373,14 @@ IL_0045:
 		float L_37 = V_2;
 		float L_38 = V_3;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_31, L_33, L_34, L_36, L_37, ((-L_38)), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:177>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:177>
 		V_4 = L_30;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:178>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:178>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_39 = ___0_verts;
 		NullCheck(L_39);
 		int32_t L_40;
 		L_40 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_39, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:179>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:179>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_41 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_42;
 		L_42 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23394,14 +23394,14 @@ IL_0045:
 		float L_47 = V_2;
 		float L_48 = V_3;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_41, L_43, L_44, L_46, ((-L_47)), L_48, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:180>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:180>
 		V_4 = L_40;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:181>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:181>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_49 = ___0_verts;
 		NullCheck(L_49);
 		int32_t L_50;
 		L_50 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_49, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:182>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:182>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_51 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_52;
 		L_52 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23415,14 +23415,14 @@ IL_0045:
 		float L_57 = V_2;
 		float L_58 = V_3;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_51, L_53, L_54, L_56, ((-L_57)), ((-L_58)), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:184>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:184>
 		V_4 = L_50;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:185>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:185>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_59 = ___0_verts;
 		NullCheck(L_59);
 		int32_t L_60;
 		L_60 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_59, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:186>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:186>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_61 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_62;
 		L_62 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23435,14 +23435,14 @@ IL_0045:
 		L_66 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_65, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
 		float L_67 = V_2;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_61, L_63, L_64, L_66, L_67, (0.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:187>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:187>
 		V_4 = L_60;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:188>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:188>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_68 = ___0_verts;
 		NullCheck(L_68);
 		int32_t L_69;
 		L_69 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_68, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:189>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:189>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_70 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_71;
 		L_71 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23455,14 +23455,14 @@ IL_0045:
 		L_75 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_74, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
 		float L_76 = V_2;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_70, L_72, L_73, L_75, ((-L_76)), (0.0f), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:191>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:191>
 		V_4 = L_69;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:192>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:192>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_77 = ___0_verts;
 		NullCheck(L_77);
 		int32_t L_78;
 		L_78 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_77, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:193>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:193>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_79 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_80;
 		L_80 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23475,14 +23475,14 @@ IL_0045:
 		L_84 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_83, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
 		float L_85 = V_3;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_79, L_81, L_82, L_84, (0.0f), L_85, NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:194>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:194>
 		V_4 = L_78;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:195>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:195>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_86 = ___0_verts;
 		NullCheck(L_86);
 		int32_t L_87;
 		L_87 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_86, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:196>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:196>
 		List_1_t09F8990ACE8783E311B473B0090859BA9C00FC2A* L_88 = ___0_verts;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_89;
 		L_89 = NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline(__this, NULL);
@@ -23495,7 +23495,7 @@ IL_0045:
 		L_93 = List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_inline(L_92, List_1_get_Count_m289E50C53DE62E6913B2ED1A26A78DC51AD12F39_RuntimeMethod_var);
 		float L_94 = V_3;
 		NicerOutline_ApplyShadow_m326F3A181BC29E2F310E76CC091C3914C09631F3(__this, L_88, L_90, L_91, L_93, (0.0f), ((-L_94)), NULL);
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:197>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:197>
 		return;
 	}
 }
@@ -23503,17 +23503,17 @@ IL_0045:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline__ctor_m595270B63C27FBF081B03066E78F77E717E8CB7C (NicerOutline_t432D6C791FDB18A4FD790712C965C1B6026181C7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:15>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:15>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		memset((&L_0), 0, sizeof(L_0));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (0.0f), (0.0f), (0.5f), NULL);
 		__this->___m_EffectColor = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:18>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:18>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_1), (1.0f), (-1.0f), NULL);
 		__this->___m_EffectDistance = L_1;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:21>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:21>
 		__this->___m_UseGraphicAlpha = (bool)1;
 		BaseMeshEffect__ctor_mFFF23FD89B32150DAC512C556A1CCF563D062427(__this, NULL);
 		return;
@@ -23526,10 +23526,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NicerOutline__ctor_m595270B63C27FBF081B0
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameData_set_isLock_mC6C0C9F356DEA5D0C9C5F4747394066205DB8C74_inline (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:225>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:225>
 		bool L_0 = ___0_value;
 		__this->___islock = L_0;
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:226>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:226>
 		return;
 	}
 }
@@ -23537,7 +23537,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameData_set_isLock_mC6C0C9F
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GameData_get_isLock_mE9F047E712148899B4ED08048FB224BDC01D8D87_inline (GameData_t857DCFA51343FE2611A88BE4D943BDA16FBCE8B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameData.cs:221>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameData.cs:221>
 		bool L_0 = __this->___islock;
 		return L_0;
 	}
@@ -23967,7 +23967,7 @@ IL_001d:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float GameManager_getVolume_mDF432712FDA0007918DA00BF9FFB1B3853D34BD6_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/GameManager.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/GameManager.cs:51>
 		float L_0 = __this->___volume_;
 		return L_0;
 	}
@@ -24007,7 +24007,7 @@ IL_002e:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 NicerOutline_get_effectDistance_m5F6484DFE38DF395FA4EDCEDADE315E89EE90F4A_inline (NicerOutline_t432D6C791FDB18A4FD790712C965C1B6026181C7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:45>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:45>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___m_EffectDistance;
 		return L_0;
 	}
@@ -24016,7 +24016,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F NicerOutline_get_effectColor_m7B3B5925779DDB61985636BEF1A412E1FF43296F_inline (NicerOutline_t432D6C791FDB18A4FD790712C965C1B6026181C7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/NicerOutline.cs:29>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/NicerOutline.cs:29>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = __this->___m_EffectColor;
 		return L_0;
 	}

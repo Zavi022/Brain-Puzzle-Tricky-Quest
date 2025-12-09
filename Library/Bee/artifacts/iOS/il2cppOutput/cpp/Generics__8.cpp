@@ -22538,11 +22538,11 @@ IL2CPP_EXTERN_C  void ContentHeightCacheInfo__ctor_mF2BB6598B1FEDCE079C61DBE32A2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuousGestureRecognizer_1_Reset_m5257C249C31078637C9E2C81E2ECD2E57983EE5B_gshared (ContinuousGestureRecognizer_1_tF3E23E0DBEEB4CC675E234982FFC2DDBD9F7922E* __this, RuntimeObject* ___0_gesture, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:46>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:46>
 		RuntimeObject* L_0 = ___0_gesture;
 		NullCheck((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this);
 		GestureRecognizer_1_Reset_mA5A5B71F1276B1A0CE5BFD6362C849D6902F08C7((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:47>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:47>
 		return;
 	}
 }
@@ -22552,14 +22552,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuousGestureRecognizer_1_OnStateCha
 	RuntimeObject* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:51>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:51>
 		Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1* L_0 = ___0_sender;
 		NullCheck((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this);
 		GestureRecognizer_1_OnStateChanged_mEB6AAC64000261EC038E3117D4A986A44F2A068A((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:53>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:53>
 		Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1* L_1 = ___0_sender;
 		V_0 = ((RuntimeObject*)Castclass((RuntimeObject*)L_1, il2cpp_rgctx_data(method->klass->rgctx_data, 0)));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:55>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:55>
 		RuntimeObject* L_2 = V_0;
 		NullCheck((Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1*)L_2);
 		int32_t L_3;
@@ -22592,27 +22592,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContinuousGestureRecognizer_1_OnStateCha
 
 IL_0033:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:58>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:58>
 		RuntimeObject* L_5 = V_0;
 		NullCheck((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this);
 		GestureRecognizer_1_RaiseEvent_mE69B9AC32BA779D222304883BA837B5E5130F04A((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this, L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:59>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:59>
 		return;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:62>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:62>
 		RuntimeObject* L_6 = V_0;
 		NullCheck((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this);
 		GestureRecognizer_1_RaiseEvent_mE69B9AC32BA779D222304883BA837B5E5130F04A((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:63>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:63>
 		return;
 	}
 
 IL_0043:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:67>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:67>
 		RuntimeObject* L_7 = V_0;
 		NullCheck((Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1*)L_7);
 		int32_t L_8;
@@ -22623,7 +22623,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:68>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:68>
 		RuntimeObject* L_9 = V_0;
 		NullCheck((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this);
 		GestureRecognizer_1_RaiseEvent_mE69B9AC32BA779D222304883BA837B5E5130F04A((GestureRecognizer_1_tBD66A8660DE2269A16CD757AD49AC7490ACFCA91*)__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
@@ -22631,7 +22631,7 @@ IL_0043:
 
 IL_0057:
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:71>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/ContinuousGestureRecognizer.cs:71>
 		return;
 	}
 }
@@ -30585,7 +30585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_System_Collection
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Gesture_get_State_m960437BBC34EC77160F83A821D2A2FB789CE6429_inline (Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:130>
 		int32_t L_0 = __this->___state;
 		return L_0;
 	}
@@ -30594,7 +30594,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Gesture_get_State_m960437
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Gesture_get_PreviousState_m5708522A271A0B39DC87D31A496BD05D0C5F3E57_inline (Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:149>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:149>
 		int32_t L_0 = __this->___prevState;
 		return L_0;
 	}

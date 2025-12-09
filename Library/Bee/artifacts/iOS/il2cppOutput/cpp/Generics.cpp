@@ -9504,7 +9504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m4E9098240B16D61A0599F253F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFindFreeGestureU3Eb__19_0_m743835CDF1064124A817C6A452AD997E90108B35_gshared (U3CU3Ec_t2770D6D5C2595ECEAADA4755CFDEF021F15CE1AE* __this, RuntimeObject* ___0_g, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:332>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:332>
 		RuntimeObject* L_0 = ___0_g;
 		NullCheck((Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1*)L_0);
 		int32_t L_1;
@@ -11394,7 +11394,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_m0831558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass17_0_U3CFindGestureByClusterU3Eb__0_m18F2EB179B3063F2A71DBD23E1F3E38AA49585AA_gshared (U3CU3Ec__DisplayClass17_0_tD8A3F8EF314AF389819002CCB4E254B1E7AB41DD* __this, RuntimeObject* ___0_g, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:322>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:322>
 		RuntimeObject* L_0 = ___0_g;
 		NullCheck(L_0);
 		int32_t L_1 = ((Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1*)L_0)->___ClusterId;
@@ -30412,7 +30412,7 @@ IL2CPP_EXTERN_C  void AnimationDataSet_2_GetActivePropertiesForElement_m7B96C508
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Gesture_get_State_m960437BBC34EC77160F83A821D2A2FB789CE6429_inline (Gesture_t99843787CBE75CA35550D7CA86F9775D49A814A1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Applications/Unity Projects/Mini puzzle/Mini Puzzle Anime/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:130>
+		//<source_info:/Applications/Unity Projects/Brain-Puzzle-Tricky-Quest/Assets/Template/src/scripts/Util/Gesture Tool/GestureRecognizer.cs:130>
 		int32_t L_0 = __this->___state;
 		return L_0;
 	}

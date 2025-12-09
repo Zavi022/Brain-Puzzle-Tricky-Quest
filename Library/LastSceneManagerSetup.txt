@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CMPScene.unity
+- path: Assets/Scenes/Plugin.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
