@@ -1,0 +1,20 @@
+   
+
+
+    mini Puzzle Anime Game Ids 
+
+
+   App Id :  ca-app-pub-8739685313196856~4586918787
+
+
+  Banner Id :  ca-app-pub-8739685313196856/3205554351
+
+
+   Inter Id : ca-app-pub-8739685313196856/2595465673
+
+  Rewarded id : ca-app-pub-8739685313196856/7688010253
+
+   App Open id :  ca-app-pub-8739685313196856/5061846916
+
+
+Unity Id : 5972669

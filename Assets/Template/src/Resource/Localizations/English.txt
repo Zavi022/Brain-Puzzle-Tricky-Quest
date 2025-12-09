@@ -1,0 +1,181 @@
+levelname1 = level 1
+levelname2 = level 2
+levelname3 = level 3 
+levelname4 = level 4 
+levelname5 = level 5 
+levelname6 = level 6 
+levelname7 = level 7 
+levelname8 = level 8 
+levelname9 = level 9 
+levelname10 = level 10 
+levelname11 = level 11 
+levelname12 = level 12 
+levelname13 = level 13
+levelname14 = level 14 
+levelname15 = level 15
+levelname16 = level 16
+levelname17 = level 17 
+levelname18 = level 18 
+levelname19 = level 19 
+levelname20 = level 20
+levelname21 = level 21
+
+levelname0 = Tutorial
+
+
+btnYes = yes
+btnNO = no
+btnCancel = cancel
+btnBuy = buy coin
+btnClose = close
+btnTitle = Title
+btnMenu = Menu
+btnRetry = Retry
+btnStart = Start Game
+btnReview =Rate & Review
+btnMore = More Game
+btnContinue = Cointinue
+levelScore = Total Score: 
+levelTitle =   Level Menu
+
+titleShop = Coin Store
+price1tip = Get 300 Coin
+price2tip = Get 600 Coin
+price3tip = Get 1000 Coin
+price4tip = Get 1500 Coin
+price1 = $0.99
+price2 = $1.99
+price3 = $2.99
+price4 = $3.99
+
+watchAdsDetail = Get Coin by watching ads.
+watchAdsPrice = 
+
+askTipTitle = Do you wanna show a tip?
+askTipHit = Show tip will cost you 20 coins.
+askSkipTitle = Wanna skip this level?
+askSkipHit = Skip this level costs 60 coins.
+notEnoughTitle = not enough coin.
+notEnoughHit = Show Tip costs 20 coins.\n Skip level costs 60 coins.
+
+wintitle = Completed
+levelscore = Level Score: 
+failtitle = Level Failed
+
+settingTitle = Setting
+settingMusic = MUSIC
+settingSfx = SFX
+settingVolume = VOLUME
+settingLanguage = LANGUAGE
+
+tipTitle = Level Tips
+tipLocked = This item needs to unlock the above first.
+tipAds = Touch the button on right and watch a video to unlock it.
+
+txtIntro1 = I didn't expect that my new neighbor seemed to be a little careless. She lost the key I just gave her.Would you mind helping to find it then?
+txtIntro2 = It seems that there are not too many clues here. Press the arrow to see if any clues on the other side.
+txtIntro3 = This potted plant looks a little strange. Confirm next step, then try to move it.
+txtIntro4 = Hold on the potted plant and drag your fingers to move it.
+txtIntro5 = After the key falls out, click to pick it up.
+txtIntro6 = Now click on the arrow and return to the girl.
+txtIntro7 = Drag the key from item bar to the girl so that you can give it to her.
+txtIntro8 = You've made it!Lan shows her great thanks.Next adventures are now up to you.Clicking is the most basic operation,others should be explored yourself.
+
+
+txtNext1  = I See
+txtNext3  = Next Step
+txtNext8  = Finished
+
+
+noTipNow = No reward video at the moment. Come back later.
+
+
+level1tips0 = Seems that the girl can't find something again.Although you can find them easily, you'd better not "touch" carelessly.
+level1tips1 = You'd better give things corresponding on her 'current' needs.
+level1tips2 = Although all three things are needed, giving the wrong order will also mess things up.
+level2tips0 = Watch the cat's state, sometimes it's not really sleeping!
+level2tips1 = When the cat snores (zzz on the head): take the key, open the drawer with it,and take away the ipod in it.
+level2tips2 = However, don't forget to cover the pillow and never touch something you shouldn't touch before you give the ipod to her.
+
+
+level3tips0 = Can't open the window? Where is the key? The plants is a bit strange, but it takes a little patience to find it.
+level3tips1 = Touch on the potted plant, the key will fall out. Unlock the window now. Hurry up!
+level3tips2 = A caterpillar just crawls by. Take care to catch it and feed it to the bird, Don't forget to close the window!
+
+level4tips0 = Yes, the remote control can turn on the TV. But the TV is broken. You have to fix it first.
+level4tips1 = Remove the vase, unplug and then repair the TV with a screwdriver. Never operate with electricity!
+level4tips2 = Plug in after repaired. But if you don't want to be embarrassed, just give the remote control to the girl!
+
+level5tips0 = You should notice the calendar, it can be flipped and seems corresponding to some information.
+level5tips1 = The number of calendars is unimportant, but the color seems to matter.
+level5tips2 = Find 4 foods refer to the calendar colors, put them into the pot and turn on the gas. Don't add foods wrong or less.
+
+
+level6tips0 = There are 3 parts in total, but one is covered by the girl.
+level6tips1 = Try dragging the box to the left first until you can't, don't have a thinking pattern!
+level6tips2 = put the jammer in the box. Wait, why am I doing this? Because I know this guy, he's not a good person!
+
+level7tips0 = Sometimes, rigid thinking will limit your actions. You're going to mop the floor, right?
+level7tips1 = You can clean things just with once drag.
+level7tips2 = pick up the mop and simulate the action of mopping. Keep dragging until the water stains disappear.
+
+
+level8tips0 = This time the girl forgot to take the paper. If you push the door recklessly...
+level8tips1 = Be polite on everything, even when helping others. Think about what you should do when you need to ask?
+level8tips2 = Yes, try knocking first. Knock 3 times quickly. Put the toilet paper into the door seam. Don't peek.
+
+level9tips0 = Change a bulb won't be hard, but all you can found were broken. In order to win the favor, you have to do it yourself.
+level9tips1 = A wig can be found from room right. If you quick enough, You can meet someone who needs it in the left window.
+level9tips2 = There is more than one passer-by outside the window. Be patient. Wig for gold, gold for bulb, perfect.
+
+level10tips0 = You certainly don't want to let the ghost in. This is another level with special operation.
+level10tips1 = Drag the chair over, yes, but why still can't block the window.
+level10tips2 = Humm... Try holding the window with your fingers.Holding...
+
+level11tips0 = Spiders are really terrible, and seems immortal to the pesticides.
+level11tips1 = never touch the pot in the middle. Otherwise...
+level11tips2 = Drive spiders down with insecticide, then press them directly with your quick fingers.
+
+level12tips0 = Ha Ha, special operations are endless. Sometimes you need a further research on your phone.
+level12tips1 = Tilt your device. Look, the book is slipping! But how can you hit the book on a girl's head.
+level12tips2 = Drag the girl to a safe place first. Pick up the book and give it to her.
+
+level13tips0 = There is really no shortcut for this level. I think you know what to do.
+level13tips1 = Yes, remember where everything was before the disruption. No time limit!
+level13tips2 = Maybe you can take a screenshot. But it's not that hard, because there won't be anything on the yellow self.
+
+level14tips0 = Swimsuit, pajamas. It doesn't seem right for a person with a cold.
+level14tips1 = One pile of clothes can be dragged, and then you can get another suit.
+level14tips2 = There are two other things you need to do in time after her changing the clothes. Hot water bags and windows.
+
+level15tips0 = Well, try shaking the phone gently. Notice that it's OK to shake just lightly.
+level15tips1 = Before shaking your device, you need to carefully observe what the girl is looking.
+level15tips2 = The number of geese seems indicates something. You should place on these anti-theft bars in a certain order.
+
+level16tips0 = Does the red second hand look like a mosquito's straw. So you have to think about stopping it first.
+level16tips1 = Just tried to shake the mobile phone, this time, you should be able to think of it yourself.
+level16tips2 = When the mosquito's position corresponds to the second hand's direction, it is the only chance to kill it.
+
+level17tips0 = I said the guy was not good, but I didn't expect him to take revenge with a knife.
+level17tips1 = Don't mess with him first, maybe you can use the remote control patiently to find some useful TV programs.
+level17tips2 = The siren distracted him. You have to be quick! Beat out the knife and immediatelly touch girl to perform a death kick!
+
+level18tips0 = It's on fire! Before you find the fire extinguisher, send your her to a safe place.
+level18tips1 = The fire is a little weird. If you kill one, you will get two.
+level18tips2 = It seems that both sides of an extinguished fire will change simutaneously. Try driving them to corners and don't take too long.
+
+level19tips0 = Earthquaked! The house is going down! Time is running out. Pick up the hammer first.
+level19tips1 = Did you find that the cracks in the wall were not keep expanding. Use hammer in the weakest position!
+level19tips2 = It's only a moment after the damage is suspended. Aim at the place where the crack is most serious without any hesitation.
+
+
+level20tips0 = House was down. Fortunately, people were OK. But the girl's spirit is a little trance, you should wake her up!
+level20tips1 = Each time you find the girl, there will be a wonderful voice. Some sounds evil, some sounds bright.
+level20tips2 = Always guide her with positive sounds. After five repetitions, wake up her with shaking, and all nightmares will be over.
+
+startCut0 = Last tenant's profile, hope it won't like last time...
+startCut1 = Huh?
+startCut2 = Ah...You are
+startCut3 = Hi, my name is Lan. Are you the landlord?
+startCut4_0 = Yeah yeah, Just call me Yan,nice to meet you.
+startCut4_1 = Seems that's the right person. We must get along well...

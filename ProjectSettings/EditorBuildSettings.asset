@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CMPScene.unity
+    guid: 82e2d319ae0a64bcbb190d562ba62fc0
+  - enabled: 1
+    path: Assets/Scenes/Plugin.unity
+    guid: 3e405f2f261894bd9ae87a417af85b24
+  - enabled: 1
+    path: Assets/Template/game/_levels/MainMenu.unity
+    guid: 8862579d30cfb3840b21e701464c9a96
+  - enabled: 1
+    path: Assets/Template/game/_levels/LevelMenu.unity
+    guid: 790e05a65a9db8e448eeb11351588dd2
+  - enabled: 1
+    path: Assets/Template/game/_levels/startCutScene.unity
+    guid: cf91ad3de8b026a47900fed89b576686
+  - enabled: 1
+    path: Assets/Template/game/_levels/Level0.unity
+    guid: 1b57c9516b76a104fa392f7927f2ffda
+  - enabled: 1
+    path: Assets/Template/game/_levels/level1.unity
+    guid: 386c5de3687123e4c9cb9a34310f30a8
+  - enabled: 1
+    path: Assets/Template/game/_levels/level2.unity
+    guid: 53c5fba703b59424fa18b1d31add0f43
+  - enabled: 1
+    path: Assets/Template/game/_levels/level3.unity
+    guid: c8940b2c4e825114aadf956dedf65251
+  - enabled: 1
+    path: Assets/Template/game/_levels/level4.unity
+    guid: 33d1f4b1d756e5e4fa2575d627f7de5a
+  - enabled: 1
+    path: Assets/Template/game/_levels/level5.unity
+    guid: c4663eda5318e6648bf95caf64797605
+  - enabled: 1
+    path: Assets/Template/game/_levels/level6.unity
+    guid: bf8fa54d2ac85f94eb0dac9416a6c32a
+  - enabled: 1
+    path: Assets/Template/game/_levels/level7.unity
+    guid: a0551888059024746a6fde69cee7935f
+  - enabled: 1
+    path: Assets/Template/game/_levels/level8.unity
+    guid: 87d3de7f5cc89424ba05225fe0f89cba
+  - enabled: 1
+    path: Assets/Template/game/_levels/level9.unity
+    guid: ef8a3aea03ec1df4988337527d10a548
+  - enabled: 1
+    path: Assets/Template/game/_levels/level10.unity
+    guid: 414cec9e2ed9bbc48af9b6ced31485a9
+  - enabled: 1
+    path: Assets/Template/game/_levels/level11.unity
+    guid: c327366897b82bd43a01907cee24ebbd
+  - enabled: 1
+    path: Assets/Template/game/_levels/level12.unity
+    guid: c4faf8173ef5f91458c183a7dcddd621
+  - enabled: 1
+    path: Assets/Template/game/_levels/level13.unity
+    guid: bfc99a54d6dc33f488284a12070ac664
+  - enabled: 1
+    path: Assets/Template/game/_levels/level14.unity
+    guid: e6dd84a162940af4f9957433bd2c7d22
+  - enabled: 1
+    path: Assets/Template/game/_levels/level15.unity
+    guid: 305f540ff00079b45bab926e97b5d58a
+  - enabled: 1
+    path: Assets/Template/game/_levels/level16.unity
+    guid: 4ea4748fd5a0a4b40bb297972e025337
+  - enabled: 1
+    path: Assets/Template/game/_levels/level17.unity
+    guid: c5145585aa4bcc041875693c87de81a0
+  - enabled: 1
+    path: Assets/Template/game/_levels/level18.unity
+    guid: 3251d18592ac83b469a867841c8611fd
+  - enabled: 1
+    path: Assets/Template/game/_levels/level19.unity
+    guid: 12f16725e3ba10b43af0caabf2caa3cc
+  - enabled: 1
+    path: Assets/Template/game/_levels/level20.unity
+    guid: e2fd7b07de18972458906cb0907c7a89
+  m_configObjects: {}

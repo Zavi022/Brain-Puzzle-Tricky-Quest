@@ -1,0 +1,178 @@
+levelname1 = 第一关：寻物
+levelname2 = 第二关：音乐
+levelname3 = 第三关：喂食 
+levelname4 = 第四关：修理
+levelname5 = 第五关：料理
+levelname6 = 第六关：干扰 
+levelname7 = 第七关：打扫 
+levelname8 = 第八关：手纸 
+levelname9 = 第九关：换灯 
+levelname10 = 第十关：幽灵 
+levelname11 = 第十一关：蜘蛛 
+levelname12 = 第十二关：取书 
+levelname13 = 第十三关：摆放
+levelname14 = 第十四关：感冒 
+levelname15 = 第十五关：修窗
+levelname16 = 第十六关：蚊子
+levelname17 = 第十七关：报复 
+levelname18 = 第十八关：灭火 
+levelname19 = 第十九关：地震 
+levelname20 = 第二十关：唤醒
+levelname21 = 第二十一关
+
+levelname0 = 新手教程
+
+btnYes = yes
+btnNO = no
+btnCancel = cancel
+btnBuy = buy coin
+btnClose = close
+btnTitle = Title
+btnMenu = 重新选关
+btnRetry = 再试一次
+btnStart = Start Game
+btnReview =Rate & Review
+btnMore = More Game
+btnContinue = 继续
+levelScore = Total Score: 
+levelTitle = 关卡选择
+
+titleShop = Coin Store
+price1tip = Get 300 Coin
+price2tip = Get 600 Coin
+price3tip = Get 1000 Coin
+price4tip = Get 1500 Coin
+price1 = $0.99
+price2 = $1.99
+price3 = $2.99
+price4 = $3.99
+
+watchAdsDetail = Get Coin by watching ads.
+watchAdsPrice = 
+
+askTipTitle = Do you wanna show a tip?
+askTipHit = Show tip will cost you 20 coins.
+askSkipTitle = Wanna skip this level?
+askSkipHit = Skip this level costs 60 coins.
+notEnoughTitle = not enough coin.
+notEnoughHit = Show Tip costs 20 coins.\n Skip level costs 60 coins.
+
+wintitle = 恭喜过关
+levelscore = Level Score: 
+failtitle = 真遗憾，失败了
+
+
+settingTitle = 游戏设置
+settingMusic = 音乐开关
+settingSfx = 音效开关
+settingVolume = 音量
+settingLanguage = 语言
+
+tipTitle = 关卡提示
+tipLocked = 此项需先解锁上面一个提示。
+tipAds = 点击右边按钮，观看一段广告后即可解锁。
+
+txtIntro1 = 大家的第一印象似乎都不错。但没想到妹子看起来有些粗心大意，刚给的钥匙居然就丢了，热心的你应该不介意帮忙找找吧。
+txtIntro2 = 看起来这里没有太多的线索，按下箭头看看另一边有没有线索。
+txtIntro3 = 这个花盆看起来有些蹊跷。先点下一步，再想办法搬动它试试。
+txtIntro4 = 按住花盆再拖动手指，就能移动移动它了。
+txtIntro5 = 钥匙果然掉落在了花盆后，点击把它捡起来吧。
+txtIntro6 = 现在点击箭头回到妹子身边。
+txtIntro7 = 从物品栏拖动钥匙到妹子身上就可以把钥匙交给她了。
+txtIntro8 = 你成功了！妹子表示你对深深的感谢呢。那么接下来的冒险就要靠你了。记住点击是最基本的操作，其他要自己摸索哦。
+当然，如果实在遇到困难，也随时也可以随时点击帮助哦。
+
+
+txtNext1  = 知道了
+txtNext3  = 下一步
+txtNext8  = 结束教程
+
+
+noTipNow = 暂时没有奖励视频，等一会再来哦。
+
+level1tips0 = 妹子好像又找不到东西了，这次是三样。虽然随随便便就能找齐，但你最好别“乱碰”某些地方。
+level1tips1 = 你最好按照妹子需要的提示，赶紧给她对应的东西。
+level1tips2 = 尽管这三样东西都需要，但给错顺序肯定也会惹妹子不高兴的。
+
+level2tips0 = 注意观察猫咪的状态，有时候它并不是在真睡！
+level2tips1 = 你需要在猫打呼噜（头上有zzz）的时候做三件事：拿走钥匙，用钥匙开抽屉，拿走抽屉里的东西。
+level2tips2 = 播放器交给妹子，然而，别忘了盖好枕头，千万别碰你不该碰的东西。
+
+level3tips0 = 窗户打不开？钥匙藏在哪？盆栽有点蹊跷，但找到它还是需要一点耐心。
+level3tips1 = 多点点那盆栽，钥匙就会掉出来。赶紧解锁，注意，是赶紧。
+level3tips2 = 一条绿毛虫正好爬过。小心捉住它，喂给鸟，但别忘了关窗！
+
+level4tips0 = 没错，遥控器可以开电视。但电视机坏了。你得先修好它。
+level4tips1 = 先找到螺丝刀，移开花瓶，拔掉插头再用起子修电视。千万不要带电操作！
+level4tips2 = 修好了自然要把插头插上。不过不想尴尬的话，别自己开电视，把遥控器交给妹子！
+
+level5tips0 = 你应该注意到了日历，它是可以翻动的。似乎对应了什么信息。
+level5tips1 = 日历的数字不重要，但颜色似乎令人在意。
+level5tips2 = 把对应日历各种颜色的四样食物找到，放进锅中，然后打开煤气。注意不要放错或少放哦。
+
+level6tips0 = 一共有三块零件，可是有一块被妹子挡住了。
+level6tips1 = 先朝左拖动那个盒子试试。对，一直拖到不能拖为止，不要有思维定式！
+level6tips2 = 把做好的干扰器放进盒子里。等等，我为什么要这么做？因为我认识这个家伙，他不是个好人！
+
+level7tips0 = 有些时候，固化的思维会限制你的行动。你要把地拖干净对么？
+level7tips1 = 那肯定不是拖一下就能干净的。
+level7tips2 = 拿起拖把，然后拖动着不放，模拟拖地的动作。直至水渍消失为止。
+
+level8tips0 = 这回妹子居然忘记拿纸。这关又是破除思维定式的挑战，如果你鲁莽地推门，自然...
+level8tips1 = 凡事都要有礼貌，哪怕在帮别人时。想想当你需要询问时应该做什么？
+level8tips2 = 对，先敲门试试。快速的、连续地敲三次。再把厕纸放在门缝口，不能偷看哦。
+
+level9tips0 = 换个灯泡似乎不难，但能找到的都是坏的。而为了博得好感，你又必须亲自来做。
+level9tips1 = 最右边似乎可以拿到一顶假发。而你动作迅速的话，似乎可以在左侧窗口遇到一个需要它的人。
+level9tips2 = 窗外路人不止一个，要有耐心哦。假发换金币，金币换灯泡，完美。
+
+level10tips0 = 你肯定不想让幽灵进来。这又是一个有特殊操作的关卡。
+level10tips1 = 把椅子拖过来，没错，可是为什么还是挡不住它。
+level10tips2 = 嗯。你既然想到了抵住窗，为什么不多用点力。用你的手指按住窗不放试试。
+
+level11tips0 = 蜘蛛真的好可怕，而且，杀虫剂似乎还杀不死。
+level11tips1 = 千万不要不小心碰中间那个花盆。否则...
+level11tips2 = 把蜘蛛用杀虫剂赶下来，然后，眼疾手快的你赶紧用手指直接按吧。
+
+level12tips0 = 哈哈，特殊的操作永远层出不穷。有时候你需要研究下你的手机。
+level12tips1 = 倾斜你的手机。看，书滑动了！但，你怎么可以把书砸在妹子头上。
+level12tips2 = 对，把妹子先拖到一个安全的地方。把书捡起来，交给她吧。
+
+level13tips0 = 呵呵，这关真的没有什么捷径。想必我这么说你也明白该怎么做了。
+level13tips1 = 没错，记住打乱前所有东西的位置。没有时间限制！
+level13tips2 = 也许你可以截屏。但其实并不是很难，因为黄色的格子上不会有东西。
+
+level14tips0 = 泳装、睡衣。似乎对一个着凉的人来说都不合适。
+level14tips1 = 某堆衣服可以拖动，然后，你可以拿到另一套衣服。
+level14tips2 = 换上衣服后，还有两样东西你需要及时处理。对，必须及时。热水袋和窗。
+
+level15tips0 = 嗯，轻轻晃动手机试试。注意，很轻地晃动就可以了。
+level15tips1 = 其实在晃动手机之前，你需要先认真地观察妹子看向的方向。
+level15tips2 = 窗外大雁的数量似乎预示着什么，看起来安装这些防盗栏也得按顺序才行。
+
+level16tips0 = 红色秒针是不是很像蚊子的吸管。所以，你得想法让它先停下来。
+level16tips1 = 刚刚试过晃动手机的办法，这一次，你应该自己能想到吧。
+level16tips2 = 当蚊子的位置正好对应秒针停止的方向时，才是拍死它的唯一机会。
+
+level17tips0 = 我说了那男的不是好人，但我没想到他居然拿着刀来报复。
+level17tips1 = 先不要惹他，也许耐心使用遥控器能调出什么有用的电视节目。
+level17tips2 = 果然，警笛声分散了敌人的注意力。你必须快！先打掉他手中的刀，再立刻点妹子执行死亡飞踢！
+
+level18tips0 = 妹子多少有点郁闷。居然玩起了火，找灭火器前，先赶开妹子到安全的地方吧。
+level18tips1 = 这火有点诡异，灭掉一朵就会窜起两朵。
+level18tips2 = 似乎灭掉的火两边也会同时改变，想法把火苗往两边赶，注意别弄太久哦。
+
+level19tips0 = 地震了。房子要倒了！时间紧迫，先拿起锤子再说。
+level19tips1 = 有没有发现墙壁的裂缝并没有不断扩大。锤子自然是用在最薄弱的位置！
+level19tips2 = 开裂暂缓的片刻才能下手，对准开裂最严重的地方大胆下手吧，犹豫就来不及了。
+
+level20tips0 = 房子倒了。好在人没事。但妹子的精神有些恍惚，你要唤醒她！
+level20tips1 = 每次找到妹子，就会有奇妙的声音传来。有些听起来邪恶，有些听起来光明。
+level20tips2 = 永远在积极的音乐时引导妹子。重复五次后，用晃动喊醒妹子，一切噩梦就都结束了。
+
+startCut0 = 最后一个租客资料了，希望不要像上次那样...
+startCut1 = 嗯？
+startCut2 = 啊？你就是
+startCut3 = 嗨，我叫魏澜，请问您是房东么？
+startCut4_0 = 啊是的，你好。叫我阿炎好了，请多关照。
+startCut4_1 = 看来新邻居终于能有合适人选了，一定要好好相处啊。
